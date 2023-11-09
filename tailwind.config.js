@@ -1,16 +1,16 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{html,js}"],
-  theme: {
-    extend: {
-      colors: {
-        wynkPurple: {
-          100: '#211E8A',
-        },
-        fvtGrey: '#E0E0E0',
-      }
-    },
+export const content = ["./src/**/*.{html,js}"];
+export const theme = {
+  extend: {
+    colors: {
+      wynkPurple: {
+        100: '#EBEBF9',
+        200: '#211E8A',
+      },
+      wynkOffWhite: '#F9F9F9',
+      fvtGrey: '#E0E0E0',
+    }
   },
-  plugins: [],
-}
+};
+export const plugins = [];
 
