@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="header bg-wynkPurple-100 py-2 px-8 sm:py-12 sm:px-28 flex flex-row items-center h-8">
+    <header className="header bg-wynkPurple-100 py-2 px-8 sm:py-12 sm:px-20 flex flex-row items-center h-8">
       <div className="mr-auto">
         <img alt="wynk logo" src="../images/wynk_logo.png"/>
       </div>
