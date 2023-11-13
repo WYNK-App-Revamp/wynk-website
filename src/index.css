@@ -727,6 +727,10 @@ video {
   color: rgb(33 30 138 / var(--tw-text-opacity));
 }
 
+html {
+  font-family: 'Uber Move';
+}
+
 .main-section {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
