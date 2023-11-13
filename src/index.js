@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from "./components/Header.js";
 //import Footer from "./components/Footer.js";
 import ScrollToTop from "./ScrollToTop.js";
-import Main from "./Main";
+import TheScheme from "./TheScheme.js";
 //import Recommendations from "./Recommendations"
 import { BrowserRouter as Router, Routes, Route }
     from 'react-router-dom';
@@ -14,9 +13,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <ScrollToTop/>
-    <Header/>
     <Routes>
-        <Route path='/' exact element={< Main/>} />
+        <Route path='/the-scheme' exact element={< TheScheme/>} />
     </Routes>
   </Router>
 );

@@ -529,6 +529,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mr-auto {
   margin-right: auto;
 }
@@ -666,19 +670,14 @@ video {
   padding-right: 15rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-center {
@@ -739,10 +738,10 @@ video {
 
 @media (min-width: 640px) {
   .main-section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 }
 
@@ -803,6 +802,24 @@ video {
   color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
+.download-the-app-button {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 30 138 / var(--tw-bg-opacity));
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .how-to-be-eligible-cards {
   display: flex;
   width: 40%;
@@ -817,15 +834,24 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.download-wynk-card {
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(235 235 249 / var(--tw-bg-opacity));
+  padding: 6rem;
+  --tw-text-opacity: 1;
+  color: rgb(33 30 138 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
-  .sm\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
-  .sm\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .sm\:text-7xl {

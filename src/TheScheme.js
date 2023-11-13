@@ -1,13 +1,17 @@
-function Main() {
+import DownloadWynk from "./components/DownloadWynk";
+import Header from "./components/Header";
+
+function TheScheme() {
   return (
     <>
     <section className="main-section bg-wynkPurple-100">
-      <section className="scheme-hero-section flex">
+      <Header/>
+      <section className="scheme-hero-section py-4 sm:py-20 flex">
         <div className="w-3/4">
           <h2 className="font-bold text-4xl sm:text-7xl mb-5"> <span className="text-wynkPurple-200">Share Ownership</span> scheme for Captains</h2>
           <p className=" text-sm sm:text-xl mb-5 max-w-xl">Get exclusive opportunity to be one of 5,000 Captains to benefit in the share ownership initiative which aims to reward dedicated and high performing Captains</p>
           <div className="call-to-actions flex gap-4">
-            <button className="bg-wynkPurple-200 rounded-md h-12 py-3 px-6 flex items-center text-xl text-white">Download the app</button>
+            <button className="download-the-app-button">Download the app</button>
             <button className="border-wynkPurple-200 border rounded-md h-12 py-3 px-6 flex items-center text-xl text-wynkPurple-200">Log in</button>
           </div>
         </div>
@@ -66,38 +70,39 @@ function Main() {
       </section>
     </section>
     <section className="main-section bg-wynkPurple-100 flex flex-col gap-8 items-center">
-    <div className="flex flex-col gap-6 px-36">
-      <h3 className="text-center text-4xl font-bold">To Become Eligible</h3>
-      <div className="flex flex-col gap-6 items-center">
-      <p className="px-28 text-center">To be eligible for the share ownership scheme, Captains must comply with the following conditions:</p>
-      <button className="bg-wynkPurple-200 rounded-md h-12 py-3 px-6 flex justify-center items-center text-xl text-white">Download the app</button>
+      <div className="flex flex-col gap-6 px-36">
+        <h3 className="text-center text-4xl font-bold">To Become Eligible</h3>
+        <div className="flex flex-col gap-6 items-center">
+        <p className="px-28 text-center">To be eligible for the share ownership scheme, Captains must comply with the following conditions:</p>
+        <button className="download-the-app-button">Download the app</button>
+        </div>
       </div>
-    </div>
-    <section className="flex justify-center flex-wrap gap-4">
-    <div className="how-to-be-eligible-cards">
-    <div><p className="orange-scheme-points">1</p></div>
-      <p className="font-bold">Become a Captain</p>
-      <p>Wynk is the home for food vendors. From street food stalls to gourmet restaurants, food vendors use Wynk to sell and showcase their culinary products.</p>    
-    </div>
-    <div className="how-to-be-eligible-cards">
-    <div><p className="orange-scheme-points">2</p></div>
-      <p className="font-bold">Average Rating</p>
-      <p>Maintaining a minimum average rating of 4 stars for the first year ensuring Captains who consistently provide excellent service to passengers are eligible for participation.</p>    
-    </div>
-    <div className="how-to-be-eligible-cards">
-      <div><p className="orange-scheme-points">3</p></div>
-      <p className="font-bold">Ride Frequency</p>
-      <p>Completing more than an average of 5 rides per day for the initial 6 months allowing Captains who proactively engage in driving activities and contribute to the growth of the platform.</p>    
-    </div>
-    <div className="how-to-be-eligible-cards">
-    <div><p className="orange-scheme-points">4</p></div>
-      <p className="font-bold">Ride Consistency</p>
-      <p>Maintaining an average of 10 rides per day for the subsequent 6 months emphasising the importance of commitment and productivity in order to benefit from the scheme.</p>    
-    </div>
+      <section className="flex justify-center flex-wrap gap-4">
+      <div className="how-to-be-eligible-cards">
+      <div><p className="orange-scheme-points">1</p></div>
+        <p className="font-bold">Become a Captain</p>
+        <p>Wynk is the home for food vendors. From street food stalls to gourmet restaurants, food vendors use Wynk to sell and showcase their culinary products.</p>    
+      </div>
+      <div className="how-to-be-eligible-cards">
+      <div><p className="orange-scheme-points">2</p></div>
+        <p className="font-bold">Average Rating</p>
+        <p>Maintaining a minimum average rating of 4 stars for the first year ensuring Captains who consistently provide excellent service to passengers are eligible for participation.</p>    
+      </div>
+      <div className="how-to-be-eligible-cards">
+        <div><p className="orange-scheme-points">3</p></div>
+        <p className="font-bold">Ride Frequency</p>
+        <p>Completing more than an average of 5 rides per day for the initial 6 months allowing Captains who proactively engage in driving activities and contribute to the growth of the platform.</p>    
+      </div>
+      <div className="how-to-be-eligible-cards">
+      <div><p className="orange-scheme-points">4</p></div>
+        <p className="font-bold">Ride Consistency</p>
+        <p>Maintaining an average of 10 rides per day for the subsequent 6 months emphasising the importance of commitment and productivity in order to benefit from the scheme.</p>    
+      </div>
     </section>
     </section>
+    <DownloadWynk/>
     </>
   );
 }
 
-export default Main;
+export default TheScheme;
