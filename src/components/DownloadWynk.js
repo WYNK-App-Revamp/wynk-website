@@ -8,8 +8,8 @@ function DownloadWynk() {
           <p className=" text-sm sm:text-xl mb-5 w-full pr-8">To download the Wynk super app, use the camera on your phone to scan the QR code. Accessible on iOS and Android platforms.</p>
           <p className="mb-6">Download now at</p>
           <div className="call-to-actions flex gap-4">
-            <img src="/images/AppStore.png" alt="apple app store button"/>
-            <img src="/images/GooglePlay.png" alt="apple app store button"/>
+            <img className="hover:cursor-pointer" src="/images/AppStore.png" alt="apple app store button"/>
+            <img className="hover:cursor-pointer" src="/images/GooglePlay.png" alt="apple app store button"/>
           </div>
         </div>
         <div>

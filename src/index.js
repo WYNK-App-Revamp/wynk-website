@@ -8,14 +8,14 @@ import { BrowserRouter as Router, Routes, Route }
     from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import './index.css'
-import Payment from './pages/Payment.js';
+import Services from './pages/Services.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <ScrollToTop/>
     <Routes>
-        <Route path='/payment' exact element={< Payment/>} />
+        <Route path='/services' exact element={< Services/>} />
         <Route path='/the-scheme' exact element={< TheScheme/>} />
     </Routes>
   </Router>

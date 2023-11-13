@@ -1,7 +1,7 @@
 import DownloadWynk from "../components/DownloadWynk";
 import Header from "../components/Header";
 
-function Payment() {
+function Services() {
   return (
     <>
     <section className="main-section bg-wynkPurple-100">
@@ -17,18 +17,11 @@ function Payment() {
       </section>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite flex flex-col gap-8 items-start">
-      <div>
-        <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-lg font-bold p-4 rounded-full">Our services</h3>
-      </div>
-      <div>
-        <div className="hero-text flex flex-col gap-4">
-          <h2 className="text-4xl font-bold leading-none">Valuable services you can use and earn from</h2>
-        </div>
-      </div>
+      <img alt="valuable-services-component" src="/images/valuable-services-component.png"/>
     </section>
     <DownloadWynk/>
     </>
   );
 }
 
-export default Payment;
+export default Services;

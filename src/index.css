@@ -859,6 +859,10 @@ video {
   color: rgb(33 30 138 / var(--tw-text-opacity));
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 640px) {
   .sm\:px-32 {
     padding-left: 8rem;
