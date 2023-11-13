@@ -6,6 +6,10 @@
   @apply  text-black py-2 px-8 sm:py-12 sm:px-24;
 }
 
+.section-inner-padding {
+  @apply  py-8 sm:py-24;
+}
+
 .nav-li {
   @apply font-medium flex cursor-pointer;
 }
@@ -35,5 +39,5 @@
 }
 
 .download-wynk-card {
-  @apply bg-wynkPurple-100 text-wynkPurple-200 p-24 rounded-2xl;
+  @apply bg-wynkPurple-100 text-wynkPurple-200 flex gap-24 pt-20 px-20 rounded-2xl;
 }

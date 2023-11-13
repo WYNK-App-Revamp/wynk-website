@@ -1,12 +1,12 @@
-import DownloadWynk from "./components/DownloadWynk";
-import Header from "./components/Header";
+import DownloadWynk from "../components/DownloadWynk";
+import Header from "../components/Header";
 
 function TheScheme() {
   return (
     <>
     <section className="main-section bg-wynkPurple-100">
       <Header/>
-      <section className="scheme-hero-section py-4 sm:py-20 flex">
+      <section className="scheme-hero-section section-inner-padding flex">
         <div className="w-3/4">
           <h2 className="font-bold text-4xl sm:text-7xl mb-5"> <span className="text-wynkPurple-200">Share Ownership</span> scheme for Captains</h2>
           <p className=" text-sm sm:text-xl mb-5 max-w-xl">Get exclusive opportunity to be one of 5,000 Captains to benefit in the share ownership initiative which aims to reward dedicated and high performing Captains</p>
@@ -20,7 +20,7 @@ function TheScheme() {
         </div>
       </section> 
     </section>
-    <section className="main-section bg-wynkOffWhite flex flex-col gap-8 items-center">
+    <section className="main-section section-inner-padding bg-wynkOffWhite flex flex-col gap-8 items-center">
       <div>
         <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-lg font-bold p-4 rounded-full">About the Scheme</h3>
       </div>
@@ -69,8 +69,8 @@ function TheScheme() {
         </div>
       </section>
     </section>
-    <section className="main-section bg-wynkPurple-100 flex flex-col gap-8 items-center">
-      <div className="flex flex-col gap-6 px-36">
+    <section className="main-section section-inner-padding bg-wynkPurple-100 flex flex-col gap-8 items-center">
+      <div className="flex flex-col gap-6 sm:px-36">
         <h3 className="text-center text-4xl font-bold">To Become Eligible</h3>
         <div className="flex flex-col gap-6 items-center">
         <p className="px-28 text-center">To be eligible for the share ownership scheme, Captains must comply with the following conditions:</p>

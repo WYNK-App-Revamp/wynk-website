@@ -553,8 +553,20 @@ video {
   min-height: 100%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-3\/4 {
   width: 75%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .min-w-full {
@@ -575,6 +587,10 @@ video {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -637,11 +653,6 @@ video {
   background-color: rgb(235 235 249 / var(--tw-bg-opacity));
 }
 
-.bg-wynkPurple-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(33 30 138 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-10 {
   --tw-bg-opacity: 0.1;
 }
@@ -653,11 +664,6 @@ video {
 .px-28 {
   padding-left: 7rem;
   padding-right: 7rem;
-}
-
-.px-36 {
-  padding-left: 9rem;
-  padding-right: 9rem;
 }
 
 .px-6 {
@@ -675,9 +681,8 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.pr-8 {
+  padding-right: 2rem;
 }
 
 .text-center {
@@ -717,11 +722,6 @@ video {
   color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-wynkPurple-200 {
   --tw-text-opacity: 1;
   color: rgb(33 30 138 / var(--tw-text-opacity));
@@ -742,6 +742,18 @@ video {
     padding-bottom: 3rem;
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+}
+
+.section-inner-padding {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+  .section-inner-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
 
@@ -835,18 +847,27 @@ video {
 }
 
 .download-wynk-card {
+  display: flex;
+  gap: 6rem;
   border-radius: 1rem;
   --tw-bg-opacity: 1;
   background-color: rgb(235 235 249 / var(--tw-bg-opacity));
-  padding: 6rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 5rem;
   --tw-text-opacity: 1;
   color: rgb(33 30 138 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
-  .sm\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  .sm\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .sm\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
   }
 
   .sm\:text-5xl {
