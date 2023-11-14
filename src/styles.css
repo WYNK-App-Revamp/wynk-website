@@ -8,8 +8,10 @@ html {
   font-family: 'Uber Move'; 
 }
 
+
+
 .main-section {
-  @apply  text-black py-2 px-8 sm:py-12 sm:px-24;
+  @apply  py-2 px-8 sm:py-12 sm:px-24;
 }
 
 .section-inner-padding {
