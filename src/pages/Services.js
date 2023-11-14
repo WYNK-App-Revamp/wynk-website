@@ -24,8 +24,11 @@ function Services() {
       <h2 className="text-center text-4xl font-bold leading-none">Explore Access without Limits</h2>
       <p className="text-lg text-center">WynkStars including Consumers, Captains, Merchants, and Businesses can explore boundless access to a variety of services on the Wynk Super App.</p>
     </div>
-    <div className="flex">
-      
+    <div className="flex gap-6">
+      <img className="hover:cursor-pointer" src="/images/consumers-link.png" alt="link-component"/>
+      <img className="hover:cursor-pointer" src="/images/customers-link.png" alt="link-component"/>
+      <img className="hover:cursor-pointer" src="/images/merchant-link.png" alt="link-component"/>
+      <img className="hover:cursor-pointer" src="/images/businesses-link.png" alt="link-component"/>
     </div>
     </section>
     <DownloadWynk/>
