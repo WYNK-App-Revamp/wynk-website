@@ -525,6 +525,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -535,14 +539,6 @@ video {
 
 .mr-auto {
   margin-right: auto;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .flex {
@@ -605,6 +601,10 @@ video {
   justify-content: center;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -621,8 +621,20 @@ video {
   gap: 2rem;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .rounded-md {

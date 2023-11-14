@@ -26,7 +26,10 @@ function Header() {
               <p>Contact Us</p>
             </li>
             <li className="nav-li">
+              <div className="flex items-center gap-2">
+                <img src="/images/ng.png" alt="nigerian flag"/>
               <p>Nigeria (EN)</p>
+              </div>
               <svg className="dropdown" xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
                 <path d="M12.2527 15.2929L8.66697 11.7071C8.037 11.0771 8.48317 10 9.37408 10H16.5456C17.4365 10 17.8827 11.0771 17.2527 11.7071L13.6669 15.2929C13.2764 15.6834 12.6432 15.6834 12.2527 15.2929Z" fill="black"/>
               </svg>

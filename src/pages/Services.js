@@ -31,13 +31,19 @@ function Services() {
       <img className="hover:cursor-pointer" src="/images/businesses-link.png" alt="link-component"/>
     </div>
     </section>
-    <section className="main-section section-inner-padding bg-wynkOffWhite flex flex-col gap-8 items-center">
+    <section className="main-section section-inner-padding bg-wynkOffWhite flex flex-col gap-16 items-center">
       <div>
         <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-lg font-bold p-4 rounded-full">Why choose us</h3>
       </div>
       <div className="hero-text px-60 flex flex-col gap-4">
         <h2 className="text-center text-4xl font-bold leading-none">More than 5,000+ Users Trust Us</h2>
         <p className="text-lg text-center">We’ve built a Community of Consumers, Captains, Merchants, and Businesses who rely on Wynk for innovative solutions across Payments, Rides, and Lifestyle Services.</p>
+      </div>
+      <div className="px-60 flex flex-col gap-4">
+        <img className="rounded-lg" src="/images/wynk-super-app-youtube-image.png" alt="youtube link"/>
+      </div>
+      <div className=" flex flex-col gap-4">
+        <img src="/images/metrics-components.png" alt="metrics components" />
       </div>
     </section>
     <DownloadWynk/>
