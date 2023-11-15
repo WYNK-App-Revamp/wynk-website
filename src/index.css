@@ -605,6 +605,14 @@ video {
   gap: 3rem;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -619,14 +627,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-16 {
-  gap: 4rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .rounded-full {
@@ -763,8 +763,8 @@ html {
   .main-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
 
@@ -899,6 +899,11 @@ html {
 
   .sm\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 

@@ -1,5 +1,5 @@
 import DownloadWynk from "../components/DownloadWynk";
-import Header from "../components/Header";
+import Header from "../components/Header1";
 
 function TheScheme() {
   return (

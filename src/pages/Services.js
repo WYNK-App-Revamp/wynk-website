@@ -1,14 +1,18 @@
 import DownloadWynk from "../components/DownloadWynk";
-import Header from "../components/Header";
+import Header2 from "../components/Header2";
 
 function Services() {
   return (
     <>
-    <section className="main-section text-white" style={{ backgroundImage: "url(/images/lady-in-car-hero-image.png)" }}>
-      <Header/>
-      <section className="scheme-hero-section section-inner-padding flex">
+    <section className="main-section text-white" style={{ 
+      backgroundImage: "url(/images/lady-in-car-hero-image.png)", 
+      backgroundSize: 'cover',
+      /*background: "linear-gradient(135deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%)"*/
+      }}>
+      <Header2/>
+      <section className="scheme-hero-section section-inner-padding flex gap-12">
         <div className="w-1/2">
-          <h2 className="font-bold text-4xl sm:text-7xl mb-5"> Boundless access to all your needs</h2>
+          <h2 className="font-bold text-4xl sm:text-6xl mb-5"> Boundless access to all your needs</h2>
           <p className=" text-sm sm:text-xl mb-5 max-w-xl">Whether it’s Payments, Ride-hailing, or Lifestyle Services, We dare to create a reality where WynkStars thrive beyond the ordinary.</p>
           <div className="call-to-actions flex gap-4">
             <button className="download-the-app-button">Get the app</button>
@@ -17,7 +21,7 @@ function Services() {
       </section>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
-      <img alt="valuable-services-component" src="/images/valuable-services-component.png"/>
+      <img alt="valuable-services-component" src="/images/payment-services-component.png"/>
     </section>
     <section className="main-section section-inner-padding bg-wynkPurple-100 flex flex-col">
     <div className="hero-text px-60 flex flex-col gap-4 mb-20">

@@ -1,4 +1,4 @@
-function Header() {
+function Header1() {
   return (
     <header className="header flex flex-row items-center h-8">
       <div className="mr-auto">
@@ -41,4 +41,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header1;
