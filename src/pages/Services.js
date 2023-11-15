@@ -1,13 +1,13 @@
 import DownloadWynk from "../components/DownloadWynk";
 import Header2 from "../components/Header2";
+import ServicesComponentsSwapper from "../components/ServicesComponentsSwapper";
 
 function Services() {
   return (
     <>
     <section className="main-section text-white" style={{ 
-      backgroundImage: "url(/images/lady-in-car-hero-image.png)", 
+      background: "url(/images/lady-in-car-hero-image.png), linear-gradient(135deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%)", 
       backgroundSize: 'cover',
-      /*background: "linear-gradient(135deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%)"*/
       }}>
       <Header2/>
       <section className="scheme-hero-section section-inner-padding flex gap-12">
@@ -21,7 +21,7 @@ function Services() {
       </section>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
-      <img alt="valuable-services-component" src="/images/payment-services-component.png"/>
+      <ServicesComponentsSwapper/>
     </section>
     <section className="main-section section-inner-padding bg-wynkPurple-100 flex flex-col">
     <div className="hero-text px-60 flex flex-col gap-4 mb-20">
