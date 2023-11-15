@@ -13,7 +13,7 @@ function ServicesComponentsSwapper() {
           else {
                 setCurrentIndex(currentIndex => currentIndex + 1);
           }
-      }, 2000)
+      }, 3000)
       
       return () => clearInterval(intervalId);
   }, [currentIndex])

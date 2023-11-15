@@ -2,7 +2,7 @@ function Header2() {
   return (
     <header className="header flex flex-row items-center h-8">
       <div className="mr-auto">
-        <img alt="wynk logo" src="../images/wynk_logo.png"/>
+        <img alt="wynk logo" src="../images/wynk_logo_2.png"/>
       </div>
       <div>
         <nav className="navbar">

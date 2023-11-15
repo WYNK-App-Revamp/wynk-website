@@ -6,7 +6,7 @@ function Services() {
   return (
     <>
     <section className="main-section text-white" style={{ 
-      background: "url(/images/lady-in-car-hero-image.png), linear-gradient(135deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%)", 
+      background: "linear-gradient(135deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%), url(/images/lady-in-car-hero-image.png)", 
       backgroundSize: 'cover',
       }}>
       <Header2/>
