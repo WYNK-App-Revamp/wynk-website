@@ -6,7 +6,7 @@ function TheScheme() {
     <>
     <section className="main-section bg-wynkPurple-100">
       <Header/>
-      <section className="scheme-hero-section section-inner-padding flex">
+      <section className="scheme-hero-section section-inner-padding flex gap-4">
         <div className="w-3/4">
           <h2 className="font-bold text-4xl sm:text-7xl mb-5"> <span className="text-wynkPurple-200">Share Ownership</span> scheme for Captains</h2>
           <p className=" text-sm sm:text-xl mb-5 max-w-xl">Get exclusive opportunity to be one of 5,000 Captains to benefit in the share ownership initiative which aims to reward dedicated and high performing Captains</p>

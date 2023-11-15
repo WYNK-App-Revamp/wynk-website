@@ -4,8 +4,8 @@ import ServicesComponentsSwapper from "../components/ServicesComponentsSwapper";
 
 function Services() {
   return (
-    <>
-    <section className="main-section text-white" style={{ 
+    <main className="overflow-">
+    <section className="main-section min-h-screen text-white" style={{ 
       background: "linear-gradient(135deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%), url(/images/lady-in-car-hero-image.png)", 
       backgroundSize: 'cover',
       }}>
@@ -28,11 +28,11 @@ function Services() {
       <h2 className="text-center text-4xl font-bold leading-none">Explore Access without Limits</h2>
       <p className="text-lg text-center">WynkStars including Consumers, Captains, Merchants, and Businesses can explore boundless access to a variety of services on the Wynk Super App.</p>
     </div>
-    <div className="flex gap-6">
-      <img className="hover:cursor-pointer" src="/images/customers-link.png" alt="link-component"/>
-      <img className="hover:cursor-pointer" src="/images/captains-link.png" alt="link-component"/>
-      <img className="hover:cursor-pointer" src="/images/merchant-link.png" alt="link-component"/>
-      <img className="hover:cursor-pointer" src="/images/businesses-link.png" alt="link-component"/>
+    <div className="flex justify-center gap-6">
+      <img className="hover:cursor-pointer w-1/5" src="/images/customers-link.png" alt="link-component"/>
+      <img className="hover:cursor-pointer w-1/5" src="/images/captains-link.png" alt="link-component"/>
+      <img className="hover:cursor-pointer w-1/5" src="/images/merchant-link.png" alt="link-component"/>
+      <img className="hover:cursor-pointer w-1/5" src="/images/businesses-link.png" alt="link-component"/>
     </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite flex flex-col gap-16 items-center">
@@ -51,7 +51,7 @@ function Services() {
       </div>
     </section>
     <DownloadWynk/>
-    </>
+    </main>
   );
 }
 
