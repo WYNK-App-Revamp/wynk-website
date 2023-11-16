@@ -7,8 +7,9 @@ export const theme = {
         100: '#EBEBF9',
         200: '#211E8A',
       },
+      footerBackground: '#1B2124',
       wynkOffWhite: '#F9F9F9',
-      fvtGrey: '#E0E0E0',
+      wynkGrey: '#667085',
     }
   },
 };

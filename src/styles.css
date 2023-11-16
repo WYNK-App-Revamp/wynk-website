@@ -11,7 +11,7 @@ html {
 
 
 .main-section {
-  @apply  py-2 px-8 sm:py-12 sm:px-28 max-w-full shrink-0 grow-0;
+  @apply  py-2 px-8 md:py-12 md:px-28 shrink-0 grow-0;
 }
 
 .section-inner-padding {
@@ -21,9 +21,16 @@ html {
 .nav-li {
   @apply font-medium flex cursor-pointer;
 }
+.nav-link-active {
+  @apply font-medium flex cursor-pointer text-wynkPurple-200 underline;
+}
 
 .dropdown {
   @apply cursor-pointer;
+}
+
+.footer {
+  @apply bg-footerBackground text-white flex flex-col gap-6 justify-center;
 }
 
 .why-join-the-scheme {
@@ -38,6 +45,10 @@ html {
   @apply w-1/6 bg-orange-500 bg-opacity-10 text-orange-500 px-8 py-6 text-4xl flex items-center justify-center rounded-tl-2xl rounded-br-2xl h-1/6 mt-4;
 }
 
+.send-message-button {
+  @apply bg-wynkPurple-200 rounded-md h-12 py-3 px-6 flex justify-center items-center text-xl text-white;
+}
+
 .download-the-app-button {
   @apply bg-wynkPurple-200 rounded-md h-12 py-3 px-6 flex justify-center items-center text-xl text-white;
 }
@@ -48,4 +59,16 @@ html {
 
 .download-wynk-card {
   @apply bg-wynkPurple-100 text-wynkPurple-200 flex gap-24 pt-20 px-20 rounded-2xl;
+}
+
+.form-card {
+  @apply bg-white w-5/12 shadow-lg rounded-xl;
+}
+
+.form-input-field {
+  @apply bg-wynkOffWhite rounded-lg py-1 px-4;
+}
+
+.contact-card {
+  @apply bg-wynkPurple-100 w-2/5 rounded-2xl p-8;
 }

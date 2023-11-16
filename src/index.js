@@ -8,15 +8,17 @@ import { BrowserRouter as Router, Routes, Route }
     from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import './index.css'
-import Services from './pages/Services.js';
+import Home from './pages/Home.js';
+import ContactUs from './pages/ContactUs.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <ScrollToTop/>
     <Routes>
-        <Route path='/services' exact element={< Services/>} />
-        <Route path='/the-scheme' exact element={< TheScheme/>} />
+        <Route path='/' exact element={< Home/>} />
+        <Route path='/contact-us' exact element={< ContactUs/>} />
+        <Route path='/share-ownership' exact element={< TheScheme/>} />
     </Routes>
   </Router>
 );

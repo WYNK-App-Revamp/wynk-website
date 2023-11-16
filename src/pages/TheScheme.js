@@ -1,4 +1,5 @@
 import DownloadWynk from "../components/DownloadWynk";
+import Footer from "../components/Footer";
 import Header from "../components/Header1";
 
 function TheScheme() {
@@ -11,7 +12,9 @@ function TheScheme() {
           <h2 className="font-bold text-4xl sm:text-7xl mb-5"> <span className="text-wynkPurple-200">Share Ownership</span> scheme for Captains</h2>
           <p className=" text-sm sm:text-xl mb-5 max-w-xl">Get exclusive opportunity to be one of 5,000 Captains to benefit in the share ownership initiative which aims to reward dedicated and high performing Captains</p>
           <div className="call-to-actions flex gap-4">
-            <button className="download-the-app-button">Download the app</button>
+            <a href="https://play.google.com/store/apps/details?id=ng.wynk.wynksupappsupapp&pli=1" target="_blank" rel="noreferrer">
+              <button className="download-the-app-button">Download the app</button>
+            </a>
             <button className="border-wynkPurple-200 border rounded-md h-12 py-3 px-6 flex items-center text-xl text-wynkPurple-200">Log in</button>
           </div>
         </div>
@@ -74,7 +77,9 @@ function TheScheme() {
         <h3 className="text-center text-4xl font-bold">To Become Eligible</h3>
         <div className="flex flex-col gap-6 items-center">
         <p className="px-28 text-center">To be eligible for the share ownership scheme, Captains must comply with the following conditions:</p>
+        <a href="https://play.google.com/store/apps/details?id=ng.wynk.wynksupappsupapp&pli=1" target="_blank" rel="noreferrer">
         <button className="download-the-app-button">Download the app</button>
+        </a>
         </div>
       </div>
       <section className="flex justify-center flex-wrap gap-4">
@@ -100,7 +105,10 @@ function TheScheme() {
       </div>
     </section>
     </section>
-    <DownloadWynk/>
+    <section className="main-section section-inner-padding bg-wynkOffWhite">
+      <DownloadWynk/>
+    </section>
+    <Footer/>
     </>
   );
 }

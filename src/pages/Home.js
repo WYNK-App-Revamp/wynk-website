@@ -1,10 +1,11 @@
 import DownloadWynk from "../components/DownloadWynk";
+import Footer from "../components/Footer";
 import Header2 from "../components/Header2";
 import ServicesComponentsSwapper from "../components/ServicesComponentsSwapper";
 
-function Services() {
+function Home() {
   return (
-    <main className="overflow-">
+    <main>
     <section className="main-section min-h-screen text-white" style={{ 
       background: "linear-gradient(135deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%), url(/images/lady-in-car-hero-image.png)", 
       backgroundSize: 'cover',
@@ -12,7 +13,7 @@ function Services() {
       <Header2/>
       <section className="scheme-hero-section section-inner-padding flex gap-12">
         <div className="w-1/2">
-          <h2 className="font-bold text-4xl sm:text-6xl mb-5"> Boundless access to all your needs</h2>
+          <h2 className="font-bold text-4xl sm:text-6xl mb-5 pr-2"> Boundless access to all your needs</h2>
           <p className=" text-sm sm:text-xl mb-5 max-w-xl">Whether it’s Payments, Ride-hailing, or Lifestyle Services, We dare to create a reality where WynkStars thrive beyond the ordinary.</p>
           <div className="call-to-actions flex gap-4">
             <button className="download-the-app-button">Get the app</button>
@@ -50,9 +51,12 @@ function Services() {
         <img src="/images/metrics-components.png" alt="metrics components" />
       </div>
     </section>
-    <DownloadWynk/>
+    <section className="main-section section-inner-padding bg-wynkOffWhite">
+      <DownloadWynk/>
+    </section>
+    <Footer/>
     </main>
   );
 }
 
-export default Services;
+export default Home;
