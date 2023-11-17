@@ -16,7 +16,9 @@ function Home() {
           <h2 className="font-bold text-4xl sm:text-6xl mb-5 pr-2"> Boundless access to all your needs</h2>
           <p className=" text-sm sm:text-xl mb-5 max-w-xl">Whether it’s Payments, Ride-hailing, or Lifestyle Services, We dare to create a reality where WynkStars thrive beyond the ordinary.</p>
           <div className="call-to-actions flex gap-4">
+            <a href="https://play.google.com/store/apps/details?id=ng.wynk.wynksupappsupapp&pli=1" target="_blank" rel="noreferrer">
             <button className="download-the-app-button">Get the app</button>
+            </a>
           </div>
         </div>
       </section>
