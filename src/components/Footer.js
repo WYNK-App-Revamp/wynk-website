@@ -12,7 +12,7 @@ function Footer() {
             <li><a>About us</a></li>
             <li><a>Join the team</a></li>
             <li><a>Investor relations</a></li>
-            <li><a>Contact us</a></li>
+            <li><a href="/contact-us">Contact us</a></li>
           </ul>
         </section>
         <section className="flex flex-col gap-4">
