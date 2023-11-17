@@ -6,8 +6,7 @@ function Header1() {
       <div className="mr-auto">
         <img alt="wynk logo" src="../images/wynk_logo.png"/>
       </div>
-      <div>
-        <nav className="navbar">
+      <nav className="navbar">
           <ul className="header flex flex-row gap-4 sm:text-lg">
             <NavLink className={location.pathname === "/our-services" ? "nav-link-active" : "nav-li"} /*to="/our-services"*/ activeStyle>
               <p>Our services</p>
@@ -38,7 +37,6 @@ function Header1() {
             </NavLink>
           </ul>
         </nav>
-      </div>
     </header>
   );
 }

@@ -848,13 +848,13 @@ html {
 }
 
 .nav-li {
-  display: flex;
+  display: block;
   cursor: pointer;
   font-weight: 500;
 }
 
 .nav-link-active {
-  display: flex;
+  display: block;
   cursor: pointer;
   font-weight: 500;
   --tw-text-opacity: 1;
