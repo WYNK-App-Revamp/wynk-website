@@ -10,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 import './index.css'
 import Home from './pages/Home.js';
 import ContactUs from './pages/ContactUs.js';
+import(/* webpackPreload: true */ './fonts/stylesheet.css');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
