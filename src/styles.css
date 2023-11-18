@@ -77,5 +77,5 @@ html {
 }
 
 .navbar-dropdown-web {
-  @apply bg-white px-8 py-8 h-[22rem] w-[27rem] rounded-2xl text-black border absolute flex flex-col gap-6  top-[160%];
+  @apply transition delay-300 duration-300 ease-in-out bg-white px-8 py-8 h-[22rem] w-[27rem] rounded-2xl text-black border absolute flex flex-col gap-6  top-[160%];
 }
