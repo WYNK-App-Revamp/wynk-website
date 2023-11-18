@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import OurServicesDropdown from "./OurServicesDropdown";
 import BecomeAPartnerDropdown from "./BecomeAPartnerDropdown";
@@ -7,6 +7,26 @@ export default function Header1() {
   const location = useLocation();
   const [isOurServicesOpen, setIsOurServicesOpen] = useState(false);
   const [isBecomeAParterOpen, setIsBecomeAParterOpen] = useState(false);
+
+  // handles closing of the drop downs if any part of the screen is clicked
+  const ourServicesRef = useRef(null);
+  const becomeAPartnerRef = useRef(null);
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if ((ourServicesRef.current && !ourServicesRef.current.contains(event.target))
+      || (becomeAPartnerRef.current && !becomeAPartnerRef.current.contains(event.target))
+      ) {
+        setIsOurServicesOpen(false);
+        setIsBecomeAParterOpen(false);
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
   return (
     <header className="header flex flex-row items-center h-8">
       <div className="mr-auto">
@@ -15,6 +35,7 @@ export default function Header1() {
       <nav className="navbar-web">
         <div
           style={{position: 'relative'}}
+          ref={ourServicesRef}
           className={location.pathname === "/our-services" ? "nav-link-active" : "nav-li"} /*to="/our-services"*/
         activeStyle>
           <div className="flex" onClick={() => setIsOurServicesOpen(!isOurServicesOpen)} >
@@ -42,6 +63,7 @@ export default function Header1() {
         </div>
         <div
           style={{position: 'relative'}}
+          ref={becomeAPartnerRef}
           className={location.pathname === "/our-services" ? "nav-link-active" : "nav-li"} /*to="/our-services"*/ 
         activeStyle>
           <div className="flex" onClick={() => setIsBecomeAParterOpen(!isBecomeAParterOpen)}>

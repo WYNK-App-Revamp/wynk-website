@@ -31,7 +31,7 @@ export default function OurServicesDropdown () {
           <p className="text-[14px] text-black text-opacity-70 pr-4">Go anywhere you want to go. Plan rides and share rides with others</p>
         </div>
       </div>
-      <div className="lifestyle-services flex gap-1">
+      <div className="lifestyle-services flex gap-1 ml-1">
         <div className="service-icon">
           <img  src="/images/lifestyle-icon.png" alt="service icon"/>
         </div>

@@ -40,7 +40,6 @@ export default function BecomeAPartnerDropdown () {
           <p className="text-[14px] text-black text-opacity-70 pr-4">Ownership initiative which aims to reward high-performing Captains</p>
         </div>
       </div>
-      
     </div>
   );
 }
