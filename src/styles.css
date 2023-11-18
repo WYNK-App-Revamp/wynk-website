@@ -71,3 +71,11 @@ html {
 .contact-card {
   @apply bg-wynkPurple-100 w-2/5 rounded-2xl p-8;
 }
+
+.navbar-web {
+  @apply flex items-center justify-between [&>*]:flex [&>*]:items-center gap-4 py-3 w-[60%];
+}
+
+.navbar-dropdown-web {
+  @apply bg-white px-8 py-8 h-[22rem] w-[27rem] rounded-2xl text-black border absolute flex flex-col gap-6  top-[160%];
+}

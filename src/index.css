@@ -525,6 +525,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.relative {
+  position: relative;
+}
+
+.left-1 {
+  left: 0.25rem;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -537,8 +549,16 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .mr-auto {
   margin-right: auto;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
 .flex {
@@ -555,6 +575,10 @@ video {
 
 .h-8 {
   height: 2rem;
+}
+
+.h-\[24px\] {
+  height: 24px;
 }
 
 .min-h-full {
@@ -579,6 +603,10 @@ video {
 
 .w-3\/5 {
   width: 60%;
+}
+
+.w-\[24px\] {
+  width: 24px;
 }
 
 .w-full {
@@ -655,6 +683,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .rounded-full {
@@ -752,6 +784,10 @@ video {
   padding-right: 0.5rem;
 }
 
+.pr-4 {
+  padding-right: 1rem;
+}
+
 .pr-8 {
   padding-right: 2rem;
 }
@@ -768,6 +804,14 @@ video {
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .text-lg {
@@ -793,6 +837,11 @@ video {
   line-height: 1;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-orange-500 {
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity));
@@ -811,6 +860,10 @@ video {
 .text-wynkPurple-200 {
   --tw-text-opacity: 1;
   color: rgb(33 30 138 / var(--tw-text-opacity));
+}
+
+.text-opacity-70 {
+  --tw-text-opacity: 0.7;
 }
 
 html {
@@ -1015,6 +1068,41 @@ html {
   padding: 2rem;
 }
 
+.navbar-web {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.navbar-web>* {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-dropdown-web {
+  position: absolute;
+  top: 160%;
+  display: flex;
+  height: 22rem;
+  width: 27rem;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 1rem;
+  border-width: 1px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }
@@ -1038,11 +1126,6 @@ html {
   .sm\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
-  }
-
-  .sm\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .sm\:text-xl {
