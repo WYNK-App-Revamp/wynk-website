@@ -13,7 +13,7 @@ export default function Header2() {
         <img alt="wynk logo" src="../images/wynk_logo_2.png" />
       </div>
       <nav className="navbar-web">
-        <NavLink
+        <div
           style={{position: 'relative'}}
           className={location.pathname === "/our-services" ? "nav-link-active" : "nav-li"} /*to="/our-services"*/
           onClick={() => setIsOurServicesOpen(!isOurServicesOpen)} 
@@ -38,8 +38,8 @@ export default function Header2() {
           {isOurServicesOpen ? (
             <OurServicesDropdown/>
           ) : null}
-        </NavLink>
-        <NavLink
+        </div>
+        <div
           style={{position: 'relative'}}
           className={location.pathname === "/our-services" ? "nav-link-active" : "nav-li"} /*to="/our-services"*/
           onClick={() => setIsBecomeAParterOpen(!isBecomeAParterOpen)} 
@@ -64,14 +64,18 @@ export default function Header2() {
           {isBecomeAParterOpen ? (
             <BecomeAPartnerDropdown/>
           ) : null}
-        </NavLink>
+        </div>
         <NavLink
-        className={location.pathname === "/FAQs" ? "nav-link-active" : "nav-li"} /*to="/FAQs"*/ 
-        activeStyle>FAQ</NavLink>
+        className={location.pathname === "/FAQs" ? "nav-link-active" : "nav-li"} to="/FAQs" 
+        activeStyle>
+          FAQ
+        </NavLink>
         <NavLink 
         className={location.pathname === "/contact-us" ? "nav-link-active" : "nav-li"} to="/contact-us" 
-        activeStyle>Contact Us</NavLink>
-        <NavLink className={location.pathname === "/nigeria" ? "nav-link-active" : "nav-li"} /*to="/nigeria"*/ activeStyle>
+        activeStyle>
+          Contact Us
+        </NavLink>
+        <div className={location.pathname === "/nigeria" ? "nav-link-active" : "nav-li"} /*to="/nigeria"*/ activeStyle>
           <img src="/images/ng.png" alt="nigerian flag" className="w-[24px] h-[24px]" />
           <span>Nigeria (EN)</span>
           <svg
@@ -87,7 +91,7 @@ export default function Header2() {
               fill="white"
             />
           </svg>
-        </NavLink>
+        </div>
       </nav>
     </header>
   );
