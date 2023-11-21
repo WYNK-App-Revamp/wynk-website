@@ -7,7 +7,7 @@ function Home() {
   return (
     <main>
     <section className="main-section min-h-screen text-white" style={{ 
-      background: "linear-gradient(135deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%), url(/images/lady-in-car-hero-image.png)", 
+      background: "linear-gradient(135deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%), url(/images/lady-in-car-compressed-bg.webp)", 
       backgroundSize: 'cover',
       }}>
       <Header2/>
