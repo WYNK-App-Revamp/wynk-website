@@ -9,21 +9,32 @@ export default function Header2() {
   const [isBecomeAParterOpen, setIsBecomeAParterOpen] = useState(false);
 
   // handles closing of the drop downs if any part of the screen is clicked
+  const ourServicesDropdownRef = useRef(null);
+  const becomeAPartnerDropdownRef = useRef(null);
   const ourServicesRef = useRef(null);
   const becomeAPartnerRef = useRef(null);
   useEffect(() => {
-    function handleClickOutside(event) {
-      if ((ourServicesRef.current && !ourServicesRef.current.contains(event.target))
-      || (becomeAPartnerRef.current && !becomeAPartnerRef.current.contains(event.target))
-      ) {
+    function handleClickOutsideOS(event) {
+      if ((ourServicesDropdownRef.current && !ourServicesDropdownRef.current.contains(event.target)) || (ourServicesRef.current && !ourServicesRef.current.contains(event.target))) {
         setIsOurServicesOpen(false);
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutsideOS);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutsideOS);
+    };
+  }, []);
+  useEffect(() => {
+    function handleClickOutsideBAP(event) {
+      if ((becomeAPartnerDropdownRef.current && !becomeAPartnerDropdownRef.current.contains(event.target)) || (becomeAPartnerRef.current && !becomeAPartnerRef.current.contains(event.target))) {
         setIsBecomeAParterOpen(false);
       }
     }
 
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutsideBAP);
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutsideBAP);
     };
   }, []);
 
@@ -35,7 +46,7 @@ export default function Header2() {
       <nav className="navbar-web">
         <div
           style={{position: 'relative'}}
-          ref={ourServicesRef}
+          ref={ourServicesDropdownRef}
           className={location.pathname === "/our-services" ? "nav-link-active" : "nav-li"} /*to="/our-services"*/
           onClick={() => setIsOurServicesOpen(!isOurServicesOpen)} 
         activeStyle>
@@ -57,12 +68,12 @@ export default function Header2() {
             //Render the dropdown box conditionally, position it absolutely, with its parent(the nav link) positioned relatively
           }
           {isOurServicesOpen ? (
-            <OurServicesDropdown/>
+            <OurServicesDropdown ref={ourServicesRef}/>
           ) : null}
         </div>
         <div
           style={{position: 'relative'}}
-          ref={becomeAPartnerRef}
+          ref={becomeAPartnerDropdownRef}
           className={location.pathname === "/our-services" ? "nav-link-active" : "nav-li"} /*to="/our-services"*/
           onClick={() => setIsBecomeAParterOpen(!isBecomeAParterOpen)} 
         activeStyle>
@@ -84,7 +95,7 @@ export default function Header2() {
             //Render the dropdown box conditionally, position it absolutely, with its parent(the nav link) positioned relatively
           }
           {isBecomeAParterOpen ? (
-            <BecomeAPartnerDropdown/>
+            <BecomeAPartnerDropdown ref={becomeAPartnerRef}/>
           ) : null}
         </div>
         <NavLink
