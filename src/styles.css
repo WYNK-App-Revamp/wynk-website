@@ -69,7 +69,7 @@ html {
 }
 
 .contact-card {
-  @apply bg-wynkPurple-100 w-2/5 rounded-2xl p-8;
+  @apply bg-wynkPurple-100 w-5/12 rounded-2xl p-8;
 }
 
 .navbar-web {
