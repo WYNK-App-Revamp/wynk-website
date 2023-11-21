@@ -21,15 +21,36 @@ function Payments() {
       </section>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
-      <div className="md:px-24 flex items-center md:gap-32">
-        <div>
-          <img src="/images/phone-transfer-screen.png" alt="phone transfer screen"/>
+      <div className="md:px-12 flex items-center gap-16">
+        <div className="md:w-1/2">
+          <img src="/images/transfer-assets.png" alt="phone transfer screen"/>
         </div>
         <div className="flex flex-col gap-2 md:w-1/2">
-          <p className="text-[38px]">Send and Receive money</p>
+          <p className="text-[38px] font-bold">Send and Receive money</p>
           <p className="text-[18px] text-[#212529] mb-4">The Wynk super app provides a variety of services to all users, including customers, captains, merchants, and businesses.</p>
           <button className="download-the-app-button w-2/5">Get the app</button>
         </div>
+      </div>
+    </section>
+    <section className="main-section section-inner-padding bg-wynkPurple-100">
+      <div className="md:px-16 flex items-center gap-4">
+        <div className="flex flex-col gap-2 md:w-1/2">
+          <p className="text-[38px] font-bold">Pay Bills Conveniently</p>
+          <p className="text-[18px] text-[#212529] mb-4">The Wynk super app provides a variety of services to all users, including customers, captains, merchants, and businesses.</p>
+          <button className="download-the-app-button w-2/5">Get the app</button>
+        </div>
+        <div className="md:w-1/2">
+          <img src="/images/pay-bills-assets.png" alt="phone transfer screen"/>
+        </div>
+      </div>
+    </section>
+    <section className="main-section section-inner-padding bg-wynkOffWhite justify-center items-center flex flex-col gap-8">
+      <p className="text-[38px] text-center">Personalised Virtual Card</p>
+      <p className="text-[18px] text-center w-1/2 mb-2">The Wynk super app provides a variety of services to all users, including customers, captains, merchants, and businesses.</p>
+      <div className="virtual-card-services flex items-center justify-center gap-6">
+        <img src="/images/fund-your-card.png" alt="virtual card service"/>
+        <img src="/images/spend-with-card.png" alt="virtual card service"/>
+        <img src="/images/set-card-limit.png" alt="virtual card service"/>
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
