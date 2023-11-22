@@ -7,9 +7,9 @@ export default function Lifestyle() {
       <section className="main-section bg-wynkPurple-100">
         <Header1/>
       </section>
-      <section className="main-section min-h-screen text-white flex flex-col gap-6 items-center justify-center sm:mt-[-2%] sm:ml-[-8%]" style={{ 
+      <section className="main-section min-h-screen text-white flex flex-col gap-6 items-center justify-center sm:mt-[-2%] " style={{ 
         background: "url(/images/lifestyle-hero-bg.png)", 
-        backgroundSize: 'cover',
+        backgroundSize: 'contain',
         }}>
           {/*<p className="text-[24px] font-medium text-center">Lifestyle</p>
           <p className="text-[48px] font-medium text-center">A seamless blend of convenience, style, and adventure, all under one roof.</p>*/}
