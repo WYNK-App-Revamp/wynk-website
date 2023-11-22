@@ -9,8 +9,8 @@ function TheScheme() {
       <Header/>
       <section className="scheme-hero-section section-inner-padding flex gap-4">
         <div className="w-3/4">
-          <h2 className="font-bold text-4xl sm:text-7xl mb-5"> <span className="text-wynkPurple-200">Share Ownership</span> scheme for Captains</h2>
-          <p className=" text-sm sm:text-xl mb-5 max-w-xl">Get exclusive opportunity to be one of 5,000 Captains to benefit in the share ownership initiative which aims to reward dedicated and high performing Captains</p>
+          <h2 className="font-bold text-3xl sm:text-5xl md:text-7xl mb-5"> <span className="text-wynkPurple-200">Share Ownership</span> scheme for Captains</h2>
+          <p className=" text-sm sm:text-xl mb-5 sm:max-w-xl">Get exclusive opportunity to be one of 5,000 Captains to benefit in the share ownership initiative which aims to reward dedicated and high performing Captains</p>
           <div className="call-to-actions flex gap-4">
             <a href="https://play.google.com/store/apps/details?id=ng.wynk.wynksupappsupapp&pli=1" target="_blank" rel="noreferrer">
               <button className="download-the-app-button">Download the app</button>
@@ -25,11 +25,11 @@ function TheScheme() {
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite flex flex-col gap-8 items-center">
       <div>
-        <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-lg font-bold p-4 rounded-full">About the Scheme</h3>
+        <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-sm sm:text-lg font-bold p-4 rounded-full">About the Scheme</h3>
       </div>
-      <div className="hero-text px-60 flex flex-col gap-4">
-        <h2 className="text-center text-4xl font-bold leading-none">Why Join the Scheme?</h2>
-        <p className="text-lg text-center">The Scheme offers numerous benefits to participating drivers, enhancing their financial well-being and offering opportunities for growth</p>
+      <div className="hero-text items-center sm:px-12 flex flex-col gap-4">
+        <h2 className="text-center text-xl sm:text-4xl font-bold leading-none">Why Join the Scheme?</h2>
+        <p className="text-sm sm:text-lg text-center sm:w-3/5">The Scheme offers numerous benefits to participating drivers, enhancing their financial well-being and offering opportunities for growth</p>
       </div>
       <section className="why-join-the-scheme">
         <div className="scheme-points">

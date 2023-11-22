@@ -38,7 +38,7 @@ export default function Header1() {
     };
   }, []);
   return (
-    <header className="header flex flex-row items-center h-8">
+    <header className="header flex items-center h-8">
       <div className="mr-auto">
         <img alt="wynk logo" src="../images/wynk_logo.png" />
       </div>

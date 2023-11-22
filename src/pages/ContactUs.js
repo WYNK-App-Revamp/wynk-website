@@ -8,13 +8,13 @@ function ContactUs () {
     <>
     <section className="main-section bg-wynkPurple-100">
       <Header1/>
-      <section className="section-inner-padding flex flex-col items-center gap-8">
-        <h3 className="text-6xl font-bold"><span className="text-wynkPurple-200">Contact</span> Us</h3>
-        <p className="px-8 w-3/5 text-center">We'd like to hear from you. Send us a message and we'll be pleased to answer any questions you have or treat any problems you're experiencing.</p>
+      <section className="section-inner-padding flex flex-col justify-center items-center gap-2 sm:gap-8">
+        <h3 className="text-4xl sm:text-6xl font-bold"><span className="text-wynkPurple-200">Contact</span> Us</h3>
+        <p className="px-2 sm:px-8 sm:w-3/5 text-center">We'd like to hear from you. Send us a message and we'll be pleased to answer any questions you have or treat any problems you're experiencing.</p>
       </section>
     </section>
     <section className="main-section bg-white flex flex-col gap-12 items-center">
-      <div style={{marginTop: '-120px'}} className="form-card">
+      <div className="form-card">
       <form className="bg-white flex flex-col gap-8 p-8 justify-center rounded-xl">
         <div className="flex flex-col gap-2">
         <label className="text-sm" for="name">Full name</label>

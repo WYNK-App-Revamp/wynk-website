@@ -51,7 +51,7 @@ export default function FAQsComponent () {
             onClick={() => handleToggle(index)}
           >
             <p className="text-[16px] font-semibold">{faq.question}</p>
-            <span className="text-2xl rounded-full h-10 w-10 flex items-center justify-center shadow-lg">
+            <span className="p-2 text-2xl rounded-full h-5 sm:h-10 w-5 sm:w-10 flex items-center justify-center shadow-lg">
               {activeIndex === index ? "-" : "+"}
             </span>
           </div>
