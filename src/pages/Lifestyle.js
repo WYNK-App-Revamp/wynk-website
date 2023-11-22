@@ -10,12 +10,12 @@ export default function Lifestyle() {
       background: "linear-gradient(0deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.48) 100%), url(/images/lifestyle-hero-bg.png)", 
       backgroundSize: 'cover',
       }}>
-        <p className="text-[24px] font-medium">Lifestyle</p>
+        <p className="text-[24px] font-medium text-center">Lifestyle</p>
         <p className="text-[48px] font-medium text-center">A seamless blend of convenience, style, and adventure, all under one roof.</p>
       </section>
-      <section className="flex flex-col gap-6">
-        <p className="text-[30px] font-medium text-center">Whether you're a seasoned traveler, a shopaholic, a food enthusiast, or a social butterfly, we've got you covered!</p>
-        <img alt="lifestyle services component"/>
+      <section className="main-section section-inner-padding bg-wynkOffwhite flex flex-col gap-6 items-center">
+        <p className="text-[30px] font-medium text-center px-16">Whether you're a seasoned traveler, a shopaholic, a food enthusiast, or a social butterfly, we've got you covered!</p>
+        <img src="/images/wynk-lifestyle-services-frame.png" alt="lifestyle services component"/>
       </section>
       <section className="main-section section-inner-padding bg-wynkPurple-100">
       <div className="md:px-16 flex items-center gap-4">
