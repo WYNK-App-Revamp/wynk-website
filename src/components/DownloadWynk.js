@@ -2,7 +2,7 @@ function DownloadWynk() {
   return (
     <>
     <section className="download-wynk-card">
-      <div className="w-3/5">
+      <div className="w-3/5 items-start">
         <h2 className="font w-full text-3xl sm:text-5xl mb-5">Download<span className="text-orange-500"> Wynk </span>today</h2>
         <p className=" text-sm sm:text-xl mb-5 w-full pr-8">To download the Wynk super app, use the camera on your phone to scan the QR code. Accessible on iOS and Android platforms.</p>
         <p className="mb-6">Download now at</p>

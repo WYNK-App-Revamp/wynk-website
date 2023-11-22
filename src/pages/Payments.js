@@ -25,19 +25,19 @@ function Payments() {
         <div className="md:w-1/2">
           <img src="/images/transfer-assets.png" alt="phone transfer screen"/>
         </div>
-        <div className="flex flex-col gap-2 md:w-1/2">
+        <div className="flex flex-col items-start gap-2 md:w-1/2">
           <p className="sm:text-[38px] font-bold">Send and Receive money</p>
           <p className="sm:text-[18px] text-[#212529] mb-4">The Wynk super app provides a variety of services to all users, including customers, captains, merchants, and businesses.</p>
-          <button className="download-the-app-button w-2/5">Get the app</button>
+          <button className="download-the-app-button">Get the app</button>
         </div>
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkPurple-100">
       <div className="md:px-16 flex items-center gap-4">
-        <div className="flex flex-col gap-2 md:w-1/2">
+        <div className="flex flex-col items-start gap-2 md:w-1/2">
           <p className="sm:text-[38px] font-bold">Pay Bills Conveniently</p>
           <p className="sm:text-[18px] text-[#212529] mb-4">The Wynk super app provides a variety of services to all users, including customers, captains, merchants, and businesses.</p>
-          <button className="download-the-app-button w-2/5">Get the app</button>
+          <button className="download-the-app-button">Get the app</button>
         </div>
         <div className="md:w-1/2">
           <img src="/images/pay-bills-assets.png" alt="phone transfer screen"/>
