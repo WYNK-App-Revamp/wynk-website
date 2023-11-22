@@ -72,38 +72,38 @@ function TheScheme() {
         </div>
       </section>
     </section>
-    <section className="main-section section-inner-padding bg-wynkPurple-100 flex flex-col gap-8 items-center">
+    <section className="main-section section-inner-padding bg-wynkPurple-100 flex flex-col gap-8 items-center mb-2">
       <div className="flex flex-col gap-6 sm:px-36">
         <h3 className="text-center text-4xl font-bold">To Become Eligible</h3>
         <div className="flex flex-col gap-6 items-center">
-        <p className="px-28 text-center">To be eligible for the share ownership scheme, Captains must comply with the following conditions:</p>
+        <p className="w-4/5 text-center">To be eligible for the share ownership scheme, Captains must comply with the following conditions:</p>
         <a href="https://play.google.com/store/apps/details?id=ng.wynk.wynksupappsupapp&pli=1" target="_blank" rel="noreferrer">
         <button className="download-the-app-button">Download the app</button>
         </a>
         </div>
       </div>
-      <section className="flex justify-center flex-wrap gap-4">
-      <div className="how-to-be-eligible-cards">
-      <div><p className="orange-scheme-points">1</p></div>
-        <p className="font-bold">Become a Captain</p>
-        <p>Wynk is the home for food vendors. From street food stalls to gourmet restaurants, food vendors use Wynk to sell and showcase their culinary products.</p>    
-      </div>
-      <div className="how-to-be-eligible-cards">
-      <div><p className="orange-scheme-points">2</p></div>
-        <p className="font-bold">Average Rating</p>
-        <p>Maintaining a minimum average rating of 4 stars for the first year ensuring Captains who consistently provide excellent service to passengers are eligible for participation.</p>    
-      </div>
-      <div className="how-to-be-eligible-cards">
-        <div><p className="orange-scheme-points">3</p></div>
-        <p className="font-bold">Ride Frequency</p>
-        <p>Completing more than an average of 5 rides per day for the initial 6 months allowing Captains who proactively engage in driving activities and contribute to the growth of the platform.</p>    
-      </div>
-      <div className="how-to-be-eligible-cards">
-      <div><p className="orange-scheme-points">4</p></div>
-        <p className="font-bold">Ride Consistency</p>
-        <p>Maintaining an average of 10 rides per day for the subsequent 6 months emphasising the importance of commitment and productivity in order to benefit from the scheme.</p>    
-      </div>
-    </section>
+      <section className="flex justify-center flex-col sm:flex-row flex-wrap gap-4">
+        <div className="how-to-be-eligible-cards">
+        <div><p className="orange-scheme-points">1</p></div>
+          <p className="font-bold">Become a Captain</p>
+          <p>Wynk is the home for food vendors. From street food stalls to gourmet restaurants, food vendors use Wynk to sell and showcase their culinary products.</p>    
+        </div>
+        <div className="how-to-be-eligible-cards">
+        <div><p className="orange-scheme-points">2</p></div>
+          <p className="font-bold">Average Rating</p>
+          <p>Maintaining a minimum average rating of 4 stars for the first year ensuring Captains who consistently provide excellent service to passengers are eligible for participation.</p>    
+        </div>
+        <div className="how-to-be-eligible-cards">
+          <div><p className="orange-scheme-points">3</p></div>
+          <p className="font-bold">Ride Frequency</p>
+          <p>Completing more than an average of 5 rides per day for the initial 6 months allowing Captains who proactively engage in driving activities and contribute to the growth of the platform.</p>    
+        </div>
+        <div className="how-to-be-eligible-cards">
+        <div><p className="orange-scheme-points">4</p></div>
+          <p className="font-bold">Ride Consistency</p>
+          <p>Maintaining an average of 10 rides per day for the subsequent 6 months emphasising the importance of commitment and productivity in order to benefit from the scheme.</p>    
+        </div>
+      </section>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
       <DownloadWynk/>

@@ -10,7 +10,7 @@ html {
 
 
 .main-section {
-  @apply py-2 px-8 md:py-12 md:px-28 shrink-0 grow-0 min-w-full;
+  @apply py-2 px-12 md:py-12 md:px-28 shrink-0 grow-0 min-w-full;
 }
 
 .section-inner-padding {
@@ -41,7 +41,7 @@ html {
 }
 
 .orange-scheme-points {
-  @apply w-1/6 bg-orange-500 bg-opacity-10 text-orange-500 px-8 py-6 text-4xl flex items-center justify-center rounded-tl-2xl rounded-br-2xl h-1/6 mt-4;
+  @apply w-1/6 bg-orange-500 bg-opacity-10 text-orange-500 sm:px-8 sm:py-6 text-4xl flex items-center justify-center rounded-tl-2xl rounded-br-2xl h-1/6 mt-4;
 }
 
 .send-message-button {
@@ -53,7 +53,7 @@ html {
 }
 
 .how-to-be-eligible-cards {
-  @apply bg-white flex flex-col w-2/5 gap-4 px-8 py-2 rounded-xl;
+  @apply bg-white flex flex-col sm:w-2/5 gap-4 px-8 py-2 rounded-xl;
 }
 
 .download-wynk-card {
@@ -61,7 +61,7 @@ html {
 }
 
 .form-card {
-  @apply bg-white w-3/4 sm:w-5/12 shadow-lg rounded-xl mt-[-50px] sm:mt-[-120px];
+  @apply bg-white w-3/4 sm:w-5/12 shadow-lg rounded-xl mt-[-40px] sm:mt-[-120px];
 }
 
 .form-input-field {
