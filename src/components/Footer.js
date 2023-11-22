@@ -42,7 +42,7 @@ function Footer() {
             <li><a>Wynk for Business</a></li>
             <li><a>Wynk Vault</a></li>
             <li><a>Wynk Ride</a></li>
-            <li><a>Wynk Lifestyle</a></li>
+            <li><a href="/lifestyle" target="_blank" rel="noreferer">Wynk Lifestyle</a></li>
             <li><a>Wynk Socials</a></li>
           </ul>
         </section>
