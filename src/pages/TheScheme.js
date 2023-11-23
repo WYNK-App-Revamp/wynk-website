@@ -7,19 +7,19 @@ function TheScheme() {
     <>
     <section className="main-section bg-wynkPurple-100">
       <Header/>
-      <section className="scheme-hero-section section-inner-padding flex gap-4">
-        <div className="w-3/4">
-          <h2 className="font-bold text-3xl sm:text-5xl md:text-7xl mb-5"> <span className="text-wynkPurple-200">Share Ownership</span> scheme for Captains</h2>
+      <section className="scheme-hero-section section-inner-padding flex items-center gap-4">
+        <div className="w-3/4 flex flex-col items-start">
+          <h2 className="font-bold text-3xl sm:text-4xl md:text-[64px] md:leading-none mb-5"> <span className="text-wynkPurple-200">Share Ownership</span> scheme for Captains</h2>
           <p className=" text-sm sm:text-xl mb-5 sm:max-w-xl">Get exclusive opportunity to be one of 5,000 Captains to benefit in the share ownership initiative which aims to reward dedicated and high performing Captains</p>
-          <div className="call-to-actions flex gap-4">
+          <div className="call-to-actions flex flex-start gap-4">
             <a href="https://play.google.com/store/apps/details?id=ng.wynk.wynksupappsupapp&pli=1" target="_blank" rel="noreferrer">
               <button className="download-the-app-button">Download the app</button>
             </a>
-            <button className="border-wynkPurple-200 border rounded-md h-12 py-3 px-6 flex items-center text-xl text-wynkPurple-200">Log in</button>
+            <button className="border-wynkPurple-200 border rounded-md h-12 sm:py-3 sm:px-6 flex items-center text-center text-base sm:text-xl text-wynkPurple-200">Log in</button>
           </div>
         </div>
         <div>
-          <img src="/images/unsplash_ELJM628U4Jk.png" alt="smiling wynk captain" className="rounded-xl min-h-full min-w-full"/>
+          <img src="/images/unsplash_ELJM628U4Jk.png" alt="smiling wynk captain" className="rounded-xl sm:min-h-full sm:min-w-full"/>
         </div>
       </section> 
     </section>

@@ -816,11 +816,6 @@ video {
   padding-right: 2rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .pr-4 {
   padding-right: 1rem;
 }
@@ -870,6 +865,11 @@ video {
 
 .text-\[48px\] {
   font-size: 48px;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-lg {
@@ -956,6 +956,40 @@ video {
 
 html {
   font-family: 'Uber Move';
+}
+
+.main-section {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .main-section {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-section {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-section {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .main-section {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .main-section {
+    max-width: 1536px;
+  }
 }
 
 .main-section {
@@ -1242,8 +1276,16 @@ html {
 }
 
 @media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:h-10 {
     height: 2.5rem;
+  }
+
+  .sm\:min-h-full {
+    min-height: 100%;
   }
 
   .sm\:w-1\/2 {
@@ -1264,6 +1306,14 @@ html {
 
   .sm\:w-3\/5 {
     width: 60%;
+  }
+
+  .sm\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .sm\:min-w-full {
+    min-width: 100%;
   }
 
   .sm\:max-w-xl {
@@ -1306,9 +1356,19 @@ html {
     padding-right: 9rem;
   }
 
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .sm\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .sm\:pr-2 {
@@ -1365,11 +1425,23 @@ html {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .sm\:text-\[32px\] {
+    font-size: 32px;
+  }
+
+  .sm\:text-\[\] {
+    color: ;
+  }
 }
 
 @media (min-width: 768px) {
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:p-4 {
@@ -1386,8 +1458,11 @@ html {
     padding-right: 4rem;
   }
 
-  .md\:text-7xl {
-    font-size: 4.5rem;
+  .md\:text-\[64px\] {
+    font-size: 64px;
+  }
+
+  .md\:leading-none {
     line-height: 1;
   }
 }

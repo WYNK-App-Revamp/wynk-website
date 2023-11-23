@@ -49,7 +49,7 @@ export default function Lifestyle() {
       <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-sm sm:text-lg text-center font-bold p-2 sm:p-4 rounded-full ">Food & Drinks</h3>
       <p className="text-[24px] sm:text-[38px] text-center">Satisfy Your Cravings!</p>
       <p className="text-[14px] sm:text-[18px] text-center sm:w-1/2 mb-2">Craving your favourite cuisine or a refreshing drink? With Wynk, ordering food and drinks is a breeze in just three simple steps</p>
-      <div className="food-drinks-services flex flex-col sm:flex-row items-center justify-center gap-6">
+      <div className="food-drinks-services flex flex-col md:flex-row items-center justify-center gap-6">
         <img src="/images/food-drinks-presentation-1.png" alt="food and drinks service"/>
         <img src="/images/food-drinks-presentation-2.png" alt="food and drinks service"/>
         <img src="/images/food-drinks-presentation-3.png" alt="food and drinks service"/>

@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="main-section footer">
-      <section className="go-to-links flex justify-between">
+      <section className="go-to-links flex flex-wrap justify-between">
         <section className="flex flex-col gap-4">
           <h4>Address</h4>
           <p>Lekki, Lagos - Nigeria</p>

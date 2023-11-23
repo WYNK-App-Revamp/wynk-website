@@ -47,7 +47,7 @@ function Payments() {
     <section className="main-section section-inner-padding bg-wynkOffWhite justify-center items-center flex flex-col gap-8">
       <p className="text-[24px] sm:text-[38px] text-center">Personalised Virtual Card</p>
       <p className="text-[14px] sm:text-[18px] text-center sm:w-1/2 mb-2">The Wynk super app provides a variety of services to all users, including customers, captains, merchants, and businesses.</p>
-      <div className="virtual-card-services flex flex-col sm:flex-row items-center justify-center gap-6">
+      <div className="virtual-card-services flex flex-col md:flex-row items-center justify-center gap-6">
         <img src="/images/fund-your-card.png" alt="virtual card service"/>
         <img src="/images/spend-with-card.png" alt="virtual card service"/>
         <img src="/images/set-card-limit.png" alt="virtual card service"/>
