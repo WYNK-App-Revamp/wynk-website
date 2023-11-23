@@ -18,10 +18,10 @@ html {
 }
 
 .nav-li {
-  @apply font-medium block cursor-pointer;
+  @apply font-medium flex gap-2 cursor-pointer;
 }
 .nav-link-active {
-  @apply font-medium block cursor-pointer text-wynkPurple-200 underline;
+  @apply font-medium flex gap-2 cursor-pointer text-wynkPurple-200 underline;
 }
 
 .dropdown {

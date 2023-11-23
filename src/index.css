@@ -1024,14 +1024,16 @@ html {
 }
 
 .nav-li {
-  display: block;
+  display: flex;
   cursor: pointer;
+  gap: 0.5rem;
   font-weight: 500;
 }
 
 .nav-link-active {
-  display: block;
+  display: flex;
   cursor: pointer;
+  gap: 0.5rem;
   font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(33 30 138 / var(--tw-text-opacity));
@@ -1276,10 +1278,6 @@ html {
 }
 
 @media (min-width: 640px) {
-  .sm\:flex {
-    display: flex;
-  }
-
   .sm\:h-10 {
     height: 2.5rem;
   }
@@ -1408,6 +1406,10 @@ html {
     font-size: 30px;
   }
 
+  .sm\:text-\[32px\] {
+    font-size: 32px;
+  }
+
   .sm\:text-\[38px\] {
     font-size: 38px;
   }
@@ -1424,14 +1426,6 @@ html {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .sm\:text-\[32px\] {
-    font-size: 32px;
-  }
-
-  .sm\:text-\[\] {
-    color: ;
   }
 }
 
