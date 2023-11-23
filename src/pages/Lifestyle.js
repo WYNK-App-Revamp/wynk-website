@@ -60,7 +60,7 @@ export default function Lifestyle() {
         <div className="md:w-1/2">
           <img src="/images/wynk-social-phone-screen.png" alt="wynk social media"/>
         </div>
-        <div className="flex flex-col gap-2 md:w-1/2">
+        <div className="flex flex-col items-start gap-2 md:w-1/2">
           <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-sm sm:text-lg text-center font-bold p-2 sm:p-4 rounded-full w-1/2 sm:w-2/5">Wynk Social</h3>
           <p className="sm:text-[38px] font-bold">Stay Connected and Share the Magic!</p>
           <p className="sm:text-[18px] text-[#212529] mb-4">Wynk isn't just about transactions; it's about connection. Share your experiences with friends, family, and the world! Keep your social life vibrant and alive.</p>

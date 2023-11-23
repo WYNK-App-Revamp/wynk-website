@@ -27,16 +27,16 @@ function Home() {
       <ServicesComponentsSwapper/>
     </section>
     <section className="main-section section-inner-padding bg-wynkPurple-100 flex flex-col">
-    <div className="hero-text items-center flex flex-col gap-4 mb-20">
-      <h2 className="text-center text-2xl sm:text-4xl font-bold leading-none">Explore Access without Limits</h2>
-      <p className="text-sm sm:text-lg text-center w-3/4 sm:w-3/4">WynkStars including Consumers, Captains, Merchants, and Businesses can explore boundless access to a variety of services on the Wynk Super App.</p>
-    </div>
-    <div className="flex justify-center gap-6">
-      <img className="hover:cursor-pointer w-1/5" src="/images/customers-link.png" alt="link-component"/>
-      <img className="hover:cursor-pointer w-1/5" src="/images/captains-link.png" alt="link-component"/>
-      <img className="hover:cursor-pointer w-1/5" src="/images/merchant-link.png" alt="link-component"/>
-      <img className="hover:cursor-pointer w-1/5" src="/images/businesses-link.png" alt="link-component"/>
-    </div>
+      <div className="hero-text items-center flex flex-col gap-4 mb-20">
+        <h2 className="text-center text-2xl sm:text-4xl font-bold leading-none">Explore Access without Limits</h2>
+        <p className="text-sm sm:text-lg text-center w-3/4 sm:w-3/4">WynkStars including Consumers, Captains, Merchants, and Businesses can explore boundless access to a variety of services on the Wynk Super App.</p>
+      </div>
+      <div className="flex justify-center gap-6">
+        <img className="hover:cursor-pointer w-1/5" src="/images/customers-link.png" alt="link-component"/>
+        <img className="hover:cursor-pointer w-1/5" src="/images/captains-link.png" alt="link-component"/>
+        <img className="hover:cursor-pointer w-1/5" src="/images/merchant-link.png" alt="link-component"/>
+        <img className="hover:cursor-pointer w-1/5" src="/images/businesses-link.png" alt="link-component"/>
+      </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite flex flex-col gap-6 sm:gap-16 items-center">
       <div>

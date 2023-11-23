@@ -13,6 +13,7 @@ import ContactUs from './pages/ContactUs.js';
 import Payments from './pages/Payments.js';
 import { FAQs } from './pages/FAQs.js';
 import Lifestyle from './pages/Lifestyle.js';
+import WynkForMerchants from './pages/WynkForMerchants.js';
 //import(/* webpackPreload: true */ './fonts/stylesheet.css');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,6 +24,7 @@ root.render(
         <Route path='/' exact element={< Home/>} />
         <Route path='/payments' exact element={< Payments/>} />
         <Route path='/lifestyle' exact element={< Lifestyle/>} />
+        <Route path='/wynk-for-merchants' exact element={< WynkForMerchants/>} />
         <Route path='/FAQs' exact element={< FAQs/>} />
         <Route path='/contact-us' exact element={< ContactUs/>} />
         <Route path='/share-ownership' exact element={< TheScheme/>} />
