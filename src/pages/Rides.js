@@ -2,7 +2,7 @@ import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header1 from "../components/Header1";
 
-export default function WynkForCaptains () {
+export default function Rides () {
   return (
     <>
       <section className="main-section bg-wynkPurple-100">
@@ -19,7 +19,7 @@ export default function WynkForCaptains () {
       </div>
     </section>
     <section className="main-section section-inner-padding mt-[-25%] bg-wynkPurple-100 flex flex-col items-center gap-6 sm:gap-12">
-      <h2 className="font-bold text-[24px] sm:text-[38px] sm:w-[55%] text-center mt-[20%] sm:mt-[15%]">Your Ultimate Ride-Hailing Experience, with Advanced Features.</h2>
+      <h2 className="font-bold text-[24px] sm:text-[38px] sm:w-[65%] text-center mt-[20%] sm:mt-[15%]">Your Ultimate Ride-Hailing Experience, with Advanced Features.</h2>
       <a href="https://play.google.com/store/apps/details?id=ng.wynk.wynksupappsupapp&pli=1" target="_blank" rel="noreferrer">
         <button className="download-the-app-button mb-8">Download the app</button>
       </a>

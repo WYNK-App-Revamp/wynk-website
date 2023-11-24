@@ -2,7 +2,7 @@ import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header from "../components/Header1";
 
-function TheScheme() {
+function ShareOwnershipScheme() {
   return (
     <>
     <section className="main-section bg-wynkPurple-100">
@@ -113,4 +113,4 @@ function TheScheme() {
   );
 }
 
-export default TheScheme;
+export default ShareOwnershipScheme;

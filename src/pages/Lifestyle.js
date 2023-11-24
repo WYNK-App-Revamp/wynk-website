@@ -57,7 +57,7 @@ export default function Lifestyle() {
     <section className="main-section section-inner-padding bg-wynkOffWhite">
       <div className="px-6 md:px-12 flex items-center gap-16">
         <div className="md:w-1/2">
-          <img src="/images/wynk-social-phone-screen.png" alt="wynk social media"/>
+          <img src="/images/wynk-social-assets.png" alt="wynk social media"/>
         </div>
         <div className="flex flex-col items-start gap-2 md:w-1/2">
           <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-sm sm:text-lg text-center font-bold p-2 sm:p-4 rounded-full w-1/2 sm:w-2/5">Wynk Social</h3>
