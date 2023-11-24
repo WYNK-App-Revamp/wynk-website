@@ -796,6 +796,14 @@ video {
   --tw-bg-opacity: 0.1;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -1360,6 +1368,10 @@ html {
 
   .sm\:gap-8 {
     gap: 2rem;
+  }
+
+  .sm\:bg-cover {
+    background-size: cover;
   }
 
   .sm\:p-4 {
