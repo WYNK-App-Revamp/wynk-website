@@ -796,14 +796,6 @@ video {
   background-size: contain;
 }
 
-.bg-auto {
-  background-size: auto;
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
 .bg-center {
   background-position: center;
 }
@@ -1034,8 +1026,8 @@ html {
   .main-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    padding-left: 105px;
-    padding-right: 105px;
+    padding-left: 110px;
+    padding-right: 110px;
   }
 }
 
@@ -1342,44 +1334,12 @@ html {
     width: 60%;
   }
 
-  .sm\:w-\[55\%\] {
-    width: 55%;
-  }
-
-  .sm\:w-\[90\%\] {
-    width: 90%;
-  }
-
-  .sm\:w-\[60\%\] {
-    width: 60%;
-  }
-
-  .sm\:w-\[62\%\] {
-    width: 62%;
-  }
-
   .sm\:w-\[65\%\] {
     width: 65%;
   }
 
-  .sm\:w-\[68\%\] {
-    width: 68%;
-  }
-
-  .sm\:w-\[6\%\] {
-    width: 6%;
-  }
-
-  .sm\:w-\[67\%\] {
-    width: 67%;
-  }
-
-  .sm\:w-\[66\%\] {
-    width: 66%;
-  }
-
-  .sm\:w-\[65\.5\%\] {
-    width: 65.5%;
+  .sm\:w-\[90\%\] {
+    width: 90%;
   }
 
   .sm\:min-w-full {
