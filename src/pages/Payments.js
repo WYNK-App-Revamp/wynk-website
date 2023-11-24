@@ -16,7 +16,7 @@ function Payments() {
         </div>
         <div className="flex flex-col gap-12">
           <img className="rounded-xl" src="/images/business-man-talking.png" alt="man smiling"/>
-          <p className="text-center text-[#212529] text-lg sm:text-3xl sm:px-20">Wynk Vault give you access to a plethora of services that allow you pay bills easily. From sending and receiving money to buy airtime, date and recharging your outlets.</p>
+          <p className="text-center text-[#212529] text-lg sm:text-3xl sm:px-20">Elevate your financial experience with the Wynk Vault. Bypass online payment delays and discover unlimited access to seamless mobile subscriptions, utility bills, loans, online betting, and more.</p>
         </div>
       </section>
     </section>
@@ -26,8 +26,8 @@ function Payments() {
           <img src="/images/transfer-assets.png" alt="phone transfer screen"/>
         </div>
         <div className="flex flex-col items-start gap-2 md:w-1/2">
-          <p className="sm:text-[38px] font-bold">Send and Receive money</p>
-          <p className="sm:text-[18px] text-[#212529] mb-4">The Wynk super app provides a variety of services to all users, including customers, captains, merchants, and businesses.</p>
+          <p className="sm:text-[38px] font-bold">Unlock Payments without Boundaries</p>
+          <p className="sm:text-[18px] text-[#212529] mb-4">Bypass online payment delays and discover unlimited access to seamless mobile subscriptions, utility bills, loans, online betting, and more!</p>
           <button className="download-the-app-button">Get the app</button>
         </div>
       </div>
@@ -35,8 +35,8 @@ function Payments() {
     <section className="main-section section-inner-padding bg-wynkPurple-100">
       <div className="md:px-16 flex items-center gap-4">
         <div className="flex flex-col items-start gap-2 md:w-1/2">
-          <p className="sm:text-[38px] font-bold">Pay Bills Conveniently</p>
-          <p className="sm:text-[18px] text-[#212529] mb-4">The Wynk super app provides a variety of services to all users, including customers, captains, merchants, and businesses.</p>
+          <p className="sm:text-[38px] font-bold">Unmatched Convenience for everyone</p>
+          <p className="sm:text-[18px] text-[#212529] mb-4">Customers, Captains,  and Businesses can enjoy a more secure and convenient mode of sending and receiving money with Wynk.</p>
           <button className="download-the-app-button">Get the app</button>
         </div>
         <div className="md:w-1/2">

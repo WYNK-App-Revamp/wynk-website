@@ -9,11 +9,11 @@ export default function Lifestyle() {
         <Header1/>
       </section>
       <section className="main-section bg-no-repeat min-h-[80vh] text-white flex flex-col gap-6 items-center justify-center  " style={{ 
-        background: "url(/images/lifestyle-hero-bg.png)", 
+        background: "url(/images/plain-lifestyle-hero-bg.png)", 
         backgroundSize: 'cover',
         }}>
-          {/*<p className="text-[24px] font-medium text-center">Lifestyle</p>
-          <p className="text-[48px] font-medium text-center">A seamless blend of convenience, style, and adventure, all under one roof.</p>*/}
+          <p className="text-[24px] font-medium text-center">Lifestyle</p>
+          <p className="text-[48px] font-medium text-center">A seamless blend of convenience, style, and adventure, all under one roof.</p>
       </section>
       <section className="main-section section-inner-padding bg-wynkOffWhite flex flex-col gap-6 items-center">
         <p className="text-[24px] sm:text-[30px] font-medium text-center w-4/5">Whether you're a seasoned traveler, a shopaholic, a food enthusiast, or a social butterfly, we've got you covered!</p>
