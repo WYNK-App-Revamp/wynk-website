@@ -40,8 +40,8 @@ export default function WynkForCaptains () {
     <section className="main-section section-inner-padding flex flex-col items-center gap-4 bg-wynkPurple-100">
       <div className="flex flex-col items-center gap-6">
         <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-sm sm:text-base text-center font-bold p-2 sm:p-4 rounded-full">Wynk captain</h3>
-        <p className="sm:text-[38px] text-center font-bold w-2/5">Drive and earn as a captain with Wynk!</p>
-        <p className="sm:text-[18px] text-[#212529] mb-4 w-1/2 text-center">As a car owner, you can sign up with us a captain and earn while accepting in-app ride requests. It’s that easy!</p>
+        <p className="sm:text-[38px] text-center font-bold w-3/5">Drive and earn as a captain with Wynk!</p>
+        <p className="sm:text-[18px] text-[#212529] mb-4 w-3/5 text-center">As a car owner, you can sign up with us a captain and earn while accepting in-app ride requests. It’s that easy!</p>
         <button className="download-the-app-button mb-4">Learn More</button>
       </div>
       <div className="flex flex-col gap-6">
