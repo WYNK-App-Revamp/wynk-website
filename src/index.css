@@ -826,11 +826,6 @@ video {
   padding-right: 1.5rem;
 }
 
-.px-60 {
-  padding-left: 15rem;
-  padding-right: 15rem;
-}
-
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1254,7 +1249,7 @@ html {
 
 .navbar-web {
   display: flex;
-  width: 60%;
+  width: 65%;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;

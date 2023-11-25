@@ -45,7 +45,7 @@ function Home() {
         <h2 className="text-center text-2xl sm:text-4xl font-bold leading-none">More than 5,000+ Users Trust Us</h2>
         <p className="text-sm sm:text-lg text-center sm:px-24">We’ve built a Community of Consumers, Captains, Merchants, and Businesses who rely on Wynk for innovative solutions across Payments, Rides, and Lifestyle Services.</p>
       </div>
-      <div className="px-60 flex flex-col gap-4">
+      <div className="w-3/5 flex  items-center flex-col gap-4">
         <img className="rounded-lg" src="/images/wynk-super-app-youtube-image.png" alt="youtube link"/>
       </div>
       <div className=" flex flex-col gap-4">
