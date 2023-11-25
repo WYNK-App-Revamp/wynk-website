@@ -13,7 +13,7 @@ function Home() {
       <section className="scheme-hero-section section-inner-padding flex gap-12">
         <div className="w-3/5 sm:w-1/2">
           <h2 className="font-bold text-4xl sm:text-6xl mb-5 sm:pr-2"> Boundless access to all your needs</h2>
-          <p className=" text-sm sm:text-xl mb-5 max-w-xl">Whether it’s Payments, Ride-hailing, or Lifestyle Services, the Wynk Super App creates a reality where WynkStars thrive beyond the ordinary.</p>
+          <p className=" text-sm sm:text-xl mb-5 max-w-xl">Whether it’s Ride-hailing, Payments, or Lifestyle Services, the Wynk Lifestyle Super App creates a reality where WynkStars thrive beyond the ordinary.</p>
           <div className="call-to-actions flex gap-4">
             <a href="https://play.google.com/store/apps/details?id=ng.wynk.wynksupappsupapp&pli=1" target="_blank" rel="noreferrer">
             <button className="download-the-app-button">Get the app</button>
