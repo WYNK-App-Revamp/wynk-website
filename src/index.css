@@ -534,6 +534,10 @@ video {
   margin-right: auto;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -614,10 +618,6 @@ video {
   min-height: 80vh;
 }
 
-.min-h-full {
-  min-height: 100%;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -652,10 +652,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-2\/5 {
-  width: 40%;
 }
 
 .min-w-full {
@@ -800,8 +796,8 @@ video {
   background-size: contain;
 }
 
-.bg-cover {
-  background-size: cover;
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
@@ -828,11 +824,6 @@ video {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.px-60 {
-  padding-left: 15rem;
-  padding-right: 15rem;
 }
 
 .px-8 {
@@ -1030,8 +1021,8 @@ html {
   .main-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    padding-left: 105px;
-    padding-right: 105px;
+    padding-left: 110px;
+    padding-right: 110px;
   }
 }
 
@@ -1258,7 +1249,7 @@ html {
 
 .navbar-web {
   display: flex;
-  width: 60%;
+  width: 65%;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
@@ -1302,6 +1293,10 @@ html {
 }
 
 @media (min-width: 640px) {
+  .sm\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
   .sm\:mt-\[15\%\] {
     margin-top: 15%;
   }
@@ -1334,8 +1329,8 @@ html {
     width: 60%;
   }
 
-  .sm\:w-\[55\%\] {
-    width: 55%;
+  .sm\:w-\[65\%\] {
+    width: 65%;
   }
 
   .sm\:w-\[90\%\] {

@@ -19,7 +19,7 @@ function Footer() {
           <h4 className="text-lg">Consumers</h4>
           <ul className="text-sm">
             <li><a>Vaults</a></li>
-            <li><a>Rides</a></li>
+            <li><a href="/rides">Rides</a></li>
             <li><a>Marketplace</a></li>
             <li><a>Restaurants & Bars</a></li>
             <li><a>Social Media</a></li>
@@ -39,9 +39,9 @@ function Footer() {
         <section className="flex flex-col gap-4">
           <h4 className="text-lg">Businesses</h4>
           <ul className="text-sm">
-            <li><a>Wynk for Business</a></li>
+            <li><a href="/wynk-for-merchants">Wynk for Business</a></li>
             <li><a>Wynk Vault</a></li>
-            <li><a>Wynk Ride</a></li>
+            <li><a href="/rides">Wynk Ride</a></li>
             <li><a href="/lifestyle" target="_blank" rel="noreferer">Wynk Lifestyle</a></li>
             <li><a>Wynk Socials</a></li>
           </ul>
@@ -62,7 +62,7 @@ function Footer() {
       <section className=" flex items-start">
         <section className="flex gap-6 mr-auto w-1/2 items-center">
         <img alt="wynk logo" src="../images/wynk_logo_2.png" className="h-3/5"/>
-        <div className="text-sm">We are making your Lifestyle stress free and that is what drives us. We dare to innovate for the benefit of both our Patrons and Captains. Our platform will take you to your destination, make payments and make your day.</div>
+        <div className="text-sm">Simplify your life, discover infinite access, and live more freely with Wynk. Embrace our world of infinite access where convenience meets lifestyle, innovation meets simplicity, and you meet endless opportunities.</div>
         </section>
         <section className="flex flex-col gap-2">
           <p className="text-lg">Connect with Wynk</p>

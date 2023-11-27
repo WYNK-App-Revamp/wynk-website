@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 //import Footer from "./components/Footer.js";
 import ScrollToTop from "./ScrollToTop.js";
-import TheScheme from "./pages/TheScheme.js";
+import ShareOwnershipScheme from './pages/ShareOwnershipScheme.js';
 //import Recommendations from "./Recommendations"
 import { BrowserRouter as Router, Routes, Route }
     from 'react-router-dom';
@@ -14,7 +14,7 @@ import Payments from './pages/Payments.js';
 import { FAQs } from './pages/FAQs.js';
 import Lifestyle from './pages/Lifestyle.js';
 import WynkForMerchants from './pages/WynkForMerchants.js';
-import WynkForCaptains from './pages/WynkForCaptains.js';
+import Rides from './pages/Rides.js';
 //import(/* webpackPreload: true */ './fonts/stylesheet.css');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,10 +26,10 @@ root.render(
         <Route path='/payments' exact element={< Payments/>} />
         <Route path='/lifestyle' exact element={< Lifestyle/>} />
         <Route path='/wynk-for-merchants' exact element={< WynkForMerchants/>} />
-        <Route path='/wynk-for-captains' exact element={< WynkForCaptains/>} />
+        <Route path='/rides' exact element={< Rides/>} />
         <Route path='/FAQs' exact element={< FAQs/>} />
         <Route path='/contact-us' exact element={< ContactUs/>} />
-        <Route path='/share-ownership' exact element={< TheScheme/>} />
+        <Route path='/share-ownership' exact element={< ShareOwnershipScheme/>} />
     </Routes>
   </Router>
 );
