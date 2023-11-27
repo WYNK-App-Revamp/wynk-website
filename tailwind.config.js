@@ -10,6 +10,7 @@ export const theme = {
       footerBackground: '#1B2124',
       wynkOffWhite: '#F9F9F9',
       wynkGrey: '#667085',
+      captainDashboardRed: '#E74C4D'
     }
   },
 };

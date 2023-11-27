@@ -15,6 +15,7 @@ import { FAQs } from './pages/FAQs.js';
 import Lifestyle from './pages/Lifestyle.js';
 import WynkForMerchants from './pages/WynkForMerchants.js';
 import Rides from './pages/Rides.js';
+import CaptainDashboard from './pages/CaptainDashboard.js';
 //import(/* webpackPreload: true */ './fonts/stylesheet.css');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,6 +31,7 @@ root.render(
         <Route path='/FAQs' exact element={< FAQs/>} />
         <Route path='/contact-us' exact element={< ContactUs/>} />
         <Route path='/share-ownership' exact element={< ShareOwnershipScheme/>} />
+        <Route path='/captain-dashboard' exact element={< CaptainDashboard/>} />
     </Routes>
   </Router>
 );
