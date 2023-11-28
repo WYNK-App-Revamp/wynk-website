@@ -8,6 +8,8 @@ export default function CaptainDashboard () {
     navigate('/share-ownership');
   };
   const isEligible = true;
+  const schemeNumber = 12;
+  const totalNumberOfCaptainsInTheSceme = 5000;
   const hasSatisfactoryAverageRating = true;
   const hasSatisfactoryRidesPerDay = true;
   const hasSatisfactoryConsistencyRatio = false;
@@ -130,6 +132,11 @@ export default function CaptainDashboard () {
             <div className="flex justify-between">
               <p className="text-[14px] text-gray-400">Vehicle Color</p><p className="text-[14px]">Black</p>
             </div>
+            {isEligible ? (<div className="flex justify-between">
+              <p className="text-[14px] text-gray-400">Scheme number</p><p className="text-[14px]">{schemeNumber} out of {totalNumberOfCaptainsInTheSceme}</p>
+            </div>) : 
+            (<div>
+            </div>)}
           </div>
         </section>
         <div className="vertical-line"></div> {/* vertical line*/}
