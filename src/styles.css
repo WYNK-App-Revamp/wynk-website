@@ -88,5 +88,5 @@ html {
 }
 
 .vertical-line {
-  @apply min-h-full border-l-[1px] w-[1px] bg-[#111827]
+  @apply min-h-full border-l-[1px] w-[1px] bg-[#111827];
 }
