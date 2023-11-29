@@ -1,8 +1,16 @@
+import { useNavigate, useSearchParams } from "react-router-dom";
 import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header from "../components/Header1";
+import LoginModal from "../components/LoginModal";
 
 function ShareOwnershipScheme() {
+  const [searchParams]= useSearchParams();
+  const login = searchParams.get('login') === 'true'? true : false;
+  const navigate = useNavigate();
+  function openLoginModal () {
+    navigate('/share-ownership?login=true');
+  }
   return (
     <>
     <section className="main-section bg-wynkPurple-100">
@@ -15,7 +23,12 @@ function ShareOwnershipScheme() {
             <a href="https://play.google.com/store/apps/details?id=ng.wynk.wynksupappsupapp&pli=1" target="_blank" rel="noreferrer">
               <button className="download-the-app-button">Download the app</button>
             </a>
-            <button className="border-wynkPurple-200 border rounded-md h-12 sm:py-3 sm:px-6 flex items-center text-center text-base sm:text-xl text-wynkPurple-200">Log in</button>
+            <button
+            onClick={openLoginModal} 
+            className="border-wynkPurple-200 border rounded-md h-12 sm:py-3 sm:px-6 flex items-center text-center text-base sm:text-xl text-wynkPurple-200">Log in</button>
+            <div>
+              {login? <LoginModal/> : null}
+            </div>
           </div>
         </div>
         <div>

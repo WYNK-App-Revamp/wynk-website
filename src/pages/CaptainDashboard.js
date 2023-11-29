@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { EligibilityCriteria, EligibleNote, IneligibleNote } from "../components/EligibilityComponents";
 import CaptainProgress from "../components/CaptainProgress";
+import ShareOwnershipProgressCircle from "../components/ShareOwnershipProgressCircle";
 
 export default function CaptainDashboard () {
   const navigate = useNavigate();
@@ -12,10 +13,28 @@ export default function CaptainDashboard () {
   const totalNumberOfCaptainsInTheSceme = 5000;
   const hasSatisfactoryAverageRating = true;
   const hasSatisfactoryRidesPerDay = true;
-  const hasSatisfactoryConsistencyRatio = false;
-  let progress = ((2/3) * 100).toFixed(1);
+  const hasSatisfactoryConsistencyRatio = true;
+
+  let criteriaMetCount = 0;
+
+  if (hasSatisfactoryAverageRating) {
+    criteriaMetCount++;
+  }
+
+  if (hasSatisfactoryRidesPerDay) {
+    criteriaMetCount++;
+  }
+
+  if (hasSatisfactoryConsistencyRatio) {
+    criteriaMetCount++;
+  }
+
+  let progress = ((criteriaMetCount / 3) * 100).toFixed(1);
   progress = parseFloat(progress);
   const percentageLeft = 100 - progress;
+
+  const totalCaptains = 5000;
+  const shareOwnershipCaptains = 500;
   return (
     <main >
       <section className="captain-dashboard-main-section flex justify-between">
@@ -118,30 +137,43 @@ export default function CaptainDashboard () {
           <p className="font-medium">Captain Details</p>
           <div className="captains-details flex flex-col gap-2">
             <div className="flex justify-between">
-              <p className="text-[14px] text-gray-400">First Name</p><p className="text-[14px]">John</p>
+              <p className="text-[14px] text-gray-400">First Name</p><p className="text-[14px] font-medium">John</p>
             </div>
             <div className="flex justify-between">
-              <p className="text-[14px] text-gray-400">Last Name</p><p className="text-[14px]">Doe</p>
+              <p className="text-[14px] text-gray-400">Last Name</p><p className="text-[14px] font-medium">Doe</p>
             </div>
             <div className="flex justify-between">
-              <p className="text-[14px] text-gray-400">Vehicle Number</p><p className="text-[14px]">BDG1235FG</p>
+              <p className="text-[14px] text-gray-400">Vehicle Number</p><p className="text-[14px] font-medium">BDG1235FG</p>
             </div>
             <div className="flex justify-between">
-              <p className="text-[14px] text-gray-400">Vehicle Make</p><p className="text-[14px]">Toyota Camry</p>
+              <p className="text-[14px] text-gray-400">Vehicle Make</p><p className="text-[14px] font-medium">Toyota Camry</p>
             </div>
             <div className="flex justify-between">
-              <p className="text-[14px] text-gray-400">Vehicle Color</p><p className="text-[14px]">Black</p>
+              <p className="text-[14px] text-gray-400">Vehicle Color</p><p className="text-[14px] font-medium">Black</p>
             </div>
             {isEligible ? (<div className="flex justify-between">
-              <p className="text-[14px] text-gray-400">Scheme number</p><p className="text-[14px]">{schemeNumber} out of {totalNumberOfCaptainsInTheSceme}</p>
+              <p className="text-[14px] text-gray-400">Scheme number</p><p className="text-[14px] font-medium">{schemeNumber} of {totalNumberOfCaptainsInTheSceme}</p>
             </div>) : 
-            (<div>
-            </div>)}
+            null}
           </div>
         </section>
         <div className="vertical-line"></div> {/* vertical line*/}
         <section className="flex flex-col gap-8 sm:w-1/3">
-          <p className="font-medium">You are {percentageLeft}% away from being eligible</p>
+          <div className="flex gap-6 items-center">
+            <ShareOwnershipProgressCircle
+            totalCaptains={totalCaptains} 
+            shareOwnershipCaptains={shareOwnershipCaptains}
+            />
+            <div>
+              <p className="text-[16px] font-medium"><span className="text-wynkPurple-200">{shareOwnershipCaptains}</span> Captains are on the scheme</p>
+              <p className="text-[14px] text-[#8D9091]">Check your eligibility below</p>
+            </div>
+          </div>
+          {isEligible ? (
+            <p className="font-medium">You are 100% eligible</p>
+          ) : (
+            <p className="font-medium">You are {percentageLeft}% away from being eligible</p>
+          )}
           <CaptainProgress progress={progress}/>
           <EligibilityCriteria
           hasSatisfactoryAverageRating={hasSatisfactoryAverageRating}
