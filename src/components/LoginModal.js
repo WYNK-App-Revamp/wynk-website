@@ -10,13 +10,15 @@ export default function LoginModal() {
     console.log(password, `+234${phone}`);
   };
 
-  // To route to this page with the previous page as background;
-  //when the user clicks log in, do navigate('whateverpage/whatever?login=true')
-  // const [searchParams]= useSearchParams()
-  //const login = searchParams.get('login') === 'true'? true : false;
-
-  //finally render this
-  // {login? <LoginModal/> : null}
+  /** To route to this page with the previous page as background;
+   * when the user clicks log in, do navigate('/share-ownership?login=true')
+   * in share ownership this is done:
+   * const [searchParams]= useSearchParams()
+   * const login = searchParams.get('login') === 'true'? true : false;
+   * 
+   * and finally rendered like this:
+   *  {login? <LoginModal/> : null}
+   */
 
   return (
     <div className="fixed w-screen h-screen bg-[rgba(52,64,84,0.6)] backdrop-blur-[4px] top-0 left-0  z-10 grid place-items-center">
@@ -104,7 +106,7 @@ export default function LoginModal() {
           </div>
         </form>
         <div className="bg-cover bg-center h-full ">
-          <img src="/images/unsplash_ELJM628U4Jk.png" className="w-full h-full" alt="" />
+          <img src="/images/captain-login-image.png" className="w-full h-full" alt="" />
         </div>
       </article>
     </div>
