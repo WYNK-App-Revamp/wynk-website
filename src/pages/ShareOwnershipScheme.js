@@ -3,14 +3,19 @@ import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header from "../components/Header1";
 import LoginModal from "../components/LoginModal";
+import CaptainDashboardModal from "../components/CaptainDashboardModal";
 
 function ShareOwnershipScheme() {
   const [searchParams]= useSearchParams();
   const login = searchParams.get('login') === 'true'? true : false;
+  const isLoggedIn = searchParams.get('isLoggedIn') === 'true'? true : false;
   const navigate = useNavigate();
   function openLoginModal () {
     navigate('/share-ownership?login=true');
   }
+  /*function openCaptainDashboardModal () {
+    navigate('/share-ownership?login=true');
+  }*/
   return (
     <>
     <section className="main-section bg-wynkPurple-100">
@@ -28,6 +33,9 @@ function ShareOwnershipScheme() {
             className="border-wynkPurple-200 border rounded-md h-12 sm:py-3 sm:px-6 flex items-center text-center text-base sm:text-xl text-wynkPurple-200">Log in</button>
             <div>
               {login? <LoginModal/> : null}
+            </div>
+            <div>
+              {isLoggedIn? <CaptainDashboardModal/> : null}
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ export default function ShareOwnershipProgressCircle(props) {
   const formattedshareOwnershipCaptains = formatNumber(shareOwnershipCaptains);
 
   return (
-    <svg width="120" height="120" viewBox="0 0 120 120">
+    <svg width="90" height="90" viewBox="0 0 120 120">
       <circle
         cx="60"
         cy="60"

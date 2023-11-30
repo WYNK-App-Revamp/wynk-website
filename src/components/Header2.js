@@ -1,9 +1,14 @@
 import { useEffect, useRef, useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import OurServicesDropdown from "./OurServicesDropdown";
 import BecomeAPartnerDropdown from "./BecomeAPartnerDropdown";
 
 export default function Header2() {
+  const navigate = useNavigate();
+  function navigateToHome () {
+    navigate('/');
+  }
+
   const location = useLocation();
   const [isOurServicesOpen, setIsOurServicesOpen] = useState(false);
   const [isBecomeAParterOpen, setIsBecomeAParterOpen] = useState(false);
@@ -40,8 +45,14 @@ export default function Header2() {
 
   return (
     <header className="header flex flex-row items-center h-8">
-      <div className="mr-auto">
-        <img alt="wynk logo" src="../images/wynk_logo_2.png" />
+      <div className="mr-auto cursor-pointer" onClick={navigateToHome}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="32" viewBox="0 0 50 32" fill="none">
+          <path d="M10.8478 24.6281L8.38841 17.1104H6.69488L4.21472 24.6281L2.15734 17.1104H0L3.12536 27.79H4.9601L7.50138 20.0626L10.0621 27.79H11.8968L15.0028 17.1104H12.9259L10.8478 24.6281Z" fill="white"/>
+          <path d="M20.4256 25.0259L17.3007 17.1104H15.1025L19.2568 27.2852L19.3771 27.5814L17.6835 32H19.7728L25.5678 17.1106H23.4506L20.4256 25.0259Z" fill="white"/>
+          <path d="M31.5162 16.8795C30.9438 16.8697 30.3763 16.9904 29.8536 17.2329C29.3309 17.4755 28.8657 17.8341 28.4909 18.2835V17.1107H26.4551V27.7903H28.4906V21.4452C28.4906 19.8537 29.5383 18.7858 31.0114 18.7858C32.4633 18.7858 33.4313 19.8326 33.4313 21.3826V27.7903H35.4684V20.9639C35.4686 18.6811 33.8759 16.8795 31.5162 16.8795Z" fill="white"/>
+          <path d="M41.3753 22.2618L46.0536 17.1106H43.6346L39.4814 21.8214V13.1309H37.4443V27.79H39.4814V22.8893L43.7361 27.7891L47.456 31.979H50.0003L46.2966 27.79L41.3753 22.2618Z" fill="white"/>
+          <path d="M29.3216 0C26.854 0.00312773 24.4717 0.938213 22.619 2.63089C20.7663 4.32356 19.5696 6.65826 19.2521 9.19964C17.4178 8.91626 15.7424 7.95862 14.5306 6.50088C13.3187 5.04314 12.6508 3.18211 12.6484 1.25624V0.977426H10.2285V1.25692C10.2286 3.93655 11.2112 6.51561 12.9765 8.46988C14.7419 10.4242 17.1575 11.607 19.7325 11.778C22.3074 11.949 24.8485 11.0953 26.8391 9.39047C28.8298 7.68562 30.1206 5.25754 30.4494 2.59975C32.2836 2.88308 33.959 3.84071 35.1709 5.29846C36.3828 6.75621 37.0507 8.61726 37.053 10.5431V10.8224H39.4729V10.5429C39.47 7.74776 38.3996 5.06794 36.4965 3.09142C34.5934 1.11491 32.013 0.00312006 29.3216 0ZM21.7058 9.16451C21.9814 7.53674 22.7328 6.03656 23.8581 4.86787C24.9833 3.69917 26.4278 2.91865 27.9952 2.63239C27.7196 4.26015 26.9682 5.76033 25.8429 6.92903C24.7177 8.09772 23.2732 8.87824 21.7058 9.16451Z" fill="#F98611"/>
+        </svg>
       </div>
       <nav className="navbar-web">
         <div

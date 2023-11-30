@@ -726,6 +726,10 @@ video {
   width: 60%;
 }
 
+.w-\[70\%\] {
+  width: 70%;
+}
+
 .w-\[78\%\] {
   width: 78%;
 }
@@ -736,6 +740,18 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[75\%\] {
+  width: 75%;
 }
 
 .min-w-full {
@@ -1063,6 +1079,10 @@ video {
   line-height: 2.5rem;
 }
 
+.text-\[12px\] {
+  font-size: 12px;
+}
+
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -1105,6 +1125,14 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[13px\] {
+  font-size: 13px;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
 }
 
 .font-bold {
@@ -1562,7 +1590,7 @@ html {
 
 @media (min-width: 640px) {
   .captain-dashboard-metrics-card {
-    width: 20%;
+    width: 30%;
   }
 }
 
@@ -1612,8 +1640,8 @@ html {
 
 @media (min-width: 768px) {
   .captain-dashboard-main-section {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     padding-left: 110px;
     padding-right: 110px;
   }

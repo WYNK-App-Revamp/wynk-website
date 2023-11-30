@@ -3,7 +3,7 @@ import { EligibilityCriteria, EligibleNote, IneligibleNote } from "../components
 import CaptainProgress from "../components/CaptainProgress";
 import ShareOwnershipProgressCircle from "../components/ShareOwnershipProgressCircle";
 
-export default function CaptainDashboard () {
+export default function CaptainDashboardModal() {
   const navigate = useNavigate();
   const navigateToShareOwnership = () => {
     navigate('/share-ownership');
@@ -36,7 +36,8 @@ export default function CaptainDashboard () {
   const totalCaptains = 5000;
   const shareOwnershipCaptains = 500;
   return (
-    <main >
+    <div className="p-3 fixed w-screen h-screem bg-[rgba(52,64,84,0.6)] backdrop-blur-[4px] top-0 left-0  z-10 grid place-items-center">
+      <main className="bg-white w-[75%] rounded-[20px]" >
       <section className="captain-dashboard-main-section flex justify-between">
         <div className="flex items-end gap-3">
           <div className="bg-wynkPurple-200 rounded-full w-10 h-10 p-3 flex justify-center items-center text-white">JD</div>
@@ -93,7 +94,7 @@ export default function CaptainDashboard () {
             <img src="/images/purple-star.png" alt="eligiility status"/>
             <p className="text-[14px] font-medium">Benefits</p>
           </div>
-          <div className="ml-8">
+          <div className="ml-8 text-[14px]">
             <div className="flex items-center gap-2 font-medium">
               <p className="bullet-point">
               •
@@ -133,7 +134,7 @@ export default function CaptainDashboard () {
         </div>
       </section>
       <section className="captain-dashboard-main-section flex justify-between">
-        <section className="flex flex-col gap-8 sm:w-1/3">
+        <section className="flex flex-col gap-4 sm:w-2/5">
           <p className="font-medium">Captain Details</p>
           <div className="captains-details flex flex-col gap-2">
             <div className="flex justify-between">
@@ -158,21 +159,21 @@ export default function CaptainDashboard () {
           </div>
         </section>
         <div className="vertical-line"></div> {/* vertical line*/}
-        <section className="flex flex-col gap-8 sm:w-1/3">
-          <div className="flex gap-6 items-center">
+        <section className="flex flex-col gap-3 sm:w-2/5">
+          <div className="flex gap-3 items-center">
             <ShareOwnershipProgressCircle
             totalCaptains={totalCaptains} 
             shareOwnershipCaptains={shareOwnershipCaptains}
             />
             <div>
-              <p className="text-[16px] font-medium"><span className="text-wynkPurple-200">{shareOwnershipCaptains}</span> Captains are on the scheme</p>
-              <p className="text-[14px] text-[#8D9091]">Check your eligibility below</p>
+              <p className="text-[14px] font-medium"><span className="text-wynkPurple-200">{shareOwnershipCaptains}</span> Captains are on the scheme</p>
+              <p className="text-[12px] text-[#8D9091]">Check your eligibility below</p>
             </div>
           </div>
           {isEligible ? (
-            <p className="font-medium">You are 100% eligible</p>
+            <p className="font-medium text-[13px]">You are 100% eligible</p>
           ) : (
-            <p className="font-medium">You are {percentageLeft}% away from being eligible</p>
+            <p className="font-medium text-[13px]">You are {percentageLeft}% away from being eligible</p>
           )}
           <CaptainProgress progress={progress}/>
           <EligibilityCriteria
@@ -183,5 +184,6 @@ export default function CaptainDashboard () {
         </section>
       </section>
     </main>
+    </div>
   );
 }
