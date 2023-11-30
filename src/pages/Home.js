@@ -6,7 +6,7 @@ import ServicesComponentsSwapper from "../components/ServicesComponentsSwapper";
 function Home() {
   return (
     <main>
-    <section className="main-section min-h-screen text-white bg-no-repeat bg-center bg-contain sm:bg-cover" style={{ 
+    <section className="main-section min-h-screen text-white bg-no-repeat bg-center bg-cover" style={{ 
       background: "linear-gradient(135deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%), url(/images/lady-in-car-compressed-bg.webp)", 
       }}>
       <Header2/>
