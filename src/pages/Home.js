@@ -31,10 +31,10 @@ function Home() {
         <p className="text-sm sm:text-lg text-center w-4/5 sm:w-3/4">WynkStars including Consumers, Captains, Merchants, and Businesses can explore boundless access to a variety of services on the Wynk Super App.</p>
       </div>
       <div className="flex justify-center gap-6">
-        <img className="hover:cursor-pointer w-1/5" src="/images/customers-link.png" alt="link-component"/>
-        <img className="hover:cursor-pointer w-1/5" src="/images/captains-link.png" alt="link-component"/>
-        <img className="hover:cursor-pointer w-1/5" src="/images/merchant-link.png" alt="link-component"/>
-        <img className="hover:cursor-pointer w-1/5" src="/images/businesses-link.png" alt="link-component"/>
+        <img className="w-1/5" src="/images/customers-link.svg" alt="link-component"/>
+        <img className="w-1/5" src="/images/captains-link.svg" alt="link-component"/>
+        <img className="w-1/5" src="/images/merchant-link.svg" alt="link-component"/>
+        <img className="w-1/5" src="/images/businesses-link.svg" alt="link-component"/>
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite flex flex-col gap-6 sm:gap-16 items-center">
@@ -49,7 +49,7 @@ function Home() {
         <img className="rounded-lg" src="/images/wynk-super-app-youtube-image.png" alt="youtube link"/>
       </div>
       <div className=" flex flex-col gap-4">
-        <img src="/images/metrics-components.png" alt="metrics components" />
+        <img src="/images/metrics-components.svg" alt="metrics components" />
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
