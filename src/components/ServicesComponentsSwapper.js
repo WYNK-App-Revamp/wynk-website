@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const images = ["/images/payment-services-component.png", "/images/rides-services-component.png", "/images/lifestyle-services-component.png"];
+const images = ["/images/payment-services-component.svg", "/images/rides-services-component.svg", "/images/lifestyle-services-component.svg"];
 
 function ServicesComponentsSwapper() {
   const [currentIndex, setCurrentIndex] = useState(0);
