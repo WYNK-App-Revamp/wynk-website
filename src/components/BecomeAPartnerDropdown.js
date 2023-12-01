@@ -6,7 +6,7 @@ export default function BecomeAPartnerDropdown () {
     navigate('/share-ownership');
   };
   const navigateToWynkForCaptains = () => {
-    navigate('/wynk-for-captains');
+    navigate('/rides');
   };
   const navigateToWynkForMerchants = () => {
     navigate('/wynk-for-merchants');
@@ -36,7 +36,7 @@ export default function BecomeAPartnerDropdown () {
           <img className="min-w-full" src="/images/captains-icon.png" alt="captains icon"/>
         </div>
         <div className="flex flex-col gap-2">
-          <p className="text-[18px]">Shared Ownership for Captains</p>
+          <p className="text-[18px]">Share Ownership for Captains</p>
           <p className="text-[14px] text-black text-opacity-70 pr-4">Ownership initiative which aims to reward high-performing Captains</p>
         </div>
       </div>
