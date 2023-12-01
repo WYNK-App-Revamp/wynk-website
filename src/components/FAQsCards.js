@@ -43,7 +43,7 @@ Perhaps that's not the case, proceed to ensure a stable internet connection, upd
     {
       question: "What Lifestyle services does Wynk offer?",
       answer:
-        `Our lifestyle services cut across an ecommerce marketplace, hotel and flight bookings, seamless music and video streamings, social interaction, and more. Click here to explore.`,
+        `Our lifestyle services cut across an ecommerce marketplace, hotel and flight bookings, seamless music and video streamings, social interaction, and more. Click <a href="/lifestyle">here</a> to explore.`,
     },
     {
       question: "Are the options to become a Merchant/Vendor open to everyone? How do I get onboarded?",
@@ -56,7 +56,7 @@ To become a Wynk Merchant, sign up on the Wynk App and select the Lifestyle opti
     {
       question: "I want to become a Wynk Partner",
       answer:
-        `To become a Partner and own 2.5% shares on Wynk, join our Share Ownership Scheme open to Wynk Captains. Read up on the full benefits and package here.`,
+        `To become a Partner and own 2.5% shares on Wynk, join our Share Ownership Scheme open to Wynk Captains. Read up on the full benefits and package <a href="/share-ownership">here</a>`,
     },
   ];
 

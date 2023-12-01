@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route }
     from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import './index.css'
+import './vanilla.css'
 import Home from './pages/Home.js';
 import ContactUs from './pages/ContactUs.js';
 import Payments from './pages/Payments.js';
