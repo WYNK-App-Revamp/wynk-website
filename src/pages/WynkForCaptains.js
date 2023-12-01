@@ -19,9 +19,9 @@ export default function WynkForMerchants () {
     </section>
     <section className="main-section bg-wynkOffWhite scheme-hero-section section-inner-padding flex items-center gap-8">
       <div className="w-1/2 flex flex-col gap-6">
-        <p className="text-lg sm:text-2xl">Merchants</p>
-        <h2 className="font-bold text-3xl sm:text-5xl mb-5">Your Time, Your Goals, <span className="text-wynkPurple-200">You're in Charge!</span></h2>
-        <p className=" text-sm sm:text-xl mb-5 sm:w-[90%]">Be a part of our platform. You can sell your offerings on Wynk and trust us to handle the logistics.</p>
+        <p className="text-lg sm:text-2xl">Captains</p>
+        <h2 className="font-bold text-3xl sm:text-5xl mb-5">Ride Smarter, Arrive Happier with us!</h2>
+        <p className=" text-sm sm:text-xl mb-5 sm:w-[90%]">Choose Wynk for a seamless, safe, and stress-free ride. Wherever you're headed, we've got you covered.</p>
         <div className="call-to-actions flex gap-4">
           <button className="download-the-app-button"
           onClick={openDownloadWynkModal}
@@ -88,13 +88,21 @@ export default function WynkForMerchants () {
         </div>
       </div>
     </section>
-    <section className="main-section section-inner-padding bg-wynkPurple-100 justify-center items-center flex flex-col gap-8">
-      <p className="text-[24px] sm:text-[38px] text-center">How to Deliver with Wynk</p>
-      <p className="text-[14px] sm:text-[18px] text-center sm:w-1/2 mb-2">Craving your favorite cuisine or a refreshing drink? With Wynk, ordering food and drinks is a breeze. Follow these three simple steps to satisfy your taste buds:</p>
-      <div className="how-to-deliver-with-wynk flex flex-col md:flex-row items-center justify-center gap-6">
-        <img src="/images/enter-delivery-location.png" alt="How to Deliver with Wynk"/>
-        <img src="/images/leave-driver-a-note.png" alt="How to Deliver with Wynk"/>
-        <img src="/images/add-senders-info.png" alt="How to Deliver with Wynk"/>
+    <section className="main-section section-inner-padding flex flex-col items-center gap-4 bg-wynkPurple-100">
+      <div className="flex flex-col items-center gap-6">
+        <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-sm sm:text-base text-center font-bold p-2 sm:p-4 rounded-full">Wynk captain</h3>
+        <p className="sm:text-[38px] text-center font-bold w-3/5">Drive and earn as a captain with Wynk!</p>
+        <p className="sm:text-[18px] text-[#212529] mb-4 w-3/5 text-center">As a car owner, you can sign up with us a captain and earn while accepting in-app ride requests. It’s that easy!</p>
+        <button className="download-the-app-button mb-4">Learn More</button>
+      </div>
+      <div className="flex flex-col gap-6">
+        <div>
+        <img src="/images/signup-as-a-wynk-captain.png" alt="Sign up as a Wynk captain"/>
+      </div>
+      <div className="flex flex-col items-center sm:flex-row sm:justify-center gap-6">
+        <img src="/images/earn-as-you-drive.png" alt="Earn as you drive"/>
+        <img src="/images/carpool-multiple-passengers.png" alt="Car pool multiple passengers"/>
+      </div>
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">

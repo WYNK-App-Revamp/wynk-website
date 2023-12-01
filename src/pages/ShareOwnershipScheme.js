@@ -1,4 +1,5 @@
 import { useNavigate, useSearchParams } from "react-router-dom";
+import DownloadWynkModal from "../components/DownloadWynkModal";
 import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header from "../components/Header1";
@@ -9,7 +10,11 @@ function ShareOwnershipScheme() {
   const [searchParams]= useSearchParams();
   const login = searchParams.get('login') === 'true'? true : false;
   const isLoggedIn = searchParams.get('isLoggedIn') === 'true'? true : false;
+  const downloadWynkModalIsOpen = searchParams.get('downloadWynkModalIsOpen') === 'true'? true : false;
   const navigate = useNavigate();
+  function openDownloadWynkModal () {
+    navigate('/share-ownership?downloadWynkModalIsOpen=true');
+  }
   function openLoginModal () {
     navigate('/share-ownership?login=true');
   }
@@ -25,9 +30,10 @@ function ShareOwnershipScheme() {
           <h2 className="font-bold text-3xl sm:text-4xl md:text-[64px] md:leading-none mb-5"> <span className="text-wynkPurple-200">Share Ownership</span> scheme for Captains</h2>
           <p className=" text-sm sm:text-xl mb-5 sm:max-w-xl">Get exclusive opportunity to be one of 5,000 Captains to benefit in the share ownership initiative which aims to reward dedicated and high performing Captains</p>
           <div className="call-to-actions flex flex-start gap-4">
-            <a href="https://play.google.com/store/apps/details?id=ng.wynk.wynksupappsupapp&pli=1" target="_blank" rel="noreferrer">
-              <button className="download-the-app-button">Download the app</button>
-            </a>
+            <button className="download-the-app-button"
+            onClick={openDownloadWynkModal}
+            >Get the app</button>
+            {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
             <button
             onClick={openLoginModal} 
             className="border-wynkPurple-200 border rounded-md h-12 sm:py-3 sm:px-6 flex items-center text-center text-base sm:text-xl text-wynkPurple-200">Log in</button>
@@ -98,9 +104,10 @@ function ShareOwnershipScheme() {
         <h3 className="text-center text-4xl font-bold">To Become Eligible</h3>
         <div className="flex flex-col gap-6 items-center">
         <p className="w-4/5 text-center">To be eligible for the share ownership scheme, Captains must comply with the following conditions:</p>
-        <a href="https://play.google.com/store/apps/details?id=ng.wynk.wynksupappsupapp&pli=1" target="_blank" rel="noreferrer">
-        <button className="download-the-app-button">Download the app</button>
-        </a>
+        <button className="download-the-app-button"
+        onClick={openDownloadWynkModal}
+        >Get the app</button>
+        {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
         </div>
       </div>
       <section className="flex justify-center flex-col sm:flex-row flex-wrap gap-4">

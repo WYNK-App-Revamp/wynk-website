@@ -1,9 +1,17 @@
+import { useNavigate, useSearchParams } from "react-router-dom";
+import DownloadWynkModal from "../components/DownloadWynkModal";
 import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header1 from "../components/Header1";
 
 
 function Payments() {
+  const [searchParams]= useSearchParams();
+  const downloadWynkModalIsOpen = searchParams.get('downloadWynkModalIsOpen') === 'true'? true : false;
+  const navigate = useNavigate();
+  function openDownloadWynkModal () {
+    navigate('/payments?downloadWynkModalIsOpen=true');
+  }
   return (
     <main>
     <section className="main-section bg-wynkPurple-100 min-h-screen" style={{ 
@@ -28,7 +36,10 @@ function Payments() {
         <div className="flex flex-col items-start gap-2 md:w-1/2">
           <p className="sm:text-[38px] font-bold">Unlock Payments without Boundaries</p>
           <p className="sm:text-[18px] text-[#212529] mb-4">Bypass online payment delays and discover unlimited access to seamless mobile subscriptions, utility bills, loans, online betting, and more!</p>
-          <button className="download-the-app-button">Get the app</button>
+          <button className="download-the-app-button"
+          onClick={openDownloadWynkModal}
+          >Get the app</button>
+          {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
         </div>
       </div>
     </section>
@@ -37,7 +48,10 @@ function Payments() {
         <div className="flex flex-col items-start gap-2 md:w-1/2">
           <p className="sm:text-[38px] font-bold">Unmatched Convenience for everyone</p>
           <p className="sm:text-[18px] text-[#212529] mb-4">Customers, Captains,  and Businesses can enjoy a more secure and convenient mode of sending and receiving money with Wynk.</p>
-          <button className="download-the-app-button">Get the app</button>
+          <button className="download-the-app-button"
+          onClick={openDownloadWynkModal}
+          >Get the app</button>
+          {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
         </div>
         <div className="md:w-1/2">
           <img src="/images/pay-bills-assets.png" alt="phone transfer screen"/>

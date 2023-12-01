@@ -1,8 +1,16 @@
+import { useNavigate, useSearchParams } from "react-router-dom";
+import DownloadWynkModal from "../components/DownloadWynkModal";
 import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header1 from "../components/Header1";
 
 export default function Lifestyle() {
+  const [searchParams]= useSearchParams();
+  const downloadWynkModalIsOpen = searchParams.get('downloadWynkModalIsOpen') === 'true'? true : false;
+  const navigate = useNavigate();
+  function openDownloadWynkModal () {
+    navigate('/lifestyle?downloadWynkModalIsOpen=true');
+  }
   return (
     <>
       <section className="main-section bg-wynkPurple-100">
@@ -24,7 +32,10 @@ export default function Lifestyle() {
           <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-sm sm:text-lg text-center font-bold p-2 md:p-4 rounded-full">Wynk Marketplace</h3>
           <p className="sm:text-[38px] font-bold">Secure Shopping, Worry-Free Payments</p>
           <p className="sm:text-[18px] text-[#212529] mb-4">Say goodbye to the uncertainties of "Payment on Delivery" issues. With our Buyer’s Protection Feature, we've redefined the way you shop online.</p>
-          <button className="download-the-app-button">Get the app</button>
+          <button className="download-the-app-button"
+          onClick={openDownloadWynkModal}
+          >Get the app</button>
+          {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
         </div>
         <div className="md:w-1/2">
           <img src="/images/shopping-phone-component.png" alt="phone shopping screen"/>
@@ -40,7 +51,10 @@ export default function Lifestyle() {
           <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-sm sm:text-lg text-center font-bold p-2 sm:p-4 rounded-full">Flight Booking</h3>
           <p className="sm:text-[38px] font-bold">Soar to New Horizons!</p>
           <p className="sm:text-[18px] text-[#212529] mb-4">Get ready to take flight! With Wynk, you can effortlessly plan your next voyage. Discover the world's most iconic destinations or embark on a spontaneous getaway.</p>
-          <button className="download-the-app-button">Get the app</button>
+          <button className="download-the-app-button"
+          onClick={openDownloadWynkModal}
+          >Get the app</button>
+          {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
         </div>
       </div>
     </section>
@@ -63,7 +77,10 @@ export default function Lifestyle() {
           <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-sm sm:text-lg text-center font-bold p-2 sm:p-4 rounded-full w-1/2 sm:w-2/5">Wynk Social</h3>
           <p className="sm:text-[38px] font-bold">Stay Connected and Share the Magic!</p>
           <p className="sm:text-[18px] text-[#212529] mb-4">Wynk isn't just about transactions; it's about connection. Share your experiences with friends, family, and the world! Keep your social life vibrant and alive.</p>
-          <button className="download-the-app-button">Get the app</button>
+          <button className="download-the-app-button"
+          onClick={openDownloadWynkModal}
+          >Get the app</button>
+          {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
         </div>
       </div>
     </section>

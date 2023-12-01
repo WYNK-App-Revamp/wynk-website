@@ -1,9 +1,18 @@
+import { useNavigate, useSearchParams } from "react-router-dom";
 import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header2 from "../components/Header2";
 import ServicesComponentsSwapper from "../components/ServicesComponentsSwapper";
+import DownloadWynkModal from "../components/DownloadWynkModal";
 
 function Home() {
+  const [searchParams]= useSearchParams();
+  const downloadWynkModalIsOpen = searchParams.get('downloadWynkModalIsOpen') === 'true'? true : false;
+  const navigate = useNavigate();
+  function openDownloadWynkModal () {
+    navigate('/?downloadWynkModalIsOpen=true');
+  }
+
   return (
     <main>
     <section className="main-section min-h-screen text-white bg-no-repeat bg-center bg-cover" style={{ 
@@ -15,9 +24,10 @@ function Home() {
           <h2 className="font-bold text-4xl sm:text-6xl mb-5 sm:pr-2"> Boundless access to all your needs</h2>
           <p className=" text-sm sm:text-xl mb-5 max-w-xl">Whether it’s Ride-hailing, Payments, or Lifestyle Services, the Wynk Lifestyle Super App creates a reality where WynkStars thrive beyond the ordinary.</p>
           <div className="call-to-actions flex gap-4">
-            <a href="https://play.google.com/store/apps/details?id=ng.wynk.wynksupappsupapp&pli=1" target="_blank" rel="noreferrer">
-            <button className="download-the-app-button">Get the app</button>
-            </a>
+            <button className="download-the-app-button"
+            onClick={openDownloadWynkModal}
+            >Get the app</button>
+            {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
           </div>
         </div>
       </section>

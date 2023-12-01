@@ -582,10 +582,6 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -734,6 +730,10 @@ video {
   width: 78%;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -840,10 +840,6 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.whitespace-pre {
-  white-space: pre;
 }
 
 .whitespace-pre-wrap {
@@ -1003,6 +999,11 @@ video {
   padding: 2rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1052,8 +1053,8 @@ video {
   padding-right: 1rem;
 }
 
-.pr-8 {
-  padding-right: 2rem;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-center {
@@ -1456,7 +1457,6 @@ html {
 
 .download-wynk-card {
   display: flex;
-  gap: 6rem;
   border-radius: 1rem;
   --tw-bg-opacity: 1;
   background-color: rgb(235 235 249 / var(--tw-bg-opacity));
@@ -1469,6 +1469,28 @@ html {
 
 @media (min-width: 640px) {
   .download-wynk-card {
+    gap: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+  }
+}
+
+.download-wynk-modal {
+  display: flex;
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+  --tw-text-opacity: 1;
+  color: rgb(33 30 138 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .download-wynk-modal {
+    gap: 6rem;
     padding-left: 5rem;
     padding-right: 5rem;
     padding-top: 5rem;
@@ -1773,6 +1795,10 @@ html {
 
   .sm\:pr-2 {
     padding-right: 0.5rem;
+  }
+
+  .sm\:pr-8 {
+    padding-right: 2rem;
   }
 
   .sm\:text-2xl {
