@@ -3,6 +3,7 @@ import DownloadWynkModal from "../components/DownloadWynkModal";
 import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header1 from "../components/Header1";
+import { ImageTexts } from "../components/ImageTexts";
 
 
 function Payments() {
@@ -62,9 +63,21 @@ function Payments() {
       <p className="text-[24px] sm:text-[38px] text-center">Personalised Virtual Card</p>
       <p className="text-[14px] sm:text-[18px] text-center sm:w-1/2 mb-2">Elevate your digital transactions with the Wynk Vault. Whether you're shopping, subscribing, or paying bills, we offer an extra layer of protection for you.</p>
       <div className="virtual-card-services flex flex-col md:flex-row items-center justify-center gap-6">
-        <img src="/images/fund-your-card.png" alt="virtual card service"/>
-        <img src="/images/spend-with-card.png" alt="virtual card service"/>
-        <img src="/images/set-card-limit.png" alt="virtual card service"/>
+        <ImageTexts
+        image='fund-your-card.svg'
+        header='Fund your card'
+        paragraph='Fund your cards and manage your online transactions'
+        />
+        <ImageTexts
+        image='spend-with-card.svg'
+        header='Spend with card'
+        paragraph='Eliminate the need for cash and go cashless'
+        />
+        <ImageTexts
+        image='set-card-limit.svg'
+        header='Set card limit'
+        paragraph='Manage you finances and spend within your budget'
+        />
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
