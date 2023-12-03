@@ -6,7 +6,7 @@ export function ImageTexts (props) {
       </div>
       <div className="flex flex-col items-center">
         <p className="text-[18px] font-medium">{props.header}</p>
-        <p className="w-[80%] text-[16px] text-[#52525B] text-center">{props.paragraph}</p>
+        <p className="w-[70%] text-[16px] text-[#52525B] text-center">{props.paragraph}</p>
       </div>
     </div>
   );

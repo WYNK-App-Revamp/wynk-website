@@ -3,6 +3,7 @@ import DownloadWynkModal from "../components/DownloadWynkModal";
 import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header1 from "../components/Header1";
+import { ImageTexts } from "../components/ImageTexts";
 
 export default function Lifestyle() {
   const [searchParams]= useSearchParams();
@@ -63,9 +64,21 @@ export default function Lifestyle() {
       <p className="text-[24px] sm:text-[38px] text-center">Satisfy Your Cravings!</p>
       <p className="text-[14px] sm:text-[18px] text-center sm:w-1/2 mb-2">Craving your favourite cuisine or a refreshing drink? With Wynk, ordering food and drinks is a breeze in just three simple steps</p>
       <div className="food-drinks-services flex flex-col md:flex-row items-center justify-center gap-6">
-        <img src="/images/food-drinks-presentation-1.png" alt="food and drinks service"/>
-        <img src="/images/food-drinks-presentation-2.png" alt="food and drinks service"/>
-        <img src="/images/food-drinks-presentation-3.png" alt="food and drinks service"/>
+        <ImageTexts
+        image='food-drinks-presentation-1.svg'
+        header='Explore a World of Options'
+        paragraph='Open the App & browse through the extensive range of restaurant and bars.'
+        />
+        <ImageTexts
+        image='food-drinks-presentation-2.svg'
+        header='Customize Your Order'
+        paragraph='Select how much of the item you want to order from the seller on Wynk'
+        />
+        <ImageTexts
+        image='food-drinks-presentation-3.svg'
+        header='Secure and Convenient Delivery'
+        paragraph='Sit back and relax as your order is swiftly prepared and dispatched to your location.'
+        />
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
