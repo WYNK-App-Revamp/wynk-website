@@ -2,9 +2,10 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import DownloadWynkModal from "../components/DownloadWynkModal";
 import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
-import Header from "../components/Header1";
+import Header1 from "../components/Header1";
 import LoginModal from "../components/LoginModal";
 import CaptainDashboardModal from "../components/CaptainDashboardModal";
+import Header1Mobile from "../components/Header1Mobile";
 
 function ShareOwnershipScheme() {
   const [searchParams]= useSearchParams();
@@ -24,7 +25,8 @@ function ShareOwnershipScheme() {
   return (
     <>
     <section className="main-section bg-wynkPurple-100">
-      <Header/>
+      <Header1/>
+      <Header1Mobile/>
       <section className="scheme-hero-section section-inner-padding flex items-center gap-4">
         <div className="w-3/4 flex flex-col items-start">
           <h2 className="font-bold text-3xl sm:text-4xl md:text-[64px] md:leading-none mb-5"> <span className="text-wynkPurple-200">Share Ownership</span> scheme for Captains</h2>

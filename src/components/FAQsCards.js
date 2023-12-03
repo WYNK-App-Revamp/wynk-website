@@ -87,7 +87,7 @@ To become a Wynk Merchant, sign up on the Wynk App and select the Lifestyle opti
       ));
 
   return (
-    <div className="w-1/2 mx-auto mt-[-150px] bg-white p-4 rounded-2xl">
+    <div className="w-[90%] sm:w-1/2 mx-auto mt-[-150px] bg-white p-4 rounded-2xl">
       {faqsArray}
     </div>
   );

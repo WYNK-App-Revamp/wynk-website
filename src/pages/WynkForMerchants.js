@@ -3,6 +3,7 @@ import DownloadWynkModal from "../components/DownloadWynkModal";
 import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header1 from "../components/Header1";
+import Header1Mobile from "../components/Header1Mobile";
 
 export default function WynkForMerchants () {
   const [searchParams]= useSearchParams();
@@ -16,6 +17,7 @@ export default function WynkForMerchants () {
     <>
     <section className="main-section bg-wynkPurple-100">
       <Header1/> 
+      <Header1Mobile/>
     </section>
     <section className="main-section bg-wynkOffWhite scheme-hero-section section-inner-padding flex items-center gap-8">
       <div className="w-1/2 flex flex-col gap-6">

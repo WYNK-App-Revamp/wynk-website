@@ -4,6 +4,7 @@ import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header1 from "../components/Header1";
 import { ImageTexts } from "../components/ImageTexts";
+import Header1Mobile from "../components/Header1Mobile";
 
 export default function Lifestyle() {
   const [searchParams]= useSearchParams();
@@ -16,6 +17,7 @@ export default function Lifestyle() {
     <>
       <section className="main-section bg-wynkPurple-100">
         <Header1/>
+        <Header1Mobile/>
       </section>
       <section className="main-section bg-no-repeat bg-contain sm:bg-cover min-h-[80vh] text-white flex flex-col gap-6 items-center justify-center  " style={{ 
         background: "url(/images/plain-lifestyle-hero-bg.png)", 
@@ -28,11 +30,11 @@ export default function Lifestyle() {
         <img src="/images/wynk-lifestyle-services-frame.png" alt="lifestyle services component"/>
       </section>
       <section className="main-section section-inner-padding bg-wynkPurple-100">
-      <div className="px-8 md:px-16 flex items-center gap-4">
-        <div className="flex items-start flex-col gap-2 md:w-1/2">
+      <div className="px-8 md:px-16 flex flex-col md:flex-row items-center gap-4">
+        <div className="flex flex-col items-center md:items-start gap-2 md:w-1/2">
           <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-sm sm:text-lg text-center font-bold p-2 md:p-4 rounded-full">Wynk Marketplace</h3>
-          <p className="sm:text-[38px] font-bold">Secure Shopping, Worry-Free Payments</p>
-          <p className="sm:text-[18px] text-[#212529] mb-4">Say goodbye to the uncertainties of "Payment on Delivery" issues. With our Buyer’s Protection Feature, we've redefined the way you shop online.</p>
+          <p className="sm:text-[38px] text-center md:text-start font-bold">Secure Shopping, Worry-Free Payments</p>
+          <p className="sm:text-[18px] text-center md:text-start text-[#212529] mb-4">Say goodbye to the uncertainties of "Payment on Delivery" issues. With our Buyer’s Protection Feature, we've redefined the way you shop online.</p>
           <button className="download-the-app-button"
           onClick={openDownloadWynkModal}
           >Get the app</button>
@@ -44,14 +46,14 @@ export default function Lifestyle() {
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
-      <div className="px-6 md:px-12 flex items-center gap-16">
+      <div className="px-6 md:px-12 flex flex-col md:flex-row gap-16">
         <div className="md:w-1/2">
           <img src="/images/flight-booking-phone-component.png" alt="flight booking phone screen"/>
         </div>
-        <div className="flex flex-col items-start gap-2 md:w-1/2">
+        <div className="flex flex-col items-center md:items-start md:w-1/2">
           <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-sm sm:text-lg text-center font-bold p-2 sm:p-4 rounded-full">Flight Booking</h3>
-          <p className="sm:text-[38px] font-bold">Soar to New Horizons!</p>
-          <p className="sm:text-[18px] text-[#212529] mb-4">Get ready to take flight! With Wynk, you can effortlessly plan your next voyage. Discover the world's most iconic destinations or embark on a spontaneous getaway.</p>
+          <p className="sm:text-[38px] text-center md:text-start font-bold">Soar to New Horizons!</p>
+          <p className="sm:text-[18px] text-center text-[#212529] mb-4">Get ready to take flight! With Wynk, you can effortlessly plan your next voyage. Discover the world's most iconic destinations or embark on a spontaneous getaway.</p>
           <button className="download-the-app-button"
           onClick={openDownloadWynkModal}
           >Get the app</button>

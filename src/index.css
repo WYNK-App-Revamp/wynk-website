@@ -570,6 +570,10 @@ video {
   margin-bottom: 5rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -580,6 +584,10 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .ml-1 {
@@ -674,10 +682,6 @@ video {
   min-height: 80vh;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -740,6 +744,10 @@ video {
 
 .w-\[80\%\] {
   width: 80%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .w-full {
@@ -967,6 +975,10 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
+.bg-auto {
+  background-size: auto;
+}
+
 .bg-contain {
   background-size: contain;
 }
@@ -977,6 +989,10 @@ video {
 
 .bg-center {
   background-position: center;
+}
+
+.bg-right {
+  background-position: right;
 }
 
 .bg-no-repeat {
@@ -1001,11 +1017,6 @@ video {
 
 .p-8 {
   padding: 2rem;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 .px-2 {
@@ -1112,8 +1123,8 @@ video {
   font-size: 27px;
 }
 
-.text-\[38px\] {
-  font-size: 38px;
+.text-\[28px\] {
+  font-size: 28px;
 }
 
 .text-\[48px\] {
@@ -1360,8 +1371,13 @@ html {
 
 .why-join-the-scheme {
   display: flex;
-  width: 80%;
   gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .why-join-the-scheme {
+    width: 80%;
+  }
 }
 
 .scheme-points {
@@ -1478,9 +1494,10 @@ html {
   border-radius: 1rem;
   --tw-bg-opacity: 1;
   background-color: rgb(235 235 249 / var(--tw-bg-opacity));
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   padding-top: 3rem;
+  padding-bottom: 3rem;
   --tw-text-opacity: 1;
   color: rgb(33 30 138 / var(--tw-text-opacity));
 }
@@ -1500,9 +1517,10 @@ html {
   border-radius: 1rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   padding-top: 3rem;
+  padding-bottom: 3rem;
   --tw-text-opacity: 1;
   color: rgb(33 30 138 / var(--tw-text-opacity));
 }
@@ -1545,7 +1563,7 @@ html {
 }
 
 .contact-card {
-  width: 75%;
+  width: 90%;
   border-radius: 1rem;
   --tw-bg-opacity: 1;
   background-color: rgb(235 235 249 / var(--tw-bg-opacity));
@@ -1697,8 +1715,16 @@ html {
     margin-bottom: 5rem;
   }
 
+  .sm\:mr-auto {
+    margin-right: auto;
+  }
+
   .sm\:mt-\[15\%\] {
     margin-top: 15%;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:h-10 {
@@ -1755,6 +1781,10 @@ html {
 
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:items-center {
+    align-items: center;
   }
 
   .sm\:justify-center {
@@ -1906,6 +1936,10 @@ html {
     width: 50%;
   }
 
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
   .md\:w-\[25\%\] {
     width: 25%;
   }
@@ -1914,8 +1948,16 @@ html {
     flex-direction: row;
   }
 
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:p-4 {
@@ -1930,6 +1972,10 @@ html {
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .md\:text-start {
+    text-align: start;
   }
 
   .md\:text-\[64px\] {

@@ -1,12 +1,12 @@
 function Footer() {
   return (
     <footer className="main-section footer">
-      <section className="go-to-links flex flex-wrap justify-between">
-        <section className="flex flex-col gap-4">
+      <section className="go-to-links flex flex-col md:flex-row md:justify-between">
+        <section className="flex mb-8 flex-col gap-4">
           <h4>Address</h4>
           <p>Lekki, Lagos - Nigeria</p>
         </section>
-        <section className="flex flex-col gap-4">
+        <section className="flex mb-8 flex-col gap-4">
           <h4 className="text-lg">Company</h4>
           <ul className="text-sm">
             <li><a>About us</a></li>
@@ -15,7 +15,7 @@ function Footer() {
             <li><a href="/contact-us">Contact us</a></li>
           </ul>
         </section>
-        <section className="flex flex-col gap-4">
+        <section className="flex mb-8 flex-col gap-4">
           <h4 className="text-lg">Consumers</h4>
           <ul className="text-sm">
             <li><a>Vaults</a></li>
@@ -26,7 +26,7 @@ function Footer() {
             <li><a>Package Delivery</a></li>
           </ul>
         </section>
-        <section className="flex flex-col gap-4">
+        <section className="flex mb-8 flex-col gap-4">
           <h4 className="text-lg">Captains</h4>
           <ul className="text-sm">
             <li><a>Become a Captain</a></li>
@@ -36,7 +36,7 @@ function Footer() {
             <li><a href="/share-ownership">Share Ownership</a></li>
           </ul>
         </section>
-        <section className="flex flex-col gap-4">
+        <section className="flex mb-8 flex-col gap-4">
           <h4 className="text-lg">Businesses</h4>
           <ul className="text-sm">
             <li><a href="/wynk-for-merchants">Wynk for Business</a></li>
@@ -46,7 +46,7 @@ function Footer() {
             <li><a>Wynk Socials</a></li>
           </ul>
         </section>
-        <section className="flex flex-col gap-4">
+        <section className="flex mb-8 flex-col gap-4">
           <h4 className="text-lg">Resources</h4>
           <ul className="text-sm">
             <li><a>Help Centre</a></li>
@@ -59,8 +59,8 @@ function Footer() {
         </section>
       </section>
       <hr style={{borderTop: '1px solid rgba(255, 255, 255, 0.30)'}}></hr>
-      <section className=" flex items-start">
-        <section className="flex gap-6 mr-auto w-1/2 items-center">
+      <section className=" flex flex-col sm:flex-row items-start">
+        <section className="flex flex-col sm:flex-row gap-6 sm:mr-auto mb-6 sm:w-1/2 items-start sm:items-center">
         <img alt="wynk logo" src="../images/wynk_logo_2.png" className="h-3/5"/>
         <div className="text-sm">Simplify your life, discover infinite access, and live more freely with Wynk. Embrace our world of infinite access where convenience meets lifestyle, innovation meets simplicity, and you meet endless opportunities.</div>
         </section>

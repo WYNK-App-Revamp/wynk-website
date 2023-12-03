@@ -6,8 +6,8 @@ export default function DownloadWynkModal() {
 
   return (
     <div className="fixed w-screen h-screen bg-[rgba(52,64,84,0.6)] backdrop-blur-[4px] top-0 left-0  z-10 grid place-items-center">
-      <article className="rounded-2xl pt-6 px-3 w-[80%] bg-white">
-        <section className="px-12 sm:px-20">
+      <article className="flex flex-col items-start rounded-2xl pt-6 px-3 w-[80%] bg-white">
+        <section className="px-6 sm:px-20">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="40"
@@ -30,9 +30,9 @@ export default function DownloadWynkModal() {
           </svg>
         </section>
         <section className="download-wynk-modal">
-          <div className="w-3/5 items-start">
-            <h2 className="font w-full text-2xl sm:text-3xl mb-5 font-bold">Download<span className="text-orange-500"> Wynk </span>today</h2>
-            <p className=" text-sm sm:text-lg mb-5 w-full sm:pr-8 font-medium">To download the app, click on the app store button below. The Wynk Lifestyle Super App is accessible on iOS and Android platforms.</p>
+          <div className="w-4/5 md:w-3/5 items-start">
+            <h2 className="font w-full text-3xl sm:text-5xl mb-5 font-bold">Download<span className="text-orange-500"> Wynk </span>today</h2>
+            <p className=" text-sm sm:text-xl mb-5 w-full sm:pr-8 font-medium">To download the app, click on the app store button below. The Wynk Lifestyle Super App is accessible on iOS and Android platforms.</p>
             <p className="mb-6 font-medium">Download now at</p>
             <div className="call-to-actions flex gap-4">
               <a href="https://apps.apple.com/us/app/wynk-super-app/id1668382143" target="_blank" rel="noreferrer">
@@ -43,7 +43,7 @@ export default function DownloadWynkModal() {
               </a>
             </div>
           </div>
-          <div>
+          <div className="hidden md:flex">
             <img src="/images/wynk-dashboard.png" alt="wynk dashboard" className="" />
           </div>
         </section>

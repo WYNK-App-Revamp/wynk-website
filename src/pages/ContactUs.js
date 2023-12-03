@@ -2,12 +2,14 @@ import { ContactCard } from "../components/ContactCard";
 import DownloadWynk from "../components/DownloadWynk"
 import Footer from "../components/Footer"
 import Header1 from "../components/Header1";
+import Header1Mobile from "../components/Header1Mobile";
 
 function ContactUs () {
   return (
     <>
     <section className="main-section bg-wynkPurple-100">
       <Header1/>
+      <Header1Mobile/>
       <section className="section-inner-padding flex flex-col justify-center items-center gap-2 sm:gap-8">
         <h3 className="text-4xl sm:text-6xl font-bold"><span className="text-wynkPurple-200">Contact</span> Us</h3>
         <p className="px-2 sm:px-8 sm:w-3/5 text-center">We'd like to hear from you. Send us a message and we'll be pleased to answer any questions you have or treat any problems you're experiencing.</p>
