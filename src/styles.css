@@ -57,10 +57,10 @@ html {
 }
 
 .download-wynk-card {
-  @apply bg-wynkPurple-100 text-wynkPurple-200 flex sm:gap-24 pt-12 px-12 sm:pt-20 sm:px-20 rounded-2xl;
+  @apply bg-wynkPurple-100 text-wynkPurple-200 flex items-center sm:gap-24 pt-12 px-12 sm:pt-20 sm:px-20 rounded-2xl;
 }
 .download-wynk-modal {
-  @apply bg-white text-wynkPurple-200 flex sm:gap-24 pt-12 px-12 sm:pt-20 sm:px-20 rounded-2xl;
+  @apply bg-white text-wynkPurple-200 flex items-center sm:gap-24 pt-12 px-12 sm:pt-20 sm:px-20 rounded-2xl;
 }
 
 .form-card {
