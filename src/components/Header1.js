@@ -43,7 +43,7 @@ export default function Header1() {
     };
   }, []);
   return (
-    <header className="header flex items-center h-8">
+    <header className="header hidden md:flex md:flex-row md:items-center h-8">
       <div className="mr-auto cursor-pointer" onClick={navigateToHome}>
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="32" viewBox="0 0 50 32" fill="none">
           <path d="M10.8478 24.6281L8.38841 17.1104H6.69488L4.21472 24.6281L2.15734 17.1104H0L3.12536 27.79H4.9601L7.50138 20.0626L10.0621 27.79H11.8968L15.0028 17.1104H12.9259L10.8478 24.6281Z" fill="#211E8A"/>

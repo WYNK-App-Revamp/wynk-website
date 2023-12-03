@@ -16,14 +16,14 @@ function Home() {
 
   return (
     <main>
-    <section className="main-section min-h-screen text-white bg-no-repeat bg-center bg-cover" style={{ 
+    <section className="main-section sm:min-h-screen text-white bg-no-repeat bg-center bg-cover" style={{ 
       background: "linear-gradient(135deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%), url(/images/lady-in-car-compressed-bg.webp)", 
       }}>
       <Header2/>
       <section className="scheme-hero-section section-inner-padding flex gap-12">
-        <div className="w-3/5 sm:w-1/2">
-          <h2 className="font-bold text-4xl sm:text-6xl mb-5 sm:pr-2"> Boundless access to all your needs</h2>
-          <p className=" text-sm sm:text-xl mb-5 max-w-xl">Whether it’s Ride-hailing, Payments, or Lifestyle Services, the Wynk Lifestyle Super App creates a reality where WynkStars thrive beyond the ordinary.</p>
+        <div className="w-full sm:w-1/2">
+          <h2 className="font-bold text-4xl sm:text-6xl mb-5 pr-4 sm:pr-2"> Boundless access to all your needs</h2>
+          <p className=" text-[16px] sm:text-xl mb-5 max-w-xl">Whether it’s Ride-hailing, Payments, or Lifestyle Services, the Wynk Lifestyle Super App creates a reality where WynkStars thrive beyond the ordinary.</p>
           <div className="call-to-actions flex gap-4">
             <button className="download-the-app-button"
             onClick={openDownloadWynkModal}
