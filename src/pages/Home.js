@@ -44,7 +44,7 @@ function Home() {
     <section className="main-section section-inner-padding bg-wynkPurple-100 flex flex-col">
       <div className="hero-text items-center flex flex-col gap-4 mb-10 sm:mb-20">
         <h2 className="text-center text-2xl sm:text-4xl font-bold leading-none">Explore Access without Limits</h2>
-        <p className="text-sm sm:text-lg text-center w-4/5 sm:w-3/4">WynkStars including Consumers, Captains, Merchants, and Businesses can explore boundless access to a variety of services on the Wynk Super App.</p>
+        <p className="text-sm sm:text-lg text-center w-4/5 sm:w-3/4">WynkStars including Consumers, Captains, Merchants, and Businesses can explore boundless access to a variety of services on the Wynk Lifestyle Super App.</p>
       </div>
       <div className="flex flex-col md:flex-row justify-center gap-6">
         <IconTexts

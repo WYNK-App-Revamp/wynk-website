@@ -56,7 +56,7 @@ To become a Wynk Merchant, sign up on the Wynk App and select the Lifestyle opti
     {
       question: "I want to become a Wynk Partner",
       answer:
-        `To become a Partner and own 2.5% shares on Wynk, join our Share Ownership Scheme open to Wynk Captains. Read up on the full benefits and package <a href="/share-ownership">here</a>`,
+        `Our Team is looking to Partner with businesses in line with the product offerings of our Lifestyle Super App. Click <a href="/share-ownership">here</a> to contact us directly.`,
     },
   ];
 

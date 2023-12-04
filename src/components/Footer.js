@@ -62,7 +62,7 @@ function Footer() {
       <section className=" flex flex-col sm:flex-row items-start">
         <section className="flex flex-col sm:flex-row gap-6 sm:mr-auto mb-6 sm:w-1/2 items-start sm:items-center">
         <img alt="wynk logo" src="../images/wynk_logo_2.png" className="h-3/5"/>
-        <div className="text-sm">Simplify your life, discover infinite access, and live more freely with Wynk. Embrace our world of infinite access where convenience meets lifestyle, innovation meets simplicity, and you meet endless opportunities.</div>
+        <div className="text-sm">Simplify your life, discover infinite access, and live more freely with the Wynk Lifestyle Super App. Embrace our world of infinite access where convenience meets lifestyle, innovation meets simplicity, and you meet endless possibilities.</div>
         </section>
         <section className="flex flex-col gap-2">
           <p className="text-lg">Connect with Wynk</p>
