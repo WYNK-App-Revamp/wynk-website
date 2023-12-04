@@ -1,28 +1,34 @@
 import { useEffect, useState } from "react";
+import { LifestyleServiceComponent, PaymentsServiceComponent, RidesServiceComponent } from "./ServicesComponents"; // Import your components here
+// Import other service components as needed
 
-const images = ["/images/payment-services-component.svg", "/images/rides-services-component.svg", "/images/lifestyle-services-component.svg"];
+const ServiceComponents = [
+  <PaymentsServiceComponent />,
+  <RidesServiceComponent />,
+  <LifestyleServiceComponent />,
+  
+];
 
 function ServicesComponentsSwapper() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-      const intervalId = setInterval(() => {
-          if(currentIndex === images.length - 1) {
-              setCurrentIndex(0);
-          } 
-          else {
-                setCurrentIndex(currentIndex => currentIndex + 1);
-          }
-      }, 3000)
-      
-      return () => clearInterval(intervalId);
-  }, [currentIndex])
+    const intervalId = setInterval(() => {
+      if (currentIndex === ServiceComponents.length - 1) {
+        setCurrentIndex(0);
+      } else {
+        setCurrentIndex((currentIndex) => currentIndex + 1);
+      }
+    }, 3000);
+
+    return () => clearInterval(intervalId);
+  }, [currentIndex]);
 
   return (
-      <div>
-          <img src={images[currentIndex]} alt="valuable-services-component"/>
-      </div>
-  )
+    <div>
+      {ServiceComponents[currentIndex]} {/* Render the current component */}
+    </div>
+  );
 }
 
-export default ServicesComponentsSwapper
+export default ServicesComponentsSwapper;

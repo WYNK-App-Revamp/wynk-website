@@ -14,7 +14,7 @@ export function IconTexts (props) {
 
 export function IconMetrics (props) {
   return (
-    <div className="p-3 flex items-center gap-2">
+    <div className="p-3 flex sm:items-start gap-6">
       <div>
         <img src={`/images/${props.icon}`} alt="icon"/>
       </div>
