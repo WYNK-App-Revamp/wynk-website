@@ -22,7 +22,7 @@ export function PaymentsServiceComponent () {
             </div>
             <hr style={{borderTop: '2px solid #E5E9F0'}}></hr>
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/payments-icon.png" alt="wallet icon"/>
+              <img src="/images/payments-icon.svg" alt="wallet icon"/>
               <div>
                 <p className="text-[16px] sm:text-[20px] font-medium">Pay your bills</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">Airtime, Data, Electricity, Cable TV and more.</p>
@@ -62,7 +62,7 @@ export function RidesServiceComponent () {
           </div>
           <div className="flex flex-col  gap-6 sm:gap-12">
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/rides-icon.png" alt="rides icon"/>
+              <img src="/images/rides-icon.svg" alt="rides icon"/>
               <div>
                 <p className=" text-[16px] sm:text-[20px] font-medium">Go wherever you want</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">Get a ride to your destination anytime</p>
@@ -70,7 +70,7 @@ export function RidesServiceComponent () {
             </div>
             <hr style={{borderTop: '2px solid #E5E9F0'}}></hr>
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/calendar-icon.png" alt="calendar icon"/>
+              <img src="/images/calendar-icon.svg" alt="calendar icon"/>
               <div>
                 <p className="text-[16px] sm:text-[20px] font-medium">Schedule rides for later</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">Plan rides for the future on Wynk</p>
@@ -110,7 +110,7 @@ export function LifestyleServiceComponent () {
           </div>
           <div className="flex flex-col  gap-6 sm:gap-12">
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/lifestyle-icon.png" alt="shopping bag icon"/>
+              <img src="/images/lifestyle-icon.svg" alt="shopping bag icon"/>
               <div>
                 <p className=" text-[16px] sm:text-[20px] font-medium">Buy items on the marketplace</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">Purchase items on the Wynk marketplace</p>
@@ -126,7 +126,7 @@ export function LifestyleServiceComponent () {
             </div>
             <hr style={{borderTop: '2px solid #E5E9F0'}}></hr>
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/for-merchants-icon.png" alt="price tag icon"/>
+              <img src="/images/for-merchants-icon.svg" alt="price tag icon"/>
               <div>
                 <p className="text-[16px] sm:text-[20px] font-medium">Lots of lifestyle services for you</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">Travels, music, movies, hotels, food and more</p>

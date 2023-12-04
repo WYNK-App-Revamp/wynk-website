@@ -27,7 +27,7 @@ function Home() {
       <Header2Mobile/>
       <section className="scheme-hero-section section-inner-padding flex gap-12">
         <div className="w-full sm:w-1/2">
-          <h2 className="font-bold text-4xl sm:text-6xl mb-5 pr-4 sm:pr-2"> Boundless access to all your needs</h2>
+          <h2 className="font-bold text-4xl sm:text-6xl mb-5 pr-4 sm:pr-2">Connecting Lifestyle to Limitless Possibilities</h2>
           <p className=" text-[16px] sm:text-xl mb-5 max-w-xl">Elevate your Lifestyle with the Wynk Lifestyle Super App, where WynkStars thrive beyond the ordinary across Ride-hailing, Payments, and Lifestyle Services. We create the bridge to the lifestyle you deserve.</p>
           <div className="call-to-actions flex gap-4">
             <button className="download-the-app-button"
@@ -82,17 +82,17 @@ function Home() {
       </div>
       <div className="w-full flex flex-col sm:flex-row items-start sm:items-center justify-between">
         <IconMetrics
-        icon='payments-icon.png'
+        icon='payments-icon.svg'
         header='300k+'
         paragraph='Total payments processed'
         />
         <IconMetrics
-        icon='rides-icon.png'
+        icon='rides-icon.svg'
         header='20k+'
         paragraph='Total rides completed'
         />
         <IconMetrics
-        icon='captains-icon.png'
+        icon='users-icon.svg'
         header='5k+'
         paragraph='Total patrons & captains'
         />
