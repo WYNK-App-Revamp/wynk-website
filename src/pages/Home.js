@@ -26,8 +26,8 @@ function Home() {
       <Header2/>
       <Header2Mobile/>
       <section className="scheme-hero-section section-inner-padding flex gap-12">
-        <div className="w-full sm:w-1/2">
-          <h2 className="font-bold text-4xl sm:text-6xl mb-5 pr-4 sm:pr-2">Connecting Lifestyle to Limitless Possibilities</h2>
+        <div className="w-full sm:w-7/12">
+          <h2 className="font-bold text-4xl sm:text-6xl mb-5 sm:pr-5">Connecting Lifestyle to Limitless Possibilities</h2>
           <p className=" text-[16px] sm:text-xl mb-5 max-w-xl">Elevate your Lifestyle with the Wynk Lifestyle Super App, where WynkStars thrive beyond the ordinary across Ride-hailing, Payments, and Lifestyle Services. We create the bridge to the lifestyle you deserve.</p>
           <div className="call-to-actions flex gap-4">
             <button className="download-the-app-button"

@@ -1099,6 +1099,14 @@ video {
   padding-top: 1.5rem;
 }
 
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1831,6 +1839,14 @@ html {
     width: 90%;
   }
 
+  .sm\:w-7 {
+    width: 1.75rem;
+  }
+
+  .sm\:w-7\/12 {
+    width: 58.333333%;
+  }
+
   .sm\:min-w-full {
     min-width: 100%;
   }
@@ -1919,6 +1935,14 @@ html {
 
   .sm\:pr-8 {
     padding-right: 2rem;
+  }
+
+  .sm\:pr-6 {
+    padding-right: 1.5rem;
+  }
+
+  .sm\:pr-5 {
+    padding-right: 1.25rem;
   }
 
   .sm\:text-start {
