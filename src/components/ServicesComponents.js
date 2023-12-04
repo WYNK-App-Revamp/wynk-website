@@ -14,7 +14,7 @@ export function PaymentsServiceComponent () {
           </div>
           <div className="flex flex-col  gap-6 sm:gap-12">
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/payments-icon.png" alt="paper plane icon"/>
+              <img src="/images/paper-plane-icon.svg" alt="paper plane icon"/>
               <div>
                 <p className=" text-[16px] sm:text-[20px] font-medium">Send and receive payments</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">Move money around at your convenience</p>
@@ -30,7 +30,7 @@ export function PaymentsServiceComponent () {
             </div>
             <hr style={{borderTop: '2px solid #E5E9F0'}}></hr>
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/payments-icon.png" alt="debit card icon"/>
+              <img src="/images/debit-card-icon.svg" alt="debit card icon"/>
               <div>
                 <p className="text-[16px] sm:text-[20px] font-medium">Shop freely online</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">Pay for goods and services with your virtual card.</p>
@@ -62,7 +62,7 @@ export function RidesServiceComponent () {
           </div>
           <div className="flex flex-col  gap-6 sm:gap-12">
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/payments-icon.png" alt="paper plane icon"/>
+              <img src="/images/rides-icon.png" alt="rides icon"/>
               <div>
                 <p className=" text-[16px] sm:text-[20px] font-medium">Go wherever you want</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">Get a ride to your destination anytime</p>
@@ -70,7 +70,7 @@ export function RidesServiceComponent () {
             </div>
             <hr style={{borderTop: '2px solid #E5E9F0'}}></hr>
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/payments-icon.png" alt="wallet icon"/>
+              <img src="/images/calendar-icon.png" alt="calendar icon"/>
               <div>
                 <p className="text-[16px] sm:text-[20px] font-medium">Schedule rides for later</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">Plan rides for the future on Wynk</p>
@@ -78,7 +78,7 @@ export function RidesServiceComponent () {
             </div>
             <hr style={{borderTop: '2px solid #E5E9F0'}}></hr>
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/payments-icon.png" alt="debit card icon"/>
+              <img src="/images/users-icon.svg" alt="users icon"/>
               <div>
                 <p className="text-[16px] sm:text-[20px] font-medium">Share rides with others</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">You can share rides with others going your way</p>
@@ -110,7 +110,7 @@ export function LifestyleServiceComponent () {
           </div>
           <div className="flex flex-col  gap-6 sm:gap-12">
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/payments-icon.png" alt="paper plane icon"/>
+              <img src="/images/lifestyle-icon.png" alt="shopping bag icon"/>
               <div>
                 <p className=" text-[16px] sm:text-[20px] font-medium">Buy items on the marketplace</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">Purchase items on the Wynk marketplace</p>
@@ -118,7 +118,7 @@ export function LifestyleServiceComponent () {
             </div>
             <hr style={{borderTop: '2px solid #E5E9F0'}}></hr>
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/payments-icon.png" alt="wallet icon"/>
+              <img src="/images/order-food-drinks-icon.svg" alt="order food and drinks icon"/>
               <div>
                 <p className="text-[16px] sm:text-[20px] font-medium">Order food and drinks</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">Get food and drinks anytime you want</p>
@@ -126,7 +126,7 @@ export function LifestyleServiceComponent () {
             </div>
             <hr style={{borderTop: '2px solid #E5E9F0'}}></hr>
             <div className="flex gap-2 sm:gap-8 items-center">
-              <img src="/images/payments-icon.png" alt="debit card icon"/>
+              <img src="/images/for-merchants-icon.png" alt="price tag icon"/>
               <div>
                 <p className="text-[16px] sm:text-[20px] font-medium">Lots of lifestyle services for you</p>
                 <p className="text-[14px] sm:text-[18px] text-[#383E43]">Travels, music, movies, hotels, food and more</p>

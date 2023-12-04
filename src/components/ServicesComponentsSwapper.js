@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { LifestyleServiceComponent, PaymentsServiceComponent, RidesServiceComponent } from "./ServicesComponents"; // Import your components here
-// Import other service components as needed
+import { LifestyleServiceComponent, PaymentsServiceComponent, RidesServiceComponent } from "./ServicesComponents";
 
 const ServiceComponents = [
   <PaymentsServiceComponent />,
