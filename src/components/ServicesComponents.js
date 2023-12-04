@@ -39,7 +39,7 @@ export function PaymentsServiceComponent () {
           </div>
         </div>
         <div>
-          <img src="/images/phone-transfer-screen.png" alt="service representation on phone screen"/>
+          <img src="/images/payments-phone-representation.svg" alt="service representation on phone screen"/>
         </div>
       </div>
     </div>
@@ -87,7 +87,7 @@ export function RidesServiceComponent () {
           </div>
         </div>
         <div>
-          <img src="/images/phone-transfer-screen.png" alt="service representation on phone screen"/>
+          <img src="/images/rides-phone-representation.svg" alt="service representation on phone screen"/>
         </div>
       </div>
     </div>
@@ -135,7 +135,7 @@ export function LifestyleServiceComponent () {
           </div>
         </div>
         <div>
-          <img src="/images/phone-transfer-screen.png" alt="service representation on phone screen"/>
+          <img src="/images/lifestyle-phone-representation.svg" alt="service representation on phone screen"/>
         </div>
       </div>
     </div>
