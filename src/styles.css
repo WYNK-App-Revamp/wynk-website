@@ -33,7 +33,7 @@ html {
 }
 
 .why-join-the-scheme {
-  @apply flex gap-6 sm:w-4/5;
+  @apply flex flex-col items-start sm:flex-row gap-6 sm:w-4/5;
 }
 
 .scheme-points {
@@ -64,7 +64,7 @@ html {
 }
 
 .form-card {
-  @apply bg-white w-3/4 sm:w-5/12 shadow-lg rounded-xl mt-[-40px] sm:mt-[-120px];
+  @apply bg-white w-[80%] sm:w-5/12 shadow-lg rounded-xl mt-[-520px] sm:mt-[-120px] mb-5 md:mb-2;
 }
 
 .form-input-field {

@@ -47,7 +47,7 @@ function Payments() {
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkPurple-100">
-      <div className="md:px-16 flex flex-col md:flex-row gap-4">
+      <div className="md:px-16 flex flex-col-reverse md:flex-row gap-4">
         <div className="flex flex-col items-center md:items-start gap-2 md:w-1/2">
           <p className="sm:text-[38px] text-center md:text-start font-bold">Unmatched Convenience for everyone</p>
           <p className="sm:text-[18px] text-center md:text-start text-[#212529] mb-4">Customers, Captains,  and Businesses can enjoy a more secure and convenient mode of sending and receiving money with Wynk.</p>
