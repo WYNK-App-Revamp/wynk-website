@@ -49,7 +49,7 @@ function MobileNavBar (props) {
     };
   }, []);
   return (
-    <nav className="fixed w-screen h-screen top-0 left-0  z-10 flex flex-col items-center gap-12 bg-white main-section">
+    <nav className="fixed w-screen h-screen top-0 left-0  z-10 flex flex-col items-center gap-12 bg-white text-black main-section">
       <div className="w-full flex items-center">
         <div className="cursor-pointer mr-auto">
           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="32" viewBox="0 0 50 32" fill="none">

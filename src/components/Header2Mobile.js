@@ -31,7 +31,7 @@ export default function Header2Mobile () {
         </div>
       </div>
       {navbarIsOpen ? (
-        <MobileNavBar/>
+        <MobileNavBar setNavbarIsOpen={setNavbarIsOpen}/>
       ) : null}
     </header>
   );

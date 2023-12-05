@@ -21,7 +21,7 @@ function ShareOwnershipScheme() {
   }
   /*function openCaptainDashboardModal () {
     navigate('/share-ownership?login=true');
-  }*/
+  } */
   return (
     <>
     <section className="main-section bg-wynkPurple-100">
