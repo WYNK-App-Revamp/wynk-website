@@ -8,8 +8,8 @@ export function PaymentsServiceComponent () {
         <div className="sm:w-3/5 flex flex-col items-center sm:items-start gap-8 sm:gap-16">
           <h1 className="text-[25px] sm:text-[38px] text-[rgb(47,49,63)] text-center sm:text-start font-bold">Valuable services you can use and earn from</h1>
           <div className="flex items-center sm:items-start gap-2 sm:gap-6">
-            <h3 className="flex py-2 p-3 sm:px-6 items-center bg-[#1B2124] text-white text-sm sm:text-lg text-center font-bold rounded-full">Payments</h3>
             <h3 className="flex py-2 p-3 sm:px-6 items-center bg-white border-[1px] border-gray-400 text-[#9A9A9A] text-sm sm:text-lg text-center font-bold rounded-full">Rides</h3>
+            <h3 className="flex py-2 p-3 sm:px-6 items-center bg-[#1B2124] text-white text-sm sm:text-lg text-center font-bold rounded-full">Payments</h3>
             <h3 className="flex py-2 p-3 sm:px-6 items-center bg-white border-[1px] border-gray-400 text-[#9A9A9A] text-sm sm:text-lg text-center font-bold rounded-full">Lifestyle</h3>
           </div>
           <div className="flex flex-col  gap-6 sm:gap-12">
@@ -56,8 +56,8 @@ export function RidesServiceComponent () {
         <div className="sm:w-3/5 flex flex-col items-center sm:items-start gap-8 sm:gap-16">
           <h1 className="text-[25px] sm:text-[38px] text-[rgb(47,49,63)] text-center sm:text-start font-bold">Valuable services you can use and earn from</h1>
           <div className="flex items-center sm:items-start gap-2 sm:gap-6">
-            <h3 className="flex py-2 p-3 sm:px-6 items-center bg-white border-[1px] border-gray-400 text-[#9A9A9A] text-sm sm:text-lg text-center font-bold rounded-full">Payments</h3>
             <h3 className="flex py-2 p-3 sm:px-6 items-center bg-[#1B2124] text-white text-sm sm:text-lg text-center font-bold rounded-full">Rides</h3>
+            <h3 className="flex py-2 p-3 sm:px-6 items-center bg-white border-[1px] border-gray-400 text-[#9A9A9A] text-sm sm:text-lg text-center font-bold rounded-full">Payments</h3>
             <h3 className="flex py-2 p-3 sm:px-6 items-center bg-white border-[1px] border-gray-400 text-[#9A9A9A] text-sm sm:text-lg text-center font-bold rounded-full">Lifestyle</h3>
           </div>
           <div className="flex flex-col  gap-6 sm:gap-12">
@@ -104,8 +104,9 @@ export function LifestyleServiceComponent () {
         <div className="sm:w-3/5 flex flex-col items-center sm:items-start gap-8 sm:gap-16">
           <h1 className="text-[25px] sm:text-[38px] text-[rgb(47,49,63)] text-center sm:text-start font-bold">Valuable services you can use and earn from</h1>
           <div className="flex items-center sm:items-start gap-2 sm:gap-6">
-            <h3 className="flex py-2 p-3 sm:px-6 items-center bg-white border-[1px] border-gray-400 text-[#9A9A9A] text-sm sm:text-lg text-center font-bold rounded-full">Payments</h3>
             <h3 className="flex py-2 p-3 sm:px-6 items-center bg-white border-[1px] border-gray-400 text-[#9A9A9A] text-sm sm:text-lg text-center font-bold rounded-full">Rides</h3>
+            <h3 className="flex py-2 p-3 sm:px-6 items-center bg-white border-[1px] border-gray-400 text-[#9A9A9A] text-sm sm:text-lg text-center font-bold rounded-full">Payments</h3>
+            
             <h3 className="flex py-2 p-3 sm:px-6 items-center bg-[#1B2124] text-white text-sm sm:text-lg text-center font-bold rounded-full">Lifestyle</h3>
           </div>
           <div className="flex flex-col  gap-6 sm:gap-12">
