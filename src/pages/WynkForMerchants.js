@@ -43,27 +43,27 @@ export default function WynkForMerchants () {
       <div className="flex flex-col md:flex-row justify-center gap-6">
         <IconTexts
         bgColor='white'
-        icon='merchants-card-icon.svg'
-        header='Merchants'
-        paragraph='For sellers and vendors looking to offer their services'
+        icon='wider-audience-icon.svg'
+        header='Wider Audience'
+        paragraph='Our platform opens the door to a diverse and expansive customer base'
         />
         <IconTexts
         bgColor='white'
-        icon='merchants-card-icon.svg'
-        header='Merchants'
-        paragraph='For sellers and vendors looking to offer their services'
+        icon='wad-of-money-icon.svg'
+        header='Secure Payment'
+        paragraph='We make sure that your earnings are transferred promptly.'
         />
         <IconTexts
         bgColor='white'
-        icon='merchants-card-icon.svg'
-        header='Merchants'
-        paragraph='For sellers and vendors looking to offer their services'
+        icon='bus-icon.svg'
+        header='Hassle-Free Delivery'
+        paragraph='We are efficient and reliable, leaving you free to focus on what you do best.'
         />
         <IconTexts
         bgColor='white'
-        icon='merchants-card-icon.svg'
-        header='Merchants'
-        paragraph='For sellers and vendors looking to offer their services'
+        icon='hands-money-icon.svg'
+        header='Commissions, No Cost'
+        paragraph='You pay a commission only when you make a sale. We grow as you grow.'
         />
       </div>
     </section>
@@ -71,20 +71,20 @@ export default function WynkForMerchants () {
       <div className="flex flex-col gap-6">
         <img className="rounded-2xl" src="/images/man-with-receipts.png" alt="man with receipts"/>
         <h2 className="text-[28px] sm:text-4xl font-bold leading-none">Wynk, the Ultimate destination for Merchants</h2>
-        <p className="text-[18px] sm:w-3/5">If you are looking to broaden your horizons and reach a vast audience of eager customers? Wynk offers you the perfect platform to showcase your products and mouthwatering dishes, expanding your business in the digital age.</p>
+        <p className="text-[18px] w-full md:w-3/5">If you are looking to broaden your horizons and reach a vast audience of eager customers? Wynk offers you the perfect platform to showcase your products and mouthwatering dishes, expanding your business in the digital age.</p>
       </div>
       <div className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-[32px] font-bold leading-none">Who are Wynk Merchants?</h2>
         <div className="flex flex-col sm:flex-row gap-8">
           <IconTextsCard
           bgColor='#EFEFEF'
-          icon='merchants-card-icon.svg'
+          icon='burger.svg'
           header='Food & Drinks Vendors'
           paragraph='Wynk is the home for food vendors. From street food stalls to gourmet restaurants, food vendors use Wynk to sell and showcase their culinary products.'
           />
           <IconTextsCard
           bgColor='#EFEFEF'
-          icon='merchants-card-icon.svg'
+          icon='cafe.svg'
           header='Local Shop Owners'
           paragraph='From fashion boutiques to electronics stores, from craft workshops to bookshops, shop owners use Wynk to extend their reach and connect with a broader audience.'
           />
