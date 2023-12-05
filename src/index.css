@@ -1191,6 +1191,11 @@ video {
   color: rgb(27 33 36 / var(--tw-text-opacity));
 }
 
+.text-\[\#211E8A\] {
+  --tw-text-opacity: 1;
+  color: rgb(33 30 138 / var(--tw-text-opacity));
+}
+
 .text-\[\#212529\] {
   --tw-text-opacity: 1;
   color: rgb(33 37 41 / var(--tw-text-opacity));
@@ -1850,6 +1855,14 @@ html {
     flex-direction: row;
   }
 
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .sm\:flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+
   .sm\:items-start {
     align-items: flex-start;
   }
@@ -2063,10 +2076,6 @@ html {
 
 .\[\&\>\*\]\:text-center>* {
   text-align: center;
-}
-
-.\[\&\>\*\]\:text-start>* {
-  text-align: start;
 }
 
 @media (min-width: 768px) {

@@ -4,6 +4,7 @@ import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header1 from "../components/Header1";
 import Header1Mobile from "../components/Header1Mobile";
+import { CarpoolMultiplePassengersCard, EarnAsYouDriveCard, SignUpAsAWynkCaptainCard } from "../components/DriveAsACaptainCards";
 
 export default function Rides () {
   const [searchParams]= useSearchParams();
@@ -60,11 +61,11 @@ export default function Rides () {
       </div>
       <div className="flex flex-col gap-6">
         <div>
-        <img src="/images/signup-as-a-wynk-captain.png" alt="Sign up as a Wynk captain"/>
-      </div>
+          <SignUpAsAWynkCaptainCard/>
+        </div>
       <div className="flex flex-col items-center sm:flex-row sm:justify-center gap-6">
-        <img src="/images/earn-as-you-drive.png" alt="Earn as you drive"/>
-        <img src="/images/carpool-multiple-passengers.png" alt="Car pool multiple passengers"/>
+        <EarnAsYouDriveCard/>
+        <CarpoolMultiplePassengersCard/>
       </div>
       </div>
     </section>
