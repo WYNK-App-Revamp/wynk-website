@@ -4,6 +4,7 @@ import DownloadWynk from "../components/DownloadWynk";
 import Footer from "../components/Footer";
 import Header1 from "../components/Header1";
 import Header1Mobile from "../components/Header1Mobile";
+import { IconTexts, IconTextsCard } from "../components/IconTexts";
 
 export default function WynkForMerchants () {
   const [searchParams]= useSearchParams();
@@ -19,11 +20,11 @@ export default function WynkForMerchants () {
       <Header1/> 
       <Header1Mobile/>
     </section>
-    <section className="main-section bg-wynkOffWhite scheme-hero-section section-inner-padding flex items-center gap-8">
-      <div className="w-1/2 flex flex-col gap-6">
+    <section className="main-section bg-wynkOffWhite scheme-hero-section section-inner-padding flex flex-col md:flex-row items-center gap-8">
+      <div className="md:w-1/2 flex flex-col sm:gap-6">
         <p className="text-lg sm:text-2xl">Merchants</p>
-        <h2 className="font-bold text-3xl sm:text-5xl mb-5">Your Time, Your Goals, <span className="text-wynkPurple-200">You're in Charge!</span></h2>
-        <p className=" text-sm sm:text-xl mb-5 sm:w-[90%]">Be a part of our platform. You can sell your offerings on Wynk and trust us to handle the logistics.</p>
+        <h2 className="font-bold text-[34px] sm:text-5xl mb-5">Your Time, Your Goals, <span className="text-wynkPurple-200">You're in Charge!</span></h2>
+        <p className=" text-base sm:text-xl mb-5 sm:w-[90%]">Be a part of our platform. You can sell your offerings on Wynk and trust us to handle the logistics.</p>
         <div className="call-to-actions flex gap-4">
           <button className="download-the-app-button"
           onClick={openDownloadWynkModal}
@@ -36,38 +37,68 @@ export default function WynkForMerchants () {
     </section>
     <section className="main-section section-inner-padding bg-wynkPurple-100 flex flex-col">
       <div className="hero-text items-center flex flex-col gap-4 mb-20">
-        <h2 className="text-center text-2xl sm:text-4xl font-bold leading-none">Why Sell on Wynk?</h2>
-        <p className="text-sm sm:text-lg text-center w-3/4 sm:w-3/4">Are you a vendor eager to bring your products to a broader audience while ensuring smooth, worry-free deliveries? Look no further!</p>
+        <h2 className="text-center text-[28px] sm:text-4xl font-bold leading-none">Why Sell on Wynk?</h2>
+        <p className="text-base sm:text-lg text-center w-full sm:w-3/4">Are you a vendor eager to bring your products to a broader audience while ensuring smooth, worry-free deliveries? Look no further!</p>
       </div>
-      <div className="flex justify-center gap-6">
-        <img className="w-1/5" src="/images/reason-wider-audience.png" alt="reason to sell on wynk"/>
-        <img className="w-1/5" src="/images/reason-secure-payment.png" alt="reason to sell on wynk"/>
-        <img className="w-1/5" src="/images/reason-hassle-free-delivery.png" alt="reason to sell on wynk"/>
-        <img className="w-1/5" src="/images/reason-commission.png" alt="reason to sell on wynk"/>
+      <div className="flex flex-col md:flex-row justify-center gap-6">
+        <IconTexts
+        bgColor='white'
+        icon='merchants-card-icon.svg'
+        header='Merchants'
+        paragraph='For sellers and vendors looking to offer their services'
+        />
+        <IconTexts
+        bgColor='white'
+        icon='merchants-card-icon.svg'
+        header='Merchants'
+        paragraph='For sellers and vendors looking to offer their services'
+        />
+        <IconTexts
+        bgColor='white'
+        icon='merchants-card-icon.svg'
+        header='Merchants'
+        paragraph='For sellers and vendors looking to offer their services'
+        />
+        <IconTexts
+        bgColor='white'
+        icon='merchants-card-icon.svg'
+        header='Merchants'
+        paragraph='For sellers and vendors looking to offer their services'
+        />
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite flex flex-col gap-16">
       <div className="flex flex-col gap-6">
         <img className="rounded-2xl" src="/images/man-with-receipts.png" alt="man with receipts"/>
-        <h2 className="text-2xl sm:text-4xl font-bold leading-none">Wynk, the Ultimate destination for Merchants</h2>
-        <p className="sm:text-[18px] sm:w-3/5">If you are looking to broaden your horizons and reach a vast audience of eager customers? Wynk offers you the perfect platform to showcase your products and mouthwatering dishes, expanding your business in the digital age.</p>
+        <h2 className="text-[28px] sm:text-4xl font-bold leading-none">Wynk, the Ultimate destination for Merchants</h2>
+        <p className="text-[18px] sm:w-3/5">If you are looking to broaden your horizons and reach a vast audience of eager customers? Wynk offers you the perfect platform to showcase your products and mouthwatering dishes, expanding your business in the digital age.</p>
       </div>
       <div className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-[32px] font-bold leading-none">Who are Wynk Merchants?</h2>
-        <div className="flex flex-col sm:flex-row gap-4">
-          <img src="/images/food-drinks-explanation-card.png" alt="who a wynk merchant is"/>
-          <img src="/images/shop-owners-explanation-card.png" alt="who a wynk merchant is"/>
+        <div className="flex flex-col sm:flex-row gap-8">
+          <IconTextsCard
+          bgColor='#EFEFEF'
+          icon='merchants-card-icon.svg'
+          header='Food & Drinks Vendors'
+          paragraph='Wynk is the home for food vendors. From street food stalls to gourmet restaurants, food vendors use Wynk to sell and showcase their culinary products.'
+          />
+          <IconTextsCard
+          bgColor='#EFEFEF'
+          icon='merchants-card-icon.svg'
+          header='Local Shop Owners'
+          paragraph='From fashion boutiques to electronics stores, from craft workshops to bookshops, shop owners use Wynk to extend their reach and connect with a broader audience.'
+          />
         </div>
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkPurple-100">
-      <div className="md:px-12 flex items-center gap-16">
+      <div className="md:px-12 flex flex-col-reverse md:flex-row items-center gap-16">
         <div className="md:w-1/2">
           <img src="/images/my-shop-phone-screen.png" alt="my shop phone screen"/>
         </div>
-        <div className="flex flex-col items-start gap-2 md:w-1/2">
-          <p className="sm:text-[38px] font-bold">Open Your Shop and Thrive on the Wynk Marketplace!</p>
-          <p className="sm:text-[18px] text-[#212529] mb-4">Are you an aspiring entrepreneur or an established business looking to reach a broader audience, you've come to the right place.</p>
+        <div className="flex flex-col [&>*]:text-center  md:[&>*]:text-start items-center md:items-start gap-2 md:w-1/2">
+          <p className="text-[28px] sm:text-[38px] font-bold">Open Your Shop and Thrive on the Wynk Marketplace!</p>
+          <p className="text-[18px] text-[#212529] mb-4">Are you an aspiring entrepreneur or an established business looking to reach a broader audience, you've come to the right place.</p>
           <button className="download-the-app-button"
           onClick={openDownloadWynkModal}
           >Get the app</button>
@@ -76,10 +107,10 @@ export default function WynkForMerchants () {
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
-      <div className="md:px-16 flex items-center gap-4">
-        <div className="flex flex-col items-start gap-2 md:w-1/2">
-          <p className="sm:text-[38px] font-bold">Effortless Order Tracking for Wynk merchants</p>
-          <p className="sm:text-[18px] text-[#212529] mb-4">At Wynk, we understand that staying on top of your orders is crucial for a smooth and successful business operation, whether you're a food vendor or a shop owner.</p>
+      <div className="md:px-16 flex flex-col md:flex-row items-center gap-8">
+        <div className="flex flex-col [&>*]:text-center  md:[&>*]:text-start items-center md:items-start gap-2 md:w-1/2">
+          <p className="text-[28px] sm:text-[38px] font-bold">Effortless Order Tracking for Wynk merchants</p>
+          <p className="text-[18px] text-[#212529] mb-4">At Wynk, we understand that staying on top of your orders is crucial for a smooth and successful business operation, whether you're a food vendor or a shop owner.</p>
           <button className="download-the-app-button"
           onClick={openDownloadWynkModal}
           >Get the app</button>
@@ -91,8 +122,8 @@ export default function WynkForMerchants () {
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkPurple-100 justify-center items-center flex flex-col gap-8">
-      <p className="text-[24px] sm:text-[38px] text-center">How to Deliver with Wynk</p>
-      <p className="text-[14px] sm:text-[18px] text-center sm:w-1/2 mb-2">Craving your favorite cuisine or a refreshing drink? With Wynk, ordering food and drinks is a breeze. Follow these three simple steps to satisfy your taste buds:</p>
+      <p className="text-[28px] sm:text-[38px] text-center">How to Deliver with Wynk</p>
+      <p className="text-[18px] text-center sm:w-1/2 mb-2">Craving your favorite cuisine or a refreshing drink? With Wynk, ordering food and drinks is a breeze. Follow these three simple steps to satisfy your taste buds:</p>
       <div className="how-to-deliver-with-wynk flex flex-col md:flex-row items-center justify-center gap-6">
         <img src="/images/enter-delivery-location.png" alt="How to Deliver with Wynk"/>
         <img src="/images/leave-driver-a-note.png" alt="How to Deliver with Wynk"/>

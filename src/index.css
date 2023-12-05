@@ -750,10 +750,6 @@ video {
   width: 80%;
 }
 
-.w-\[90\%\] {
-  width: 90%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -997,28 +993,12 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-auto {
-  background-size: auto;
-}
-
-.bg-contain {
-  background-size: contain;
-}
-
 .bg-cover {
   background-size: cover;
 }
 
 .bg-center {
   background-position: center;
-}
-
-.bg-right {
-  background-position: right;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .p-2 {
@@ -1156,6 +1136,10 @@ video {
 
 .text-\[28px\] {
   font-size: 28px;
+}
+
+.text-\[34px\] {
+  font-size: 34px;
 }
 
 .text-\[48px\] {
@@ -1366,8 +1350,8 @@ html {
   .main-section {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    padding-left: 110px;
-    padding-right: 110px;
+    padding-left: 105px;
+    padding-right: 105px;
   }
 }
 
@@ -1486,10 +1470,16 @@ html {
   padding-bottom: 0.75rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 16px;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .send-message-button {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 .download-the-app-button {
@@ -1586,7 +1576,7 @@ html {
 .form-card {
   margin-top: -520px;
   margin-bottom: 1.25rem;
-  width: 80%;
+  width: 100%;
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1619,16 +1609,17 @@ html {
 }
 
 .contact-card {
-  width: 90%;
+  width: 100%;
   border-radius: 1rem;
   --tw-bg-opacity: 1;
   background-color: rgb(235 235 249 / var(--tw-bg-opacity));
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 @media (min-width: 640px) {
   .contact-card {
     width: 41.666667%;
+    padding: 2rem;
   }
 }
 
@@ -1783,6 +1774,10 @@ html {
     margin-top: 15%;
   }
 
+  .sm\:mt-\[20px\] {
+    margin-top: 20px;
+  }
+
   .sm\:hidden {
     display: none;
   }
@@ -1823,8 +1818,16 @@ html {
     width: 60%;
   }
 
+  .sm\:w-7\/12 {
+    width: 58.333333%;
+  }
+
   .sm\:w-\[65\%\] {
     width: 65%;
+  }
+
+  .sm\:w-\[75\%\] {
+    width: 75%;
   }
 
   .sm\:w-\[90\%\] {
@@ -1873,10 +1876,6 @@ html {
 
   .sm\:rounded-lg {
     border-radius: 0.5rem;
-  }
-
-  .sm\:bg-cover {
-    background-size: cover;
   }
 
   .sm\:p-4 {
@@ -1999,10 +1998,6 @@ html {
     display: flex;
   }
 
-  .md\:h-\[25\%\] {
-    height: 25%;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -2013,10 +2008,6 @@ html {
 
   .md\:w-3\/5 {
     width: 60%;
-  }
-
-  .md\:w-\[25\%\] {
-    width: 25%;
   }
 
   .md\:flex-row {
@@ -2064,4 +2055,18 @@ html {
 
 .\[\&\>\*\]\:w-\[50\%\]>* {
   width: 50%;
+}
+
+.\[\&\>\*\]\:text-center>* {
+  text-align: center;
+}
+
+.\[\&\>\*\]\:text-start>* {
+  text-align: start;
+}
+
+@media (min-width: 768px) {
+  .md\:\[\&\>\*\]\:text-start>* {
+    text-align: start;
+  }
 }

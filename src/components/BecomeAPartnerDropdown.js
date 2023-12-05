@@ -15,7 +15,7 @@ export default function BecomeAPartnerDropdown () {
     <div className="navbar-dropdown-web">
       <div className="captain-services flex gap-2" onClick={navigateToWynkForCaptains}>
         <div className="service-icon">
-          <img className="min-w-full" src="/images/rides-icon.png" alt="service icon"/>
+          <img className="min-w-full" src="/images/rides-icon.svg" alt="service icon"/>
         </div>
         <div className="flex flex-col gap-2">
           <p className="text-[18px]">Wynk for Captains</p>
@@ -33,7 +33,7 @@ export default function BecomeAPartnerDropdown () {
       </div>
       <div className="flex gap-2" onClick={navigateToShareOwnership}>
         <div >
-          <img className="min-w-full" src="/images/captains-icon.png" alt="captains icon"/>
+          <img className="min-w-full" src="/images/captains-icon.svg" alt="captains icon"/>
         </div>
         <div className="flex flex-col gap-2">
           <p className="text-[18px]">Share Ownership for Captains</p>

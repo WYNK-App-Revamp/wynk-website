@@ -10,7 +10,7 @@ html {
 
 
 .main-section {
-  @apply container py-4 px-6 md:py-8 md:px-[110px] shrink-0 grow-0 min-w-full;
+  @apply container py-4 px-6 md:py-8 md:px-[105px] shrink-0 grow-0 min-w-full;
 }
 
 .section-inner-padding {
@@ -45,7 +45,7 @@ html {
 }
 
 .send-message-button {
-  @apply bg-wynkPurple-200 rounded-md h-12 py-3 px-6 flex justify-center items-center text-xl text-white;
+  @apply bg-wynkPurple-200 rounded-md h-12 py-3 px-6 flex justify-center items-center text-[16px] sm:text-xl text-white;
 }
 
 .download-the-app-button {
@@ -64,7 +64,7 @@ html {
 }
 
 .form-card {
-  @apply bg-white w-[80%] sm:w-5/12 shadow-lg rounded-xl mt-[-520px] sm:mt-[-120px] mb-5 md:mb-2;
+  @apply bg-white w-full sm:w-5/12 shadow-lg rounded-xl mt-[-520px] sm:mt-[-120px] mb-5 md:mb-2;
 }
 
 .form-input-field {
@@ -72,7 +72,7 @@ html {
 }
 
 .contact-card {
-  @apply bg-wynkPurple-100 w-[90%] sm:w-5/12 rounded-2xl p-8;
+  @apply bg-wynkPurple-100 w-[100%] sm:w-5/12 rounded-2xl p-6 sm:p-8;
 }
 
 .navbar-web {
