@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { LifestyleServiceComponent, PaymentsServiceComponent, RidesServiceComponent } from "./ServicesComponents";
 
 const ServiceComponents = [
-  <PaymentsServiceComponent />,
   <RidesServiceComponent />,
+  <PaymentsServiceComponent />,
   <LifestyleServiceComponent />,
   
 ];

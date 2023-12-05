@@ -997,10 +997,6 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-auto {
-  background-size: auto;
-}
-
 .bg-contain {
   background-size: contain;
 }
@@ -1011,10 +1007,6 @@ video {
 
 .bg-center {
   background-position: center;
-}
-
-.bg-right {
-  background-position: right;
 }
 
 .bg-no-repeat {
@@ -1097,14 +1089,6 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pr-2 {
-  padding-right: 0.5rem;
-}
-
-.pr-6 {
-  padding-right: 1.5rem;
 }
 
 .text-center {
@@ -1374,8 +1358,8 @@ html {
   .main-section {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    padding-left: 110px;
-    padding-right: 110px;
+    padding-left: 105px;
+    padding-right: 105px;
   }
 }
 
@@ -1494,10 +1478,16 @@ html {
   padding-bottom: 0.75rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 16px;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .send-message-button {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 .download-the-app-button {
@@ -1594,7 +1584,7 @@ html {
 .form-card {
   margin-top: -520px;
   margin-bottom: 1.25rem;
-  width: 80%;
+  width: 100%;
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1627,16 +1617,17 @@ html {
 }
 
 .contact-card {
-  width: 90%;
+  width: 100%;
   border-radius: 1rem;
   --tw-bg-opacity: 1;
   background-color: rgb(235 235 249 / var(--tw-bg-opacity));
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 @media (min-width: 640px) {
   .contact-card {
     width: 41.666667%;
+    padding: 2rem;
   }
 }
 
@@ -1831,20 +1822,16 @@ html {
     width: 60%;
   }
 
+  .sm\:w-7\/12 {
+    width: 58.333333%;
+  }
+
   .sm\:w-\[65\%\] {
     width: 65%;
   }
 
   .sm\:w-\[90\%\] {
     width: 90%;
-  }
-
-  .sm\:w-7 {
-    width: 1.75rem;
-  }
-
-  .sm\:w-7\/12 {
-    width: 58.333333%;
   }
 
   .sm\:min-w-full {
@@ -1929,20 +1916,16 @@ html {
     padding-right: 2rem;
   }
 
-  .sm\:pr-2 {
-    padding-right: 0.5rem;
+  .sm\:pr-5 {
+    padding-right: 1.25rem;
   }
 
   .sm\:pr-8 {
     padding-right: 2rem;
   }
 
-  .sm\:pr-6 {
-    padding-right: 1.5rem;
-  }
-
-  .sm\:pr-5 {
-    padding-right: 1.25rem;
+  .sm\:pr-2 {
+    padding-right: 0.5rem;
   }
 
   .sm\:text-start {

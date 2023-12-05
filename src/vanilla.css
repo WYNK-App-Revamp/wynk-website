@@ -2,3 +2,9 @@
   text-decoration: underline;
   color: blue;
 }
+
+.home-hero {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.00) 100%), url(../public/images//lady-in-car-compressed-bg.webp);
+  background-position: center;
+  background-size: cover;
+}
