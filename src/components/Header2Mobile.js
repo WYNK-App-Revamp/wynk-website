@@ -1,8 +1,14 @@
 import { useNavigate } from "react-router-dom";
+import MobileNavBar from "./MobileNavBar";
+import { useState } from "react";
 export default function Header2Mobile () {
   const navigate = useNavigate();
   function navigateToHome () {
     navigate('/');
+  }
+  const [navbarIsOpen, setNavbarIsOpen] = useState(false);
+  function openNavBar () {
+    setNavbarIsOpen(true);
   }
   return (
     <header className="sm:hidden h-8">
@@ -16,7 +22,7 @@ export default function Header2Mobile () {
             <path d="M29.3216 0C26.854 0.00312773 24.4717 0.938213 22.619 2.63089C20.7663 4.32356 19.5696 6.65826 19.2521 9.19964C17.4178 8.91626 15.7424 7.95862 14.5306 6.50088C13.3187 5.04314 12.6508 3.18211 12.6484 1.25624V0.977426H10.2285V1.25692C10.2286 3.93655 11.2112 6.51561 12.9765 8.46988C14.7419 10.4242 17.1575 11.607 19.7325 11.778C22.3074 11.949 24.8485 11.0953 26.8391 9.39047C28.8298 7.68562 30.1206 5.25754 30.4494 2.59975C32.2836 2.88308 33.959 3.84071 35.1709 5.29846C36.3828 6.75621 37.0507 8.61726 37.053 10.5431V10.8224H39.4729V10.5429C39.47 7.74776 38.3996 5.06794 36.4965 3.09142C34.5934 1.11491 32.013 0.00312006 29.3216 0ZM21.7058 9.16451C21.9814 7.53674 22.7328 6.03656 23.8581 4.86787C24.9833 3.69917 26.4278 2.91865 27.9952 2.63239C27.7196 4.26015 26.9682 5.76033 25.8429 6.92903C24.7177 8.09772 23.2732 8.87824 21.7058 9.16451Z" fill="#F98611"/>
           </svg>
         </div>
-        <div className="cursor-pointer">
+        <div className="cursor-pointer" onClick={openNavBar}>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M20.75 7C20.75 7.41421 20.4142 7.75 20 7.75L4 7.75C3.58579 7.75 3.25 7.41421 3.25 7C3.25 6.58579 3.58579 6.25 4 6.25L20 6.25C20.4142 6.25 20.75 6.58579 20.75 7Z" fill="white"/>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M20.75 12C20.75 12.4142 20.4142 12.75 20 12.75L4 12.75C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25L20 11.25C20.4142 11.25 20.75 11.5858 20.75 12Z" fill="white"/>
@@ -24,9 +30,9 @@ export default function Header2Mobile () {
           </svg>
         </div>
       </div>
-      {/*navbarIsOpen ? (
+      {navbarIsOpen ? (
         <MobileNavBar/>
-      ) : null*/}
+      ) : null}
     </header>
   );
 }
