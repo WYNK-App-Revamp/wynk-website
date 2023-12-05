@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Header1 from "../components/Header1";
 import Header1Mobile from "../components/Header1Mobile";
 import { CarpoolMultiplePassengersCard, EarnAsYouDriveCard, SignUpAsAWynkCaptainCard } from "../components/DriveAsACaptainCards";
+import { IconTexts } from "../components/IconTexts";
 
 export default function Rides () {
   const [searchParams]= useSearchParams();
@@ -35,7 +36,36 @@ export default function Rides () {
       onClick={openDownloadWynkModal}
       >Get the app</button>
       {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
-      <img src="/images/ride-perks.png" alt="ride perks"/>
+      <div className="sm:w-[75%] flex items-center flex-col sm:flex-row gap-8">
+          <div className="flex flex-col gap-8 sm:mt-[20px] sm:w-1/2">
+            <IconTexts
+            bgColor='white'
+            icon='ride-code-icon.svg'
+            header='Ride code'
+            paragraph='We make it easy to identify your pickup driver with a code, making it safe to ride in comfort.'
+            />
+            <IconTexts
+            bgColor='white'
+            icon='record-rides.svg'
+            header='Audio/Video record rides'
+            paragraph='For your safety, you can record your rides on the go and share with anyone.'
+            />
+          </div>
+          <div className="flex flex-col gap-8 sm:w-1/2">
+            <IconTexts
+            bgColor='white'
+            icon='share-rides-icon.svg'
+            header='Share Rides'
+            paragraph='Split ride fares with other Patrons and enjoy affordable ride offerings just for you.'
+            />
+            <IconTexts
+            bgColor='white'
+            icon='schedule-rides.svg'
+            header='Schedule Rides'
+            paragraph='Need to be on time for a meeting? book and save rides ahead of time.'
+            />
+          </div>
+        </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
       <div className="px-6 md:px-12 flex flex-col md:flex-row items-center gap-16">
