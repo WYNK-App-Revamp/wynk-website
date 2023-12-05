@@ -59,14 +59,14 @@ export default function Rides () {
         <p className="text-[18px] text-[#212529] mb-4 w-full sm:w-3/5 text-center">As a car owner, you can sign up with us a captain and earn while accepting in-app ride requests. It’s that easy!</p>
         <a href="/share-ownership"><button className="download-the-app-button mb-4">Learn More</button></a>
       </div>
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 sm:px-12">
         <div>
           <SignUpAsAWynkCaptainCard/>
         </div>
-      <div className="flex flex-col items-center sm:flex-row sm:justify-center gap-6">
-        <EarnAsYouDriveCard/>
-        <CarpoolMultiplePassengersCard/>
-      </div>
+        <div className="flex flex-col sm:flex-row  gap-6">
+          <EarnAsYouDriveCard/>
+          <CarpoolMultiplePassengersCard/>
+        </div>
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">

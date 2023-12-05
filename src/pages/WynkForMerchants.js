@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Header1 from "../components/Header1";
 import Header1Mobile from "../components/Header1Mobile";
 import { IconTexts, IconTextsCard } from "../components/IconTexts";
+import { ImageTexts } from "../components/ImageTexts";
 
 export default function WynkForMerchants () {
   const [searchParams]= useSearchParams();
@@ -124,10 +125,22 @@ export default function WynkForMerchants () {
     <section className="main-section section-inner-padding bg-wynkPurple-100 justify-center items-center flex flex-col gap-8">
       <p className="text-[28px] sm:text-[38px] text-center">How to Deliver with Wynk</p>
       <p className="text-[18px] text-center sm:w-1/2 mb-2">Craving your favorite cuisine or a refreshing drink? With Wynk, ordering food and drinks is a breeze. Follow these three simple steps to satisfy your taste buds:</p>
-      <div className="how-to-deliver-with-wynk flex flex-col md:flex-row items-center justify-center gap-6">
-        <img src="/images/enter-delivery-location.png" alt="How to Deliver with Wynk"/>
-        <img src="/images/leave-driver-a-note.png" alt="How to Deliver with Wynk"/>
-        <img src="/images/add-senders-info.png" alt="How to Deliver with Wynk"/>
+      <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+        <ImageTexts
+        image='fund-your-card.svg'
+        header='Enter Delivery Location'
+        paragraph='Search the location of where you would like to send the item to'
+        />
+        <ImageTexts
+        image='spend-with-card.svg'
+        header='Leave the Driver a Note'
+        paragraph='Add an important note for the delivery driver you’ve chosen.'
+        />
+        <ImageTexts
+        image='set-card-limit.svg'
+        header='Add Sender’s Info'
+        paragraph='Sit back and relax as your order is swiftly prepared and dispatched to your location.'
+        />
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">

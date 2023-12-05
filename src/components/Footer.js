@@ -45,13 +45,13 @@ function Footer() {
             <li><a>Wynk Vault</a></li>
             <li><a href="/rides">Wynk Ride</a></li>
             <li><a href="/lifestyle" target="_blank" rel="noreferer">Wynk Lifestyle</a></li>
-            <li><a>Wynk Socials</a></li>
+            <li><a href="/lifestyle">Wynk Socials</a></li>
           </ul>
         </section>
         <section className="flex mb-8 flex-col gap-4">
           <h4 className="text-lg">Resources</h4>
           <ul className="text-sm">
-            <li><a>Help Centre</a></li>
+            <li><a href="/contact-us">Help Centre</a></li>
             <li><a>Learning Centre</a></li>
             <li><a>Partner with us</a></li>
             <li><a>Privacy Policy</a></li>

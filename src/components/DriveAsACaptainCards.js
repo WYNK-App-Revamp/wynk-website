@@ -1,13 +1,15 @@
-import { IconTexts2 } from "./IconTexts";
+import { IconTexts2, IconTexts3 } from "./IconTexts";
 
 export function SignUpAsAWynkCaptainCard () {
   return (
-    <div className="bg-white flex sm:flex-col">
-      <IconTexts2
-      icon='orange-captain-icon.svg'
-      header='Sign up as a Wynk captain'
-      paragraph='Once registered as wynk captain, you get a customised in-app dashboard experience which enables you manage ride requests.'
-      />
+    <div className="bg-white flex flex-col sm:flex-row items-center rounded-xl md:px-20">
+      <div className="md:w-3/5">
+        <IconTexts3
+        icon='orange-captain-icon.svg'
+        header='Sign up as a Wynk captain'
+        paragraph='Once registered as wynk captain, you get a customised in-app dashboard experience which enables you manage ride requests.'
+        />
+      </div>
       <div>
         <img
         src="/images/sign-up-as-a-captain-phone-image.svg"
@@ -20,7 +22,7 @@ export function SignUpAsAWynkCaptainCard () {
 
 export function EarnAsYouDriveCard () {
   return (
-    <div className="bg-white flex flex-col">
+    <div className="bg-white flex flex-col items-center justify-between rounded-2xl">
       <IconTexts2
       icon='orange-money-icon.svg'
       header='Earn as you drive'
@@ -38,7 +40,7 @@ export function EarnAsYouDriveCard () {
 
 export function CarpoolMultiplePassengersCard () {
   return (
-    <div className="bg-white flex flex-col sm:flex-col-reverse">
+    <div className="bg-white flex flex-col sm:flex-col-reverse items-center rounded-xl">
       <IconTexts2
       icon='orange-users-icon.svg'
       header='Car pool multiple passengers'
