@@ -45,21 +45,25 @@ function Home() {
       </div>
       <div className="flex flex-col md:flex-row justify-center gap-6">
         <IconTexts
+        bgColor='white'
         icon='consumers-card-icon.svg'
         header='Consumers'
         paragraph='Access payments, rides and lifestyle services easily'
         />
         <IconTexts
+        bgColor='white'
         icon='captains-card-icon.svg'
         header='Captains'
         paragraph='Unlock wealth deal for Drivers looking to earn more'
         />
         <IconTexts
+        bgColor='white'
         icon='merchants-card-icon.svg'
         header='Merchants'
         paragraph='For sellers and vendors looking to offer their services'
         />
         <IconTexts
+        bgColor='white'
         icon='businesses-card-icon.svg'
         header='Businesses'
         paragraph='For commercial businesses looking to scale up'

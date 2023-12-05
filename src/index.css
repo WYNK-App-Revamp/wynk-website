@@ -997,20 +997,12 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
 .bg-cover {
   background-size: cover;
 }
 
 .bg-center {
   background-position: center;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .p-2 {
@@ -1782,6 +1774,10 @@ html {
     margin-top: 15%;
   }
 
+  .sm\:mt-\[20px\] {
+    margin-top: 20px;
+  }
+
   .sm\:hidden {
     display: none;
   }
@@ -1834,6 +1830,10 @@ html {
     width: 90%;
   }
 
+  .sm\:w-\[75\%\] {
+    width: 75%;
+  }
+
   .sm\:min-w-full {
     min-width: 100%;
   }
@@ -1878,10 +1878,6 @@ html {
     border-radius: 0.5rem;
   }
 
-  .sm\:bg-cover {
-    background-size: cover;
-  }
-
   .sm\:p-4 {
     padding: 1rem;
   }
@@ -1916,16 +1912,12 @@ html {
     padding-right: 2rem;
   }
 
-  .sm\:pr-5 {
-    padding-right: 1.25rem;
+  .sm\:pr-2 {
+    padding-right: 0.5rem;
   }
 
   .sm\:pr-8 {
     padding-right: 2rem;
-  }
-
-  .sm\:pr-2 {
-    padding-right: 0.5rem;
   }
 
   .sm\:text-start {
@@ -2006,10 +1998,6 @@ html {
     display: flex;
   }
 
-  .md\:h-\[25\%\] {
-    height: 25%;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -2020,10 +2008,6 @@ html {
 
   .md\:w-3\/5 {
     width: 60%;
-  }
-
-  .md\:w-\[25\%\] {
-    width: 25%;
   }
 
   .md\:flex-row {

@@ -8,3 +8,9 @@
   background-position: center;
   background-size: cover;
 }
+
+.lifestyle-hero {
+  background: url(../public/images/plain-lifestyle-hero-bg.png);
+  background-position: center;
+  background-size: cover;
+}
