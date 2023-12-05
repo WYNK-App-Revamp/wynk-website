@@ -1,4 +1,4 @@
-import ConnectWithWynk from "./ConnectWithWynk";
+import {ConnectWithWynk} from "./ConnectWithWynk";
 
 function Footer() {
   return (

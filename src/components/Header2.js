@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import OurServicesDropdown from "./OurServicesDropdown";
-import BecomeAPartnerDropdown from "./BecomeAPartnerDropdown";
+import {OurServicesDropdown} from "./OurServicesDropdown";
+import {BecomeAPartnerDropdown} from "./BecomeAPartnerDropdown";
 
 export default function Header2() {
   const navigate = useNavigate();
@@ -60,7 +60,7 @@ export default function Header2() {
           ref={ourServicesDropdownRef}
           className={location.pathname === "/our-services" ? "nav-link-active" : "nav-li"} /*to="/our-services"*/
           onClick={() => setIsOurServicesOpen(!isOurServicesOpen)} 
-        activeStyle>
+        >
           <span>Our Services</span>
           <svg
             className="dropdown"
@@ -87,7 +87,7 @@ export default function Header2() {
           ref={becomeAPartnerDropdownRef}
           className={location.pathname === "/our-services" ? "nav-link-active" : "nav-li"} /*to="/our-services"*/
           onClick={() => setIsBecomeAParterOpen(!isBecomeAParterOpen)} 
-        activeStyle>
+        >
           <span>Become a partner</span>
           <svg
             className="dropdown"
@@ -111,15 +111,15 @@ export default function Header2() {
         </div>
         <NavLink
         className={location.pathname === "/FAQs" ? "nav-link-active" : "nav-li"} to="/FAQs" 
-        activeStyle>
+        >
           FAQ
         </NavLink>
         <NavLink 
         className={location.pathname === "/contact-us" ? "nav-link-active" : "nav-li"} to="/contact-us" 
-        activeStyle>
+        >
           Contact Us
         </NavLink>
-        <div className={location.pathname === "/nigeria" ? "nav-link-active" : "nav-li"} /*to="/nigeria"*/ activeStyle>
+        <div className={location.pathname === "/nigeria" ? "nav-link-active" : "nav-li"} /*to="/nigeria"*/ >
           <img src="/images/ng.png" alt="nigerian flag" className="w-[24px] h-[24px]" />
           <span>Nigeria (EN)</span>
           <svg

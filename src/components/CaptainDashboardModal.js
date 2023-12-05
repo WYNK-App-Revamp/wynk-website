@@ -37,7 +37,7 @@ export default function CaptainDashboardModal() {
   const shareOwnershipCaptains = 500;
   return (
     <div className="p-3 fixed w-screen h-screem bg-[rgba(52,64,84,0.6)] backdrop-blur-[4px] top-0 left-0  z-10 grid place-items-center">
-      <main className="bg-white w-[75%] rounded-[20px]" >
+      <main className="bg-white w-[100%] md:w-[75%] rounded-[20px]" >
       <section className="captain-dashboard-main-section flex justify-between">
         <div className="flex items-end gap-3">
           <div className="bg-wynkPurple-200 rounded-full w-10 h-10 p-3 flex justify-center items-center text-white">JD</div>

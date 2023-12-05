@@ -22,7 +22,7 @@ export default function LoginModal() {
 
   return (
     <div className="fixed w-screen h-screen bg-[rgba(52,64,84,0.6)] backdrop-blur-[4px] top-0 left-0  z-10 grid place-items-center">
-      <article className="w-[60%] bg-white rounded-[20px] flex items-center min-h-[80vh] [&>*]:w-[50%] overflow-hidden">
+      <article className="w-[90%] md:w-[60%] bg-white rounded-[20px] flex items-center min-h-[80vh] [&>*]:w-[50%] overflow-hidden">
         <form
           onSubmit={handleSubmit}
           className="relative grid place-items-center  min-h-[80vh] px-[60px]"
