@@ -95,7 +95,7 @@ html {
 }
 
 .captain-dashboard-metrics-card {
-  @apply flex flex-col md:flex-row items-center gap-3 border-[1px] border-gray-300 rounded-lg sm:w-[30%] p-2;
+  @apply flex items-center gap-3 border-[1px] border-gray-300 rounded-lg sm:w-[30%] p-2;
 }
 .captain-dashboard-main-section {
   @apply container py-4 px-4 md:py-2 md:px-[110px] shrink-0 grow-0 min-w-full;
