@@ -6,6 +6,7 @@ import ServicesComponentsSwapper from "../components/ServicesComponentsSwapper";
 import DownloadWynkModal from "../components/DownloadWynkModal";
 import {IconTexts, IconMetrics } from "../components/IconTexts";
 import Header2Mobile from "../components/Header2Mobile";
+import YouTubeEmbed from "../components/YouTubeEmbed";
 
 function Home() {
   const [searchParams]= useSearchParams();
@@ -78,9 +79,7 @@ function Home() {
         <h2 className="text-center text-2xl sm:text-4xl font-bold leading-none">More than 5,000+ Users Trust Us</h2>
         <p className="text-sm sm:text-lg text-center sm:px-24">We’ve built a Community of Consumers, Captains, Merchants, and Businesses who rely on Wynk for innovative solutions across Rides, Payments, and Lifestyle Services.</p>
       </div>
-      <div className="w-full sm:w-3/5 flex items-center flex-col gap-4">
-        <img className="rounded-lg" src="/images/wynk-super-app-youtube-image.png" alt="youtube link"/>
-      </div>
+      <YouTubeEmbed videoId='UUYi48xQjHg'/>
       <div className="w-full flex flex-col sm:flex-row items-start sm:items-center justify-between">
         <IconMetrics
         icon='payments-icon.svg'
