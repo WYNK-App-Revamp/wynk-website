@@ -24,7 +24,7 @@ function ServicesComponentsSwapper() {
   }, [currentIndex]);
 
   return (
-    <div>
+    <div className="min-h-screen">
       {ServiceComponents[currentIndex]} {/* Render the current component */}
     </div>
   );
