@@ -25,7 +25,7 @@ function Home() {
       <section className="scheme-hero-section section-inner-padding flex gap-12">
         <div className="w-full sm:w-7/12">
           <h2 className="font-bold text-4xl sm:text-6xl mb-5 sm:pr-2">Connecting Lifestyle to Limitless Possibilities</h2>
-          <p className=" text-[16px] sm:text-xl mb-5 max-w-xl">Elevate your Lifestyle with the Wynk Lifestyle Super App, where WynkStars thrive beyond the ordinary across Ride-hailing, Payments, and Lifestyle Services. We create the bridge to the lifestyle you deserve.</p>
+          <p className=" text-[16px] sm:text-xl mb-5 max-w-xl">A seamless blend of convenience, style, and adventure, all under one roof.</p>
           <div className="call-to-actions flex gap-4">
             <button className="download-the-app-button"
             onClick={openDownloadWynkModal}
@@ -78,7 +78,7 @@ function Home() {
         <h2 className="text-center text-2xl sm:text-4xl font-bold leading-none">More than 5,000+ Users Trust Us</h2>
         <p className="text-sm sm:text-lg text-center sm:px-24">We’ve built a Community of Consumers, Captains, Merchants, and Businesses who rely on Wynk for innovative solutions across Rides, Payments, and Lifestyle Services.</p>
       </div>
-      <div className="w-3/5 flex items-center flex-col gap-4">
+      <div className="w-full sm:w-3/5 flex items-center flex-col gap-4">
         <img className="rounded-lg" src="/images/wynk-super-app-youtube-image.png" alt="youtube link"/>
       </div>
       <div className="w-full flex flex-col sm:flex-row items-start sm:items-center justify-between">

@@ -670,6 +670,10 @@ video {
   height: 24px;
 }
 
+.h-\[332px\] {
+  height: 332px;
+}
+
 .h-\[48px\] {
   height: 48px;
 }
@@ -732,6 +736,10 @@ video {
 
 .w-\[24px\] {
   width: 24px;
+}
+
+.w-\[350px\] {
+  width: 350px;
 }
 
 .w-\[4rem\] {
@@ -818,10 +826,6 @@ video {
   justify-content: space-between;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-1 {
   gap: 0.25rem;
 }
@@ -856,14 +860,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-0 {
-  gap: 0px;
-}
-
-.gap-24 {
-  gap: 6rem;
 }
 
 .gap-y-\[24px\] {
@@ -1164,10 +1160,6 @@ video {
 
 .text-\[34px\] {
   font-size: 34px;
-}
-
-.text-\[48px\] {
-  font-size: 48px;
 }
 
 .text-base {
@@ -1949,6 +1941,10 @@ html {
     gap: 2rem;
   }
 
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
+
   .sm\:rounded-lg {
     border-radius: 0.5rem;
   }
@@ -2037,6 +2033,10 @@ html {
     font-size: 20px;
   }
 
+  .sm\:text-\[24px\] {
+    font-size: 24px;
+  }
+
   .sm\:text-\[30px\] {
     font-size: 30px;
   }
@@ -2047,6 +2047,10 @@ html {
 
   .sm\:text-\[38px\] {
     font-size: 38px;
+  }
+
+  .sm\:text-\[48px\] {
+    font-size: 48px;
   }
 
   .sm\:text-\[52px\] {

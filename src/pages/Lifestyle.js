@@ -21,8 +21,8 @@ export default function Lifestyle() {
         <Header1Mobile/>
       </section>
       <section className="main-section lifestyle-hero min-h-[80vh] text-white flex flex-col gap-6 items-center justify-center">
-          <p className="text-[24px] font-medium text-center">Lifestyle</p>
-          <p className="text-[48px] font-medium text-center">A seamless blend of convenience, style, and adventure, all under one roof.</p>
+          <p className="text-[16px] sm:text-[24px] font-medium text-center">Lifestyle</p>
+          <p className="text-[34px] sm:text-[48px] font-medium text-center">A seamless blend of convenience, style, and adventure, all under one roof.</p>
       </section>
       <section className="main-section section-inner-padding bg-wynkOffWhite flex flex-col gap-6 items-center">
         <p className="text-[24px] sm:text-[30px] font-medium text-center w-4/5">Whether you're a seasoned traveler, a shopaholic, a food enthusiast, or a social butterfly, we've got you covered!</p>
@@ -72,7 +72,7 @@ export default function Lifestyle() {
         </div>
       </section>
       <section className="main-section section-inner-padding bg-wynkPurple-100">
-      <div className="px-8 md:px-16 flex flex-col md:flex-row items-center gap-4">
+      <div className="md:px-16 flex flex-col md:flex-row items-center gap-12 sm:gap-4">
         <div className="flex flex-col items-center md:items-start gap-2 md:w-1/2">
           <h3 className="bg-orange-500 bg-opacity-10 text-orange-500 text-sm sm:text-lg text-center font-bold p-4 rounded-full">Wynk Marketplace</h3>
           <p className="text-[28px] sm:text-[38px] text-center md:text-start font-bold">Secure Shopping, Worry-Free Payments</p>
@@ -82,13 +82,13 @@ export default function Lifestyle() {
           >Get the app</button>
           {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
         </div>
-        <div className="md:w-1/2">
+        <div className="w-full md:w-1/2">
           <img src="/images/shopping-phone-component.png" alt="phone shopping screen"/>
         </div>
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
-      <div className="px-6 md:px-12 flex flex-col md:flex-row gap-16">
+      <div className=" md:px-12 flex flex-col md:flex-row gap-16">
         <div className="md:w-1/2">
           <img src="/images/flight-booking-phone-component.png" alt="flight booking phone screen"/>
         </div>
