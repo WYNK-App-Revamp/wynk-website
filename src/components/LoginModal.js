@@ -22,10 +22,10 @@ export default function LoginModal() {
 
   return (
     <div className="fixed w-screen h-screen bg-[rgba(52,64,84,0.6)] backdrop-blur-[4px] top-0 left-0  z-10 grid place-items-center">
-      <article className="w-[90%] md:w-[60%] bg-white rounded-[20px] flex items-center min-h-[80vh] [&>*]:w-[50%] overflow-hidden">
+      <article className="w-[95%] lg:w-[60%] bg-white rounded-[20px] flex items-center min-h-[80vh] md:[&>*]:w-[50%] overflow-hidden">
         <form
           onSubmit={handleSubmit}
-          className="relative grid place-items-center  min-h-[80vh] px-[60px]"
+          className="relative grid place-items-center  min-h-[80vh] px-[10px] md:px-[60px]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ export default function LoginModal() {
             height="40"
             viewBox="0 0 40 40"
             fill="none"
-            className="absolute top-0 left-[50px] cursor-pointer"
+            className="absolute top-2 md:top-0 left-0 md:left-[50px] cursor-pointer"
             onClick={() => navigate(-1)}
           >
             <path
@@ -75,7 +75,7 @@ export default function LoginModal() {
                     />
                   </svg>
                 </div>
-                <div className="h-[48px] w-[78%] overflow-hidden border border-[#ccc]  text-[16px] text-[#8D9091] flex items-center rounded-[8px] px-4">
+                <div className="h-[48px] w-[70%] md:w-[78%] overflow-hidden border border-[#ccc]  text-[16px] text-[#8D9091] flex items-center rounded-[8px] px-4">
                   <p className="h-full  w-[4rem] grid place-items-center">
                     +234
                   </p>
@@ -105,7 +105,7 @@ export default function LoginModal() {
             </button>
           </div>
         </form>
-        <div className="bg-cover bg-center h-full ">
+        <div className="hidden lg:block bg-cover bg-center h-full">
           <img src="/images/captain-login-image.png" className="w-full h-full" alt="" />
         </div>
       </article>

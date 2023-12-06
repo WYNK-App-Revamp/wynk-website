@@ -14,8 +14,8 @@ export function FAQs () {
         <Header1Mobile/>
         <section className="section-inner-padding flex flex-col gap-8 mb-24 items-center justify-center bg-wynkPurple-100">
             <h2 className="text-[28px] sm:text-[52px] text-center font-bold"><span className="text-wynkPurple-200">Frequently</span> Asked Questions</h2>
-            <p className="w-4/5 sm:w-1/2 text-[18px] text-center">Here are some answers to the frequently asked questions. If you can’t find an answer, contact us.</p>
-            {/*<div className="bg-white w-full sm:w-1/2 p-4 rounded-2xl">
+            <p className="w-4/5 lg:w-1/2 text-[18px] text-center">Here are some answers to the frequently asked questions. If you can’t find an answer, contact us.</p>
+            {/*<div className="bg-white w-full lg:w-1/2 p-4 rounded-2xl">
               <p className="text-[18px] font-bold">Watch a video explainer from Wynk</p>
               <YouTubeEmbed/>
   </div>*/}

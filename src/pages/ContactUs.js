@@ -12,7 +12,7 @@ function ContactUs () {
       <Header1Mobile/>
       <section className="section-inner-padding flex flex-col justify-center items-center gap-2 sm:gap-8">
         <h3 className="text-[28px] sm:text-6xl font-bold"><span className="text-wynkPurple-200">Contact</span> Us</h3>
-        <p className="text-[18px] px-2 sm:px-8 sm:w-3/5 text-center mb-[500px] sm:mb-2">We'd like to hear from you. Send us a message and we'll be pleased to answer any question you have or treat any problem you're experiencing.</p>
+        <p className="text-[18px] px-2 sm:px-8 lg:w-3/5 text-center mb-[500px] sm:mb-2">We'd like to hear from you. Send us a message and we'll be pleased to answer any question you have or treat any problem you're experiencing.</p>
       </section>
     </section>
     <section className="main-section bg-white flex flex-col gap-12 items-center">

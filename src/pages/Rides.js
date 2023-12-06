@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Header1 from "../components/Header1";
 import Header1Mobile from "../components/Header1Mobile";
 import { CarpoolMultiplePassengersCard, EarnAsYouDriveCard, SignUpAsAWynkCaptainCard } from "../components/DriveAsACaptainCards";
-import { IconTexts } from "../components/IconTexts";
+import { IconTexts4 } from "../components/IconTexts";
 
 export default function Rides () {
   const [searchParams]= useSearchParams();
@@ -31,34 +31,34 @@ export default function Rides () {
       </div>
     </section>
     <section className="main-section section-inner-padding mt-[-25%] bg-wynkPurple-100 flex flex-col items-center gap-6 sm:gap-12">
-      <h2 className="font-bold text-[24px] sm:text-[38px] sm:w-[65%] text-center mt-[20%] sm:mt-[15%]">Your Ultimate Ride-Hailing Experience, with Advanced Features.</h2>
+      <h2 className="font-bold text-[24px] sm:text-[38px] lg:w-[65%] text-center mt-[20%] sm:mt-[15%]">Your Ultimate Ride-Hailing Experience, with Advanced Features.</h2>
       <button className="download-the-app-button"
       onClick={openDownloadWynkModal}
       >Get the app</button>
       {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
-      <div className="sm:w-[75%] flex items-center flex-col sm:flex-row gap-8">
-          <div className="flex flex-col gap-8 sm:mt-[20px] sm:w-1/2">
-            <IconTexts
+      <div className="md:w-[65%] lg:w-[80%] flex items-center flex-col lg:flex-row  gap-8">
+          <div className="flex flex-col items-center gap-8 sm:mt-[20px] lg:w-1/2">
+            <IconTexts4
             bgColor='white'
             icon='ride-code-icon.svg'
             header='Ride code'
             paragraph='We make it easy to identify your pickup driver with a code, making it safe to ride in comfort.'
             />
-            <IconTexts
+            <IconTexts4
             bgColor='white'
             icon='record-rides.svg'
             header='Audio/Video record rides'
             paragraph='For your safety, you can record your rides on the go and share with anyone.'
             />
           </div>
-          <div className="flex flex-col gap-8 sm:w-1/2">
-            <IconTexts
+          <div className="flex flex-col  items-center gap-8 lg:w-1/2">
+            <IconTexts4
             bgColor='white'
             icon='share-rides-icon.svg'
             header='Share Rides'
             paragraph='Split ride fares with other Patrons and enjoy affordable ride offerings just for you.'
             />
-            <IconTexts
+            <IconTexts4
             bgColor='white'
             icon='schedule-rides.svg'
             header='Schedule Rides'
@@ -68,16 +68,16 @@ export default function Rides () {
         </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
-      <div className="px-6 md:px-12 flex flex-col md:flex-row items-center gap-16">
-        <div className="flex flex-col items-center md:items-start gap-2 md:w-1/2">
-          <p className="sm:text-[38px] text-center md:text-start font-bold">Go wherever you want hassle free!</p>
-          <p className="sm:text-[18px] text-center md:text-start text-[#212529] mb-4">With Wynk, your daily commute becomes an opportunity to connect, save, and ensure your safety.</p>
+      <div className="px-6 lg:px-12 flex flex-col lg:flex-row items-center gap-16">
+        <div className="flex flex-col items-center lg:items-start gap-2 lg:w-1/2">
+          <p className="sm:text-[38px] text-center lg:text-start font-bold">Go wherever you want hassle free!</p>
+          <p className="sm:text-[18px] text-center lg:text-start text-[#212529] mb-4">With Wynk, your daily commute becomes an opportunity to connect, save, and ensure your safety.</p>
           <button className="download-the-app-button"
           onClick={openDownloadWynkModal}
           >Get the app</button>
           {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
         </div>
-        <div className="md:w-1/2">
+        <div className="lg:w-1/2">
           <img src="/images/flight-booking-phone-component.png" alt="flight booking phone screen"/>
         </div>
       </div>
@@ -93,7 +93,7 @@ export default function Rides () {
         <div>
           <SignUpAsAWynkCaptainCard/>
         </div>
-        <div className="flex flex-col sm:flex-row  gap-6">
+        <div className="flex flex-col lg:flex-row  gap-6">
           <EarnAsYouDriveCard/>
           <CarpoolMultiplePassengersCard/>
         </div>

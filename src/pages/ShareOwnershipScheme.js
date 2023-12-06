@@ -27,11 +27,11 @@ function ShareOwnershipScheme() {
     <section className="main-section bg-wynkPurple-100">
       <Header1/>
       <Header1Mobile/>
-      <section className="scheme-hero-section section-inner-padding flex flex-col-reverse md:flex-row items-center gap-4">
-        <div className="md:w-3/4 flex flex-col md:items-start">
-          <h2 className="text-center md:text-start font-bold text-4xl md:text-[64px] md:leading-none mb-5"> <span className="text-wynkPurple-200">Share Ownership</span> scheme for Captains</h2>
-          <p className="text-center md:text-start text-base sm:text-xl mb-5 sm:max-w-xl">Get exclusive opportunity to be one of 5,000 Captains to benefit in the share ownership initiative which aims to reward dedicated and high performing Captains</p>
-          <div className="call-to-actions flex justify-center md:items-start gap-3">
+      <section className="scheme-hero-section section-inner-padding flex flex-col-reverse lg:flex-row items-center gap-4">
+        <div className="lg:w-3/4 flex flex-col lg:items-start">
+          <h2 className="text-center lg:text-start font-bold text-4xl lg:text-[64px] lg:leading-none mb-5"> <span className="text-wynkPurple-200">Share Ownership</span> scheme for Captains</h2>
+          <p className="text-center lg:text-start text-base sm:text-xl mb-5 sm:max-w-xl">Get exclusive opportunity to be one of 5,000 Captains to benefit in the share ownership initiative which aims to reward dedicated and high performing Captains</p>
+          <div className="call-to-actions flex justify-center lg:items-start gap-3">
             <button className="download-the-app-button"
             onClick={openDownloadWynkModal}
             >Download the app</button>

@@ -76,7 +76,7 @@ To become a Wynk Merchant, sign up on the Wynk App and select the Lifestyle opti
             onClick={() => handleToggle(index)}
           >
             <p className="text-[16px] font-semibold">{faq.question}</p>
-            <span className="p-2 text-2xl rounded-full h-5 sm:h-10 w-5 sm:w-10 flex items-center justify-center shadow-lg">
+            <span className="p-2 text-2xl rounded-full h-5 sm:h-10 w-5 lg:w-10 flex items-center justify-center shadow-lg">
               {activeIndex === index ? "-" : "+"}
             </span>
           </div>
@@ -87,7 +87,7 @@ To become a Wynk Merchant, sign up on the Wynk App and select the Lifestyle opti
       ));
 
   return (
-    <div className="w-full sm:w-1/2 mx-auto mt-[-150px] bg-white p-4 rounded-2xl">
+    <div className="w-full lg:w-1/2 mx-auto mt-[-150px] bg-white p-4 rounded-2xl">
       {faqsArray}
     </div>
   );

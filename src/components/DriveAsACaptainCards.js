@@ -2,8 +2,8 @@ import { IconTexts2, IconTexts3 } from "./IconTexts";
 
 export function SignUpAsAWynkCaptainCard () {
   return (
-    <div className="bg-white flex flex-col sm:flex-row items-center rounded-xl md:px-20">
-      <div className="md:w-3/5">
+    <div className="bg-white flex flex-col lg:flex-row items-center rounded-xl md:px-20">
+      <div className="lg:w-3/5">
         <IconTexts3
         icon='orange-captain-icon.svg'
         header='Sign up as a Wynk captain'

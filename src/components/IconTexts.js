@@ -1,6 +1,6 @@
 export function IconTexts (props) {
   return (
-    <div className="p-5 flex flex-col gap-4 rounded-2xl sm:rounded-lg" style={{backgroundColor: props.bgColor}}>
+    <div className="md:w-[80%] p-5 flex flex-col gap-4 rounded-2xl sm:rounded-lg" style={{backgroundColor: props.bgColor}}>
       <div>
         <img src={`/images/${props.icon}`} alt="icon"/>
       </div>
@@ -41,13 +41,27 @@ export function IconTexts2 (props) {
 }
 export function IconTexts3 (props) {
   return (
-    <div className="md:w-4/5 md:ml-6 p-12 flex flex-col gap-4 rounded-2xl sm:rounded-lg" style={{backgroundColor: props.bgColor}}>
+    <div className="md:w-4/5 lg:ml-6 p-12 flex flex-col gap-4 rounded-2xl sm:rounded-lg" style={{backgroundColor: props.bgColor}}>
       <div>
         <img src={`/images/${props.icon}`} alt="icon"/>
       </div>
       <div>
         <p className="text-[18px] text-[#211E8A] font-medium">{props.header}</p>
         <p className="text-[16px] text-[#211E8A]">{props.paragraph}</p>
+      </div>
+    </div>
+  );
+}
+
+export function IconTexts4 (props) {
+  return (
+    <div className="p-5 flex flex-col gap-4 rounded-2xl sm:rounded-lg" style={{backgroundColor: props.bgColor}}>
+      <div>
+        <img src={`/images/${props.icon}`} alt="icon"/>
+      </div>
+      <div>
+        <p className="text-[18px] font-medium">{props.header}</p>
+        <p className="text-[16px] text-[#52525B]">{props.paragraph}</p>
       </div>
     </div>
   );

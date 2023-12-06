@@ -32,13 +32,13 @@ function Payments() {
       </section>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
-      <div className="md:px-12 flex flex-col md:flex-row items-center gap-16">
-        <div className="md:w-1/2">
+      <div className="lg:px-12 flex flex-col lg:flex-row items-center gap-16">
+        <div className="lg:w-1/2">
           <img src="/images/transfer-assets.png" alt="phone transfer screen"/>
         </div>
-        <div className="flex flex-col items-center md:items-start gap-2 md:w-1/2">
-          <p className="sm:text-[38px] text-center md:text-start font-bold">Unlock Payments without Boundaries</p>
-          <p className="sm:text-[18px] text-center md:text-start text-[#212529] mb-4">Bypass online payment delays and discover unlimited access to seamless mobile subscriptions, utility bills, loans, online betting, and more!</p>
+        <div className="flex flex-col items-center lg:items-start gap-2 lg:w-1/2">
+          <p className="sm:text-[38px] text-center lg:text-start font-bold">Unlock Payments without Boundaries</p>
+          <p className="sm:text-[18px] text-center lg:text-start text-[#212529] mb-4">Bypass online payment delays and discover unlimited access to seamless mobile subscriptions, utility bills, loans, online betting, and more!</p>
           <button className="download-the-app-button"
           onClick={openDownloadWynkModal}
           >Get the app</button>
@@ -47,16 +47,16 @@ function Payments() {
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkPurple-100">
-      <div className="md:px-16 flex flex-col-reverse md:flex-row gap-4">
-        <div className="flex flex-col items-center md:items-start gap-2 md:w-1/2">
-          <p className="sm:text-[38px] text-center md:text-start font-bold">Unmatched Convenience for everyone</p>
-          <p className="sm:text-[18px] text-center md:text-start text-[#212529] mb-4">Customers, Captains,  and Businesses can enjoy a more secure and convenient mode of sending and receiving money with Wynk.</p>
+      <div className="lg:px-16 flex flex-col-reverse lg:flex-row gap-4">
+        <div className="flex flex-col items-center lg:items-start gap-2 lg:w-1/2">
+          <p className="sm:text-[38px] text-center lg:text-start font-bold">Unmatched Convenience for everyone</p>
+          <p className="sm:text-[18px] text-center lg:text-start text-[#212529] mb-4">Customers, Captains,  and Businesses can enjoy a more secure and convenient mode of sending and receiving money with Wynk.</p>
           <button className="download-the-app-button"
           onClick={openDownloadWynkModal}
           >Get the app</button>
           {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
         </div>
-        <div className="md:w-1/2">
+        <div className="lg:w-1/2">
           <img src="/images/pay-bills-assets.png" alt="phone transfer screen"/>
         </div>
       </div>
@@ -64,7 +64,7 @@ function Payments() {
     <section className="main-section section-inner-padding bg-wynkOffWhite justify-center items-center flex flex-col gap-8">
       <p className="text-[24px] sm:text-[38px] text-center">Personalised Virtual Card</p>
       <p className="text-[14px] sm:text-[18px] text-center sm:w-1/2 mb-2">Elevate your digital transactions with the Wynk Vault. Whether you're shopping, subscribing, or paying bills, we offer an extra layer of protection for you.</p>
-      <div className="virtual-card-services flex flex-col md:flex-row items-center justify-center gap-6">
+      <div className="virtual-card-services flex flex-col lg:flex-row items-center justify-center gap-6">
         <ImageTexts
         image='fund-your-card.svg'
         header='Fund your card'

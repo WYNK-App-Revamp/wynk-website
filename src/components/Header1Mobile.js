@@ -11,7 +11,7 @@ export default function Header1Mobile () {
     setNavbarIsOpen(true);
   }
   return (
-    <header className="sm:hidden h-8">
+    <header className="lg:hidden h-8">
       <div className="flex">
         <div className="cursor-pointer mr-auto" onClick={navigateToHome}>
           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="32" viewBox="0 0 50 32" fill="none">

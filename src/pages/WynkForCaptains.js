@@ -61,11 +61,11 @@ export default function WynkForMerchants () {
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkPurple-100">
-      <div className="md:px-12 flex items-center gap-16">
-        <div className="md:w-1/2">
+      <div className="lg:px-12 flex items-center gap-16">
+        <div className="lg:w-1/2">
           <img src="/images/my-shop-phone-screen.png" alt="my shop phone screen"/>
         </div>
-        <div className="flex flex-col items-start gap-2 md:w-1/2">
+        <div className="flex flex-col items-start gap-2 lg:w-1/2">
           <p className="sm:text-[38px] font-bold">Open Your Shop and Thrive on the Wynk Marketplace!</p>
           <p className="sm:text-[18px] text-[#212529] mb-4">Are you an aspiring entrepreneur or an established business looking to reach a broader audience, you've come to the right place.</p>
           <button className="download-the-app-button"
@@ -76,8 +76,8 @@ export default function WynkForMerchants () {
       </div>
     </section>
     <section className="main-section section-inner-padding bg-wynkOffWhite">
-      <div className="md:px-16 flex items-center gap-4">
-        <div className="flex flex-col items-start gap-2 md:w-1/2">
+      <div className="lg:px-16 flex items-center gap-4">
+        <div className="flex flex-col items-start gap-2 lg:w-1/2">
           <p className="sm:text-[38px] font-bold">Effortless Order Tracking for Wynk merchants</p>
           <p className="sm:text-[18px] text-[#212529] mb-4">At Wynk, we understand that staying on top of your orders is crucial for a smooth and successful business operation, whether you're a food vendor or a shop owner.</p>
           <button className="download-the-app-button"
@@ -85,7 +85,7 @@ export default function WynkForMerchants () {
           >Get the app</button>
           {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
         </div>
-        <div className="md:w-1/2">
+        <div className="lg:w-1/2">
           <img src="/images/order-tracking-phone-screen.png" alt="Effortless Order Tracking phone screen"/>
         </div>
       </div>

@@ -10,7 +10,7 @@ html {
 
 
 .main-section {
-  @apply container py-4 px-6 md:py-8 md:px-[105px] shrink-0 grow-0 min-w-full;
+  @apply container py-4 px-6 md:py-8 md:px-[60px] lg:px-[105px] shrink-0 grow-0 min-w-full;
 }
 
 .section-inner-padding {
@@ -71,7 +71,7 @@ html {
 }
 
 .form-card {
-  @apply bg-white w-full sm:w-5/12 shadow-lg rounded-xl mt-[-520px] sm:mt-[-120px] mb-5 md:mb-2;
+  @apply bg-white w-full md:w-[80%] lg:w-5/12 shadow-lg rounded-xl mt-[-520px] sm:mt-[-120px] mb-5 md:mb-2;
 }
 
 .form-input-field {
@@ -79,11 +79,11 @@ html {
 }
 
 .contact-card {
-  @apply bg-wynkPurple-100 w-[100%] sm:w-5/12 rounded-2xl p-6 sm:p-8;
+  @apply bg-wynkPurple-100 w-[100%] md:w-4/5 lg:w-5/12 rounded-2xl p-6 sm:p-8;
 }
 
 .navbar-web {
-  @apply flex items-center justify-between [&>*]:flex [&>*]:items-center gap-4 py-3 sm:w-[85%] md:w-[65%];
+  @apply flex items-center justify-between [&>*]:flex [&>*]:items-center gap-4 py-3 sm:w-[85%] lg:w-[65%];
 }
 
 .navbar-dropdown-web {

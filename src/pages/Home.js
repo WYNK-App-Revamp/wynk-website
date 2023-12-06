@@ -44,7 +44,7 @@ function Home() {
         <h2 className="text-center text-2xl sm:text-4xl font-bold leading-none">Explore Access without Limits</h2>
         <p className="text-sm sm:text-lg text-center w-4/5 sm:w-3/4">WynkStars including Consumers, Captains, Merchants, and Businesses can explore boundless access to a variety of services on the Wynk Lifestyle Super App.</p>
       </div>
-      <div className="flex flex-col md:flex-row justify-center gap-6">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
         <IconTexts
         bgColor='white'
         icon='consumers-card-icon.svg'
