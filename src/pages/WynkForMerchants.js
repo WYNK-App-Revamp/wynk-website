@@ -124,7 +124,7 @@ export default function WynkForMerchants () {
     </section>
     <section className="main-section section-inner-padding bg-wynkPurple-100 flex flex-col items-center gap-8">
       <p className="text-[28px] sm:text-[38px] text-center">How to Deliver with Wynk</p>
-      <p className="text-[18px] text-center lg:w-1/2 mb-2">Craving your favorite cuisine or a refreshing drink? With Wynk, ordering food and drinks is a breeze. Follow these three simple steps to satisfy your taste buds:</p>
+      <p className="text-[18px] text-center lg:w-1/2 mb-2">Wynk Merchants can access safe and seamless item deliveries from our community of Expert Riders. Follow these 3 simple steps to set your instant Delivery in motion:</p>
       <div className="flex flex-col lg:flex-row items-center justify-between sm:px-8">
         <ImageTexts
         image='enter-delivery-location.svg'
