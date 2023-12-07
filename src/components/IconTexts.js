@@ -1,6 +1,6 @@
 export function IconTexts (props) {
   return (
-    <div className="md:w-[80%] p-5 flex flex-col gap-4 rounded-2xl sm:rounded-lg" style={{backgroundColor: props.bgColor}}>
+    <div className="md:w-[80%] p-8 flex flex-col gap-4 rounded-2xl sm:rounded-lg" style={{backgroundColor: props.bgColor}}>
       <div>
         <img src={`/images/${props.icon}`} alt="icon"/>
       </div>

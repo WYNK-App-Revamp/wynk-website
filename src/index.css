@@ -778,6 +778,10 @@ video {
   width: 100vw;
 }
 
+.w-\[90\%\] {
+  width: 90%;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -1746,7 +1750,6 @@ html {
 .navbar-dropdown-mobile {
   margin-top: 1rem;
   display: flex;
-  height: 22rem;
   width: 100%;
   flex-direction: column;
   gap: 1.5rem;
@@ -1899,10 +1902,6 @@ html {
 
   .sm\:w-7\/12 {
     width: 58.333333%;
-  }
-
-  .sm\:w-\[65\%\] {
-    width: 65%;
   }
 
   .sm\:w-\[90\%\] {
@@ -2098,20 +2097,16 @@ html {
     top: 0px;
   }
 
-  .md\:ml-6 {
-    margin-left: 1.5rem;
-  }
-
   .md\:w-3\/4 {
     width: 75%;
   }
 
-  .md\:w-3\/5 {
-    width: 60%;
-  }
-
   .md\:w-4\/5 {
     width: 80%;
+  }
+
+  .md\:w-\[65\%\] {
+    width: 65%;
   }
 
   .md\:w-\[75\%\] {
@@ -2126,24 +2121,28 @@ html {
     width: 80%;
   }
 
+  .md\:w-\[55\%\] {
+    width: 55%;
+  }
+
+  .md\:w-\[60\] {
+    width: 60;
+  }
+
   .md\:w-\[60\%\] {
     width: 60%;
   }
 
-  .md\:w-\[75\] {
-    width: 75;
+  .md\:w-\[40\%\] {
+    width: 40%;
   }
 
-  .md\:w-\[8\%\] {
-    width: 8%;
+  .md\:w-\[20\%\] {
+    width: 20%;
   }
 
-  .md\:w-\[85\%\] {
-    width: 85%;
-  }
-
-  .md\:w-\[65\%\] {
-    width: 65%;
+  .md\:w-\[70\%\] {
+    width: 70%;
   }
 
   .md\:flex-row {
@@ -2176,6 +2175,20 @@ html {
     padding-left: 60px;
     padding-right: 60px;
   }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .md\:pr-8 {
+    padding-right: 2rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2193,6 +2206,18 @@ html {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-\[20\%\] {
+    height: 20%;
+  }
+
+  .lg\:min-h-screen {
+    min-height: 100vh;
+  }
+
+  .lg\:min-h-\[20\%\] {
+    min-height: 20%;
   }
 
   .lg\:w-1\/2 {
@@ -2219,6 +2244,10 @@ html {
     width: 60%;
   }
 
+  .lg\:w-\[65\%\] {
+    width: 65%;
+  }
+
   .lg\:w-\[75\%\] {
     width: 75%;
   }
@@ -2227,8 +2256,12 @@ html {
     width: 80%;
   }
 
-  .lg\:w-\[65\%\] {
-    width: 65%;
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:w-7\/12 {
+    width: 58.333333%;
   }
 
   .lg\:flex-row {
@@ -2239,6 +2272,10 @@ html {
     align-items: flex-start;
   }
 
+  .lg\:items-center {
+    align-items: center;
+  }
+
   .lg\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -2247,6 +2284,15 @@ html {
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lg\:pr-2 {
+    padding-right: 0.5rem;
   }
 
   .lg\:text-start {

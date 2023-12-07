@@ -91,7 +91,7 @@ html {
 }
 
 .navbar-dropdown-mobile {
-  @apply transition duration-300 ease-in-out bg-white h-[22rem] w-full rounded-2xl text-black flex flex-col mt-4 gap-6;
+  @apply transition duration-300 ease-in-out bg-white w-full rounded-2xl text-black flex flex-col mt-4 gap-6;
 }
 
 .captain-dashboard-metrics-card {

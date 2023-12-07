@@ -19,13 +19,13 @@ function Home() {
   return (
     <main>
     <section 
-    className="main-section home-hero sm:min-h-screen text-white" 
+    className="main-section home-hero lg:min-h-screen text-white" 
      >
       <Header2/>
       <Header2Mobile/>
-      <section className="scheme-hero-section section-inner-padding flex gap-12">
-        <div className="w-full sm:w-7/12">
-          <h2 className="font-bold text-4xl sm:text-6xl mb-5 sm:pr-2">Connecting Lifestyle to Limitless Possibilities</h2>
+      <section className="section-inner-padding flex items-center gap-12">
+        <div className="w-full md:[70%] lg:w-7/12">
+          <h2 className="font-bold text-4xl sm:text-6xl mb-5 md:pr-8 lg:pr-2">Connecting Lifestyle to Limitless Possibilities</h2>
           <p className=" text-[16px] sm:text-xl mb-5 max-w-xl">Elevate your Lifestyle with the Wynk Lifestyle Super App, where WynkStars thrive beyond the ordinary across Ride-hailing, Payments, and Lifestyle Services. We create the bridge to the lifestyle you deserve.</p>
           <div className="call-to-actions flex gap-4">
             <button className="download-the-app-button"
@@ -39,12 +39,12 @@ function Home() {
     <section className="main-section section-inner-padding bg-wynkOffWhite">
       <ServicesComponentsSwapper/>
     </section>
-    <section className="main-section section-inner-padding bg-wynkPurple-100 flex flex-col">
+    <section className="main-section section-inner-padding bg-wynkPurple-100 flex flex-col items-center">
       <div className="hero-text items-center flex flex-col gap-4 mb-10 sm:mb-20">
         <h2 className="text-center text-2xl sm:text-4xl font-bold leading-none">Explore Access without Limits</h2>
         <p className="text-sm sm:text-lg text-center w-4/5 sm:w-3/4">WynkStars including Consumers, Captains, Merchants, and Businesses can explore boundless access to a variety of services on the Wynk Lifestyle Super App.</p>
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
+      <div className="w-[90%] md:w-[70%] lg:w-full flex flex-col lg:flex-row items-center justify-center gap-6">
         <IconTexts
         bgColor='white'
         icon='consumers-card-icon.svg'

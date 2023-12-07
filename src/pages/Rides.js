@@ -36,7 +36,7 @@ export default function Rides () {
       onClick={openDownloadWynkModal}
       >Get the app</button>
       {downloadWynkModalIsOpen? <DownloadWynkModal/> : null}
-      <div className="md:w-[65%] lg:w-[80%] flex items-center flex-col lg:flex-row  gap-8">
+      <div className="md:w-[55%] lg:w-[80%] flex items-center flex-col lg:flex-row  gap-8">
           <div className="flex flex-col items-center gap-8 sm:mt-[20px] lg:w-1/2">
             <IconTexts4
             bgColor='white'

@@ -61,8 +61,8 @@ function Footer() {
         </section>
       </section>
       <hr style={{borderTop: '1px solid rgba(255, 255, 255, 0.30)'}}></hr>
-      <section className=" flex flex-col sm:flex-row items-start">
-        <section className="flex flex-col sm:flex-row gap-6 sm:mr-auto mb-6 sm:w-1/2 items-start sm:items-center">
+      <section className=" flex flex-col lg:flex-row items-start">
+        <section className="flex flex-col lg:flex-row gap-6 sm:mr-auto mb-6 lg:w-1/2 items-start lg:items-center">
           <img alt="wynk logo" src="../images/wynk_logo_2.png" className="h-3/5"/>
           <div className="text-sm">Simplify your life, discover infinite access, and live more freely with the Wynk Lifestyle Super App. Embrace our world of infinite access where convenience meets lifestyle, innovation meets simplicity, and you meet endless possibilities.</div>
         </section>
