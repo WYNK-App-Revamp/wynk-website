@@ -1650,6 +1650,7 @@ html {
 @media (min-width: 768px) {
   .form-card {
     margin-bottom: 0.5rem;
+    width: 90%;
   }
 }
 
@@ -2118,6 +2119,10 @@ html {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-wrap {
+    flex-wrap: wrap;
   }
 
   .md\:items-center {
