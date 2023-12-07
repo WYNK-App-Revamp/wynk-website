@@ -3,7 +3,7 @@ import {ConnectWithWynk} from "./ConnectWithWynk";
 function Footer() {
   return (
     <footer className="main-section footer">
-      <section className="go-to-links flex flex-col md:flex-row md:justify-between">
+      <section className="go-to-links flex flex-col lg:flex-row lg:justify-between">
         <section className="flex mb-8 flex-col gap-4">
           <h4>Address</h4>
           <p>Lekki, Lagos - Nigeria</p>

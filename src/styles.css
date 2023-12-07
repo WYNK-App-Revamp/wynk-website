@@ -71,7 +71,7 @@ html {
 }
 
 .form-card {
-  @apply bg-white w-full md:w-[80%] lg:w-5/12 shadow-lg rounded-xl mt-[-520px] sm:mt-[-120px] mb-5 md:mb-2;
+  @apply bg-white w-full lg:w-5/12 shadow-lg rounded-xl mt-[-520px] sm:mt-[-120px] mb-5 md:mb-2;
 }
 
 .form-input-field {
