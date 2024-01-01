@@ -23,7 +23,6 @@ function ContactUs () {
       headers: {
         'Content-Type': 'application/json',
         'Accept': '*/*',
-        'Host': 'https://wynk.ng/stagging-api'
         },
       url: 'https://wynk.ng/stagging-api/send-contact-email',
       data: emailData
