@@ -13,19 +13,18 @@ function ContactUs () {
   async function sendEmail(e) {
     e.preventDefault();
     const emailData = {
-        name,
-        email,
-        subject: 'Contact Us Message',
-        message
+        "name": name,
+        "email": email,
+        "subject": 'Contact Us Message',
+        "message": message
       }
     const options = {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Accept': '*/*',
         },
       url: 'https://wynk.ng/stagging-api/send-contact-email',
-      data: emailData
+      data: emailData,
     }
     try {
       console.log(emailData)
