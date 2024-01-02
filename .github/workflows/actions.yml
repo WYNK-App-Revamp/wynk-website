@@ -29,7 +29,7 @@ jobs:
           password: e-+Y9#9Ta7tQ
           protocol: ftp
           port: 21
-          local-dir: ./dist/
+          local-dir: ./build/
           dangerous-clean-slate: true
 
           # C+58kZKcTQ?l
