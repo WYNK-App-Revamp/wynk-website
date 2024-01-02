@@ -27,7 +27,6 @@ function ContactUs () {
       data: emailData,
     }
     try {
-      console.log(emailData)
       const resp = (await axios(options));
       console.log(resp)
     } catch (error) {
