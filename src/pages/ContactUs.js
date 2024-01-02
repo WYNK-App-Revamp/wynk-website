@@ -11,7 +11,7 @@ function ContactUs () {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   async function sendEmail(e) {
-    e.preventDefault();
+    //e.preventDefault();
     const emailData = {
         "name": name,
         "email": email,
