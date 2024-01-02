@@ -12,13 +12,13 @@ function Footer() {
           <h4 className="text-lg">Company</h4>
           <ul className="text-sm">
             <li>
-              <a href="#">About us</a>
+              <a href="/#">About us</a>
             </li>
             <li>
-              <a href="#">Join the team</a>
+              <a href="/#">Join the team</a>
             </li>
             <li>
-              <a href="#">Investor relations</a>
+              <a href="/#">Investor relations</a>
             </li>
             <li>
               <a href="/contact-us">Contact us</a>
@@ -29,22 +29,22 @@ function Footer() {
           <h4 className="text-lg">Consumers</h4>
           <ul className="text-sm">
             <li>
-              <a href="#">Vaults</a>
+              <a href="/#">Vaults</a>
             </li>
             <li>
               <a href="/rides">Rides</a>
             </li>
             <li>
-              <a href="#">Marketplace</a>
+              <a href="/#">Marketplace</a>
             </li>
             <li>
-              <a href="#">Restaurants & Bars</a>
+              <a href="/#">Restaurants & Bars</a>
             </li>
             <li>
-              <a href="#">Social Media</a>
+              <a href="/#">Social Media</a>
             </li>
             <li>
-              <a href="#">Package Delivery</a>
+              <a href="/#">Package Delivery</a>
             </li>
           </ul>
         </section>
@@ -52,16 +52,16 @@ function Footer() {
           <h4 className="text-lg">Captains</h4>
           <ul className="text-sm">
             <li>
-              <a href="#">Become a Captain</a>
+              <a href="/#">Become a Captain</a>
             </li>
             <li>
-              <a href="#">Become a Dispatch</a>
+              <a href="/#">Become a Dispatch</a>
             </li>
             <li>
-              <a href="#">What’s New</a>
+              <a href="/#">What’s New</a>
             </li>
             <li>
-              <a href="#">Captain Center</a>
+              <a href="/#">Captain Center</a>
             </li>
             <li>
               <a href="/share-ownership">Share Ownership</a>
@@ -75,7 +75,7 @@ function Footer() {
               <a href="/wynk-for-merchants">Wynk for Business</a>
             </li>
             <li>
-              <a href="#">Wynk Vault</a>
+              <a href="/#">Wynk Vault</a>
             </li>
             <li>
               <a href="/rides">Wynk Ride</a>
@@ -97,19 +97,19 @@ function Footer() {
               <a href="/contact-us">Help Centre</a>
             </li>
             <li>
-              <a href="#">Learning Centre</a>
+              <a href="/#">Learning Centre</a>
             </li>
             <li>
-              <a href="#">Partner with us</a>
+              <a href="/#">Partner with us</a>
             </li>
             <li>
-              <a href="#">Privacy Policy</a>
+              <a href="/#">Privacy Policy</a>
             </li>
             <li>
-              <a href="#">Cookie Policy</a>
+              <a href="/#">Cookie Policy</a>
             </li>
             <li>
-              <a href="#">IMS Policy</a>
+              <a href="/#">IMS Policy</a>
             </li>
           </ul>
         </section>
