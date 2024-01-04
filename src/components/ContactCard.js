@@ -10,9 +10,9 @@ export function ContactCard() {
       </div>
       <div className="flex flex-col gap-3">
         <p className="text-lg font-bold">Contact Us</p>
-        <p className="text-sm"><span className="text-wynkGrey">Call:</span> 080-9000-0000</p>
-        <p className="text-sm"><span className="text-wynkGrey">Email:</span> contact@wynk.ng</p>
-        <p className="text-sm"><span className="text-wynkGrey">Address:</span> 365, Muritala Mohammed, Airport Road</p>
+        <p className="text-sm"><span className="text-wynkGrey">Call:</span> 090-9979-7979</p>
+        <p className="text-sm"><span className="text-wynkGrey">Email:</span> innovator@wynk.ng</p>
+        {/*<p className="text-sm"><span className="text-wynkGrey">Address:</span> 365, Muritala Mohammed, Airport Road</p>*/}
       </div>
     </div>
   );
