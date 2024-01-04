@@ -19,8 +19,8 @@ export function IneligibleNote() {
 export function EligibilityCriteria (props) {
   const {
     hasSatisfactoryAverageRating,
-    hasSatisfactoryRidesPerDay,
-    hasSatisfactoryConsistencyRatio
+    //hasSatisfactoryRidesPerDay,
+    //hasSatisfactoryConsistencyRatio
   } = props;
   return (
     <div className="flex flex-col gap-2">
