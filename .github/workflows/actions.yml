@@ -1,0 +1,36 @@
+on:
+  push:
+    branches:
+      - main
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js 16.15.1
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16.15.1"
+
+      - name: 🔨 Build Project
+        run: |
+          npm install --legacy-peer-deps
+          npm run build
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        with:
+          server: 192.250.239.86
+          username: wynkng2023@new.wynk.ng
+          password: e-+Y9#9Ta7tQ
+          protocol: ftp
+          port: 21
+          local-dir: ./build/
+          dangerous-clean-slate: true
+
+          # C+58kZKcTQ?l
+          # e-+Y9#9Ta7tQ
