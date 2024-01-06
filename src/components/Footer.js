@@ -55,7 +55,8 @@ function Footer() {
             <li><a href="/contact-us">Help Centre</a></li>
             <li><a>Learning Centre</a></li>
             <li><a>Partner with us</a></li>
-            <li><a>Privacy Policy</a></li>
+            <li><a href="/wynk-terms-and-conditions">Terms and Conditions</a></li>
+            <li><a href="/wynk-privacy-policy">Privacy Policy</a></li>
             <li><a>Cookie Policy</a></li>
             <li><a>IMS Policy</a></li>
           </ul>

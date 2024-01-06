@@ -17,6 +17,7 @@ import Lifestyle from './pages/Lifestyle.js';
 import WynkForMerchants from './pages/WynkForMerchants.js';
 import Rides from './pages/Rides.js';
 import CaptainDashboard from './pages/CaptainDashboard.js';
+import WynkTermsAndConditions from './pages/WynkTermsAndConditions.js';
 //import(/* webpackPreload: true */ './fonts/stylesheet.css');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,6 +34,7 @@ root.render(
         <Route path='/contact-us' exact element={< ContactUs/>} />
         <Route path='/share-ownership' exact element={< ShareOwnershipScheme/>} />
         <Route path='/captain-dashboard' exact element={< CaptainDashboard/>} />
+        <Route path='/wynk-terms-and-conditions' exact element={< WynkTermsAndConditions/>} />
     </Routes>
   </Router>
 );
