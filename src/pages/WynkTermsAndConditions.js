@@ -16,6 +16,7 @@ export default function WynkTermsAndConditions () {
       </section>
     </section>
     <section className="main-section text-[#888888]">
+      <h3 className="font-semibold mb-6">TERMS AND CONDITIONS</h3>
       <article className="mb-6">
         <h3 className="font-semibold mb-2">Definitions</h3>
         <p>In this document, “User Agreement”, “Agreement”, “Terms and Conditions of Service” are synonymous and used interchangeably. In this Agreement, “you” or “your” or “User” refers to any person or entity using the service. Unless otherwise stated, “Wynk,” “we” or “our” or “us” will refer collectively to Wynk Limited and its subsidiaries, affiliates, directors, officers, employees, agents, and partners. You and Wynk are jointly referred to as ‘the Parties' in this document, “Wynk”, “our Services”, “the Services”, “the System”, “Wynk app”, “WynksupApp” “WynkVault”, “WynkSwitch”, “WynkSocial”, “WynkMove”, WynkMusic”, “the platform” and any other Wynk related product are synonymous and used interchangeably unless otherwise specified. “Wynk” means the range of products and services with the “Powered by Wynk” notice offered by Wynk and its partners as an online platform for the Management of:</p>
